@@ -21,10 +21,10 @@ a{color:inherit;text-decoration:none}
 /* ---------- header ---------- */
 header{position:sticky;top:0;z-index:50;background:rgba(11,11,13,.92);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.hrow{display:flex;align-items:center;gap:28px;height:64px}
+.hrow{display:flex;align-items:center;gap:28px;height:88px}
 .logo{display:flex;align-items:center;flex:none;line-height:0}
-.logo img{height:34px;width:auto;display:block}
-@media (max-width:640px){.logo img{height:26px}}
+.logo img{height:60px;width:auto;display:block}
+@media (max-width:640px){.hrow{height:64px}.logo img{height:40px}}
 .mark{width:30px;height:30px;border-radius:8px;background:var(--acc);color:#000;
   display:grid;place-items:center;font-size:14px;font-weight:900}
 .logo span{color:var(--mut)}
