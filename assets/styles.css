@@ -177,3 +177,8 @@ footer{border-top:1px solid var(--line);padding:34px 0 60px;margin-top:20px}
   thead th:nth-child(4),tbody td:nth-child(4){display:none}
   .ptop input{width:100%}
 }
+
+/* Ocultos a proposito: app.js necesita que existan en el DOM,
+   pero no aportan nada al usuario. */
+.kick{display:none}
+.about .ver{display:none}
