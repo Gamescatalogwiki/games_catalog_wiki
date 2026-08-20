@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>gamescatalog.wiki — the open catalogue of PC game categories</title>
+<meta name="description" content="A plain, structured index of PC titles by camera perspective, genre and game mode.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap hrow">
+    <a class="logo" href="./" data-nav="home"><span class="mark">GC</span>gamescatalog<span>.wiki</span></a>
+    <nav>
+      <a href="./" data-nav="home">Home</a>
+      <a href="./#collections" data-nav="collections">Collections</a>
+      <a href="./#browse" data-nav="browse">Browse</a>
+      <a href="./#about" data-nav="about">About</a>
+    </nav>
+    <div class="hsearch">
+      <label class="vh" for="q-top">Search titles</label>
+      <input id="q-top" type="search" placeholder="Search titles…" autocomplete="off" data-search>
+    </div>
+  </div>
+</header>
+
+<div class="hero" id="hero" hidden>
+  <div class="wrap">
+    <div class="kick"><i></i> <span id="hero-kick"></span></div>
+    <h1>The open catalogue of <em>PC game categories</em>.</h1>
+    <p class="lead">A plain, structured index of PC titles and the categories they belong to.
+      No reviews, no scores, no opinions — just consistent classification you can look up in five seconds.</p>
+    <div class="bigsearch">
+      <label class="vh" for="q-hero">Search titles</label>
+      <input id="q-hero" type="search" placeholder="Type a game…" autocomplete="off" data-search>
+    </div>
+    <div class="stats" id="hero-stats"></div>
+  </div>
+</div>
+
+<section id="collections" hidden>
+  <div class="wrap">
+    <div class="shead">
+      <h2>Collections</h2>
+      <p>Curated selections, each one a shareable link</p>
+      <a href="#browse">View all titles →</a>
+    </div>
+    <div class="grid" id="collection-grid"></div>
+  </div>
+</section>
+
+<section id="top-genres" class="tight" hidden>
+  <div class="wrap">
+    <div class="shead"><h2>Most indexed genres</h2><p>Straight from the catalogue file</p></div>
+    <div class="chips" id="genre-chips"></div>
+  </div>
+</section>
+
+<section id="browse">
+  <div class="wrap cols">
+    <div class="panel main">
+
+      <div class="viewhead" id="viewhead" hidden>
+        <a class="back" href="./" data-nav="home">← All titles</a>
+        <h2 id="view-title"></h2>
+        <p id="view-blurb"></p>
+        <p class="curated" id="view-curated" hidden>Editorial selection: this list is fixed. Touching a filter leaves the collection.</p>
+      </div>
+
+      <div class="ptop">
+        <label class="vh" for="q-panel">Filter titles</label>
+        <input id="q-panel" type="search" placeholder="Filter titles…" autocomplete="off" data-search>
+        <button class="linkbtn" id="clear" hidden>Clear filters</button>
+        <span class="cnt" id="cnt" aria-live="polite"></span>
+      </div>
+
+      <div class="activefilters" id="activefilters" hidden></div>
+
+      <table>
+        <thead><tr>
+          <th style="width:40%">Title</th>
+          <th style="width:24%">Genre</th>
+          <th style="width:18%">Perspective</th>
+          <th style="width:18%">Mode</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+
+      <p class="empty" id="empty" hidden>No titles match this view.</p>
+      <div class="more" id="more-wrap" hidden><button class="btn" id="more">Load more</button></div>
+    </div>
+
+    <aside>
+      <div class="panel" data-filter-panel="perspective">
+        <h3>Perspective</h3>
+        <ul data-filter-list="perspective"></ul>
+      </div>
+
+      <div class="panel" data-filter-panel="mode">
+        <h3>Mode</h3>
+        <ul data-filter-list="mode"></ul>
+      </div>
+
+      <div class="panel" data-filter-panel="genre">
+        <h3>Genre</h3>
+        <div class="fsearch">
+          <label class="vh" for="genre-search">Search genres</label>
+          <input id="genre-search" type="search" placeholder="Search genres…" autocomplete="off">
+        </div>
+        <ul data-filter-list="genre"></ul>
+        <button class="linkbtn wide" id="genre-toggle" hidden></button>
+      </div>
+
+      <div class="panel" id="about">
+        <h3>About this catalogue</h3>
+        <div class="about">
+          <p>gamescatalog.wiki is a static index of PC titles classified by camera perspective,
+             genre and game mode. Every view you see has its own URL — copy it from the address bar
+             and it opens exactly the same way for anyone else.</p>
+          <p>Collections are editorial: their contents are a fixed hand-picked list, not the result
+             of a query, so they will not always match what the filters return.</p>
+          <p class="ver" id="data-version"></p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="frow">
+      <div class="fcol"><b>Catalogue</b>
+        <a href="./#collections" data-nav="collections">Collections</a>
+        <a href="./#browse" data-nav="browse">All titles</a>
+      </div>
+      <div class="fcol"><b>Wiki</b>
+        <a href="./#about" data-nav="about">About</a>
+      </div>
+    </div>
+    <div class="fbot">gamescatalog.wiki — a static index of PC game categories.
+      Game titles, trademarks and publisher names belong to their respective owners.</div>
+  </div>
+</footer>
+
+<p class="loaderr" id="loaderr" hidden></p>
+
+<script src="data/catalog.js"></script>
+<script src="assets/core.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

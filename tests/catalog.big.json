@@ -1,0 +1,3133 @@
+{
+  "version": "2026-08-19-big-fixture",
+  "games": [
+    {
+      "id": "g0000",
+      "name": "Iron Harbor 1",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0001",
+      "name": "Hollow Foundry 2",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0002",
+      "name": "Crimson Machine 3",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0003",
+      "name": "Silent Descent 4",
+      "genre": "Action",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0004",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0005",
+      "name": "Frozen Cradle 6",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0006",
+      "name": "Last Garden 7",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0007",
+      "name": "Broken Tide 8",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0008",
+      "name": "Neon Orbit 9",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0009",
+      "name": "Quiet Vault 1",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0010",
+      "name": "Rusted Vigil 2",
+      "genre": "Action",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0011",
+      "name": "Endless Signal 3",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0012",
+      "name": "Pale Ridge 4",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0013",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0014",
+      "name": "Hidden Passage 6",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0015",
+      "name": "Burning Bloom 7",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0016",
+      "name": "Lone Reach 8",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0017",
+      "name": "Vast Echo 9",
+      "genre": "Action",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0018",
+      "name": "Iron Harbor 1",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0019",
+      "name": "Hollow Foundry 2",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0020",
+      "name": "Crimson Machine 3",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0021",
+      "name": "Silent Descent 4",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0022",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0023",
+      "name": "Frozen Cradle 6",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0024",
+      "name": "Last Garden 7",
+      "genre": "Action",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0025",
+      "name": "Broken Tide 8",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0026",
+      "name": "Neon Orbit 9",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0027",
+      "name": "Quiet Vault 1",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0028",
+      "name": "Rusted Vigil 2",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0029",
+      "name": "Endless Signal 3",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0030",
+      "name": "Pale Ridge 4",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0031",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0032",
+      "name": "Hidden Passage 6",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0033",
+      "name": "Burning Bloom 7",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0034",
+      "name": "Lone Reach 8",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0035",
+      "name": "Vast Echo 9",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0036",
+      "name": "Iron Harbor 1",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0037",
+      "name": "Hollow Foundry 2",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0038",
+      "name": "Crimson Machine 3",
+      "genre": "Action",
+      "perspective": "",
+      "mode": ""
+    },
+    {
+      "id": "g0039",
+      "name": "Silent Descent 4",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0040",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0041",
+      "name": "Frozen Cradle 6",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0042",
+      "name": "Last Garden 7",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0043",
+      "name": "Broken Tide 8",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0044",
+      "name": "Neon Orbit 9",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0045",
+      "name": "Quiet Vault 1",
+      "genre": "Action",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0046",
+      "name": "Rusted Vigil 2",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0047",
+      "name": "Endless Signal 3",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0048",
+      "name": "Pale Ridge 4",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0049",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0050",
+      "name": "Hidden Passage 6",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0051",
+      "name": "Burning Bloom 7",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0052",
+      "name": "Lone Reach 8",
+      "genre": "Action",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0053",
+      "name": "Vast Echo 9",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0054",
+      "name": "Iron Harbor 1",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0055",
+      "name": "Hollow Foundry 2",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0056",
+      "name": "Crimson Machine 3",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0057",
+      "name": "Silent Descent 4",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0058",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0059",
+      "name": "Frozen Cradle 6",
+      "genre": "Action",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0060",
+      "name": "Last Garden 7",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0061",
+      "name": "Broken Tide 8",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0062",
+      "name": "Neon Orbit 9",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0063",
+      "name": "Quiet Vault 1",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0064",
+      "name": "Rusted Vigil 2",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0065",
+      "name": "Endless Signal 3",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0066",
+      "name": "Pale Ridge 4",
+      "genre": "Adventure",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0067",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0068",
+      "name": "Hidden Passage 6",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0069",
+      "name": "Burning Bloom 7",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0070",
+      "name": "Lone Reach 8",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0071",
+      "name": "Vast Echo 9",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0072",
+      "name": "Iron Harbor 1",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0073",
+      "name": "Hollow Foundry 2",
+      "genre": "Adventure",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0074",
+      "name": "Crimson Machine 3",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0075",
+      "name": "Silent Descent 4",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0076",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0077",
+      "name": "Frozen Cradle 6",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0078",
+      "name": "Last Garden 7",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0079",
+      "name": "Broken Tide 8",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0080",
+      "name": "Neon Orbit 9",
+      "genre": "Adventure",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0081",
+      "name": "Quiet Vault 1",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0082",
+      "name": "Rusted Vigil 2",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0083",
+      "name": "Endless Signal 3",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0084",
+      "name": "Pale Ridge 4",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0085",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0086",
+      "name": "Hidden Passage 6",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0087",
+      "name": "Burning Bloom 7",
+      "genre": "Adventure",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0088",
+      "name": "Lone Reach 8",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0089",
+      "name": "Vast Echo 9",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0090",
+      "name": "Iron Harbor 1",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0091",
+      "name": "Hollow Foundry 2",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0092",
+      "name": "Crimson Machine 3",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0093",
+      "name": "Silent Descent 4",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0094",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0095",
+      "name": "Frozen Cradle 6",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0096",
+      "name": "Last Garden 7",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0097",
+      "name": "Broken Tide 8",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0098",
+      "name": "Neon Orbit 9",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0099",
+      "name": "Quiet Vault 1",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0100",
+      "name": "Rusted Vigil 2",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0101",
+      "name": "Endless Signal 3",
+      "genre": "Adventure",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0102",
+      "name": "Pale Ridge 4",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0103",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0104",
+      "name": "Hidden Passage 6",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0105",
+      "name": "Burning Bloom 7",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0106",
+      "name": "Lone Reach 8",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0107",
+      "name": "Vast Echo 9",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0108",
+      "name": "Iron Harbor 1",
+      "genre": "Adventure",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0109",
+      "name": "Hollow Foundry 2",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0110",
+      "name": "Crimson Machine 3",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0111",
+      "name": "Silent Descent 4",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0112",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0113",
+      "name": "Frozen Cradle 6",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0114",
+      "name": "Last Garden 7",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0115",
+      "name": "Broken Tide 8",
+      "genre": "Adventure",
+      "perspective": "",
+      "mode": ""
+    },
+    {
+      "id": "g0116",
+      "name": "Neon Orbit 9",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0117",
+      "name": "Quiet Vault 1",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0118",
+      "name": "Rusted Vigil 2",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0119",
+      "name": "Endless Signal 3",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0120",
+      "name": "Pale Ridge 4",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0121",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0122",
+      "name": "Hidden Passage 6",
+      "genre": "Shooter",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0123",
+      "name": "Burning Bloom 7",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0124",
+      "name": "Lone Reach 8",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0125",
+      "name": "Vast Echo 9",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0126",
+      "name": "Iron Harbor 1",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0127",
+      "name": "Hollow Foundry 2",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0128",
+      "name": "Crimson Machine 3",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0129",
+      "name": "Silent Descent 4",
+      "genre": "Shooter",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0130",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0131",
+      "name": "Frozen Cradle 6",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0132",
+      "name": "Last Garden 7",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0133",
+      "name": "Broken Tide 8",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0134",
+      "name": "Neon Orbit 9",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0135",
+      "name": "Quiet Vault 1",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0136",
+      "name": "Rusted Vigil 2",
+      "genre": "Shooter",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0137",
+      "name": "Endless Signal 3",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0138",
+      "name": "Pale Ridge 4",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0139",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0140",
+      "name": "Hidden Passage 6",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0141",
+      "name": "Burning Bloom 7",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0142",
+      "name": "Lone Reach 8",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0143",
+      "name": "Vast Echo 9",
+      "genre": "Shooter",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0144",
+      "name": "Iron Harbor 1",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0145",
+      "name": "Hollow Foundry 2",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0146",
+      "name": "Crimson Machine 3",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0147",
+      "name": "Silent Descent 4",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0148",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0149",
+      "name": "Frozen Cradle 6",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0150",
+      "name": "Last Garden 7",
+      "genre": "Shooter",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0151",
+      "name": "Broken Tide 8",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0152",
+      "name": "Neon Orbit 9",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0153",
+      "name": "Quiet Vault 1",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0154",
+      "name": "Rusted Vigil 2",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0155",
+      "name": "Endless Signal 3",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0156",
+      "name": "Pale Ridge 4",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0157",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0158",
+      "name": "Hidden Passage 6",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0159",
+      "name": "Burning Bloom 7",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0160",
+      "name": "Lone Reach 8",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0161",
+      "name": "Vast Echo 9",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0162",
+      "name": "Iron Harbor 1",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0163",
+      "name": "Hollow Foundry 2",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0164",
+      "name": "Crimson Machine 3",
+      "genre": "RPG",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0165",
+      "name": "Silent Descent 4",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0166",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0167",
+      "name": "Frozen Cradle 6",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0168",
+      "name": "Last Garden 7",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0169",
+      "name": "Broken Tide 8",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0170",
+      "name": "Neon Orbit 9",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0171",
+      "name": "Quiet Vault 1",
+      "genre": "RPG",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0172",
+      "name": "Rusted Vigil 2",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0173",
+      "name": "Endless Signal 3",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0174",
+      "name": "Pale Ridge 4",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0175",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0176",
+      "name": "Hidden Passage 6",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0177",
+      "name": "Burning Bloom 7",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0178",
+      "name": "Lone Reach 8",
+      "genre": "RPG",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0179",
+      "name": "Vast Echo 9",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0180",
+      "name": "Iron Harbor 1",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0181",
+      "name": "Hollow Foundry 2",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0182",
+      "name": "Crimson Machine 3",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0183",
+      "name": "Silent Descent 4",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0184",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0185",
+      "name": "Frozen Cradle 6",
+      "genre": "RPG",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0186",
+      "name": "Last Garden 7",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0187",
+      "name": "Broken Tide 8",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0188",
+      "name": "Neon Orbit 9",
+      "genre": "RPG",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0189",
+      "name": "Quiet Vault 1",
+      "genre": "RPG",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0190",
+      "name": "Rusted Vigil 2",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0191",
+      "name": "Endless Signal 3",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0192",
+      "name": "Pale Ridge 4",
+      "genre": "Strategy",
+      "perspective": "",
+      "mode": ""
+    },
+    {
+      "id": "g0193",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0194",
+      "name": "Hidden Passage 6",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0195",
+      "name": "Burning Bloom 7",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0196",
+      "name": "Lone Reach 8",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0197",
+      "name": "Vast Echo 9",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0198",
+      "name": "Iron Harbor 1",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0199",
+      "name": "Hollow Foundry 2",
+      "genre": "Strategy",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0200",
+      "name": "Crimson Machine 3",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0201",
+      "name": "Silent Descent 4",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0202",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0203",
+      "name": "Frozen Cradle 6",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0204",
+      "name": "Last Garden 7",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0205",
+      "name": "Broken Tide 8",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0206",
+      "name": "Neon Orbit 9",
+      "genre": "Strategy",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0207",
+      "name": "Quiet Vault 1",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0208",
+      "name": "Rusted Vigil 2",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0209",
+      "name": "Endless Signal 3",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0210",
+      "name": "Pale Ridge 4",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0211",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0212",
+      "name": "Hidden Passage 6",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0213",
+      "name": "Burning Bloom 7",
+      "genre": "Strategy",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0214",
+      "name": "Lone Reach 8",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0215",
+      "name": "Vast Echo 9",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0216",
+      "name": "Iron Harbor 1",
+      "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0217",
+      "name": "Hollow Foundry 2",
+      "genre": "Strategy",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0218",
+      "name": "Crimson Machine 3",
+      "genre": "Simulation",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0219",
+      "name": "Silent Descent 4",
+      "genre": "Simulation",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0220",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0221",
+      "name": "Frozen Cradle 6",
+      "genre": "Simulation",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0222",
+      "name": "Last Garden 7",
+      "genre": "Simulation",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0223",
+      "name": "Broken Tide 8",
+      "genre": "Simulation",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0224",
+      "name": "Neon Orbit 9",
+      "genre": "Simulation",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0225",
+      "name": "Quiet Vault 1",
+      "genre": "Simulation",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0226",
+      "name": "Rusted Vigil 2",
+      "genre": "Simulation",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0227",
+      "name": "Endless Signal 3",
+      "genre": "Simulation",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0228",
+      "name": "Pale Ridge 4",
+      "genre": "Simulation",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0229",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0230",
+      "name": "Hidden Passage 6",
+      "genre": "Simulation",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0231",
+      "name": "Burning Bloom 7",
+      "genre": "Simulation",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0232",
+      "name": "Lone Reach 8",
+      "genre": "Simulation",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0233",
+      "name": "Vast Echo 9",
+      "genre": "Simulation",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0234",
+      "name": "Iron Harbor 1",
+      "genre": "Simulation",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0235",
+      "name": "Hollow Foundry 2",
+      "genre": "Simulation",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0236",
+      "name": "Crimson Machine 3",
+      "genre": "Simulation",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0237",
+      "name": "Silent Descent 4",
+      "genre": "Simulation",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0238",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0239",
+      "name": "Frozen Cradle 6",
+      "genre": "Simulation",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0240",
+      "name": "Last Garden 7",
+      "genre": "Simulation",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0241",
+      "name": "Broken Tide 8",
+      "genre": "Simulation",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0242",
+      "name": "Neon Orbit 9",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0243",
+      "name": "Quiet Vault 1",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0244",
+      "name": "Rusted Vigil 2",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0245",
+      "name": "Endless Signal 3",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0246",
+      "name": "Pale Ridge 4",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0247",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0248",
+      "name": "Hidden Passage 6",
+      "genre": "Survival",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0249",
+      "name": "Burning Bloom 7",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0250",
+      "name": "Lone Reach 8",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0251",
+      "name": "Vast Echo 9",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0252",
+      "name": "Iron Harbor 1",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0253",
+      "name": "Hollow Foundry 2",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0254",
+      "name": "Crimson Machine 3",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0255",
+      "name": "Silent Descent 4",
+      "genre": "Survival",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0256",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0257",
+      "name": "Frozen Cradle 6",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0258",
+      "name": "Last Garden 7",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0259",
+      "name": "Broken Tide 8",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0260",
+      "name": "Neon Orbit 9",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0261",
+      "name": "Quiet Vault 1",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0262",
+      "name": "Rusted Vigil 2",
+      "genre": "Survival",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0263",
+      "name": "Endless Signal 3",
+      "genre": "Platform",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0264",
+      "name": "Pale Ridge 4",
+      "genre": "Platform",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0265",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0266",
+      "name": "Hidden Passage 6",
+      "genre": "Platform",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0267",
+      "name": "Burning Bloom 7",
+      "genre": "Platform",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0268",
+      "name": "Lone Reach 8",
+      "genre": "Platform",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0269",
+      "name": "Vast Echo 9",
+      "genre": "Platform",
+      "perspective": "",
+      "mode": ""
+    },
+    {
+      "id": "g0270",
+      "name": "Iron Harbor 1",
+      "genre": "Platform",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0271",
+      "name": "Hollow Foundry 2",
+      "genre": "Platform",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0272",
+      "name": "Crimson Machine 3",
+      "genre": "Platform",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0273",
+      "name": "Silent Descent 4",
+      "genre": "Platform",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0274",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0275",
+      "name": "Frozen Cradle 6",
+      "genre": "Platform",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0276",
+      "name": "Last Garden 7",
+      "genre": "Platform",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0277",
+      "name": "Broken Tide 8",
+      "genre": "Platform",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0278",
+      "name": "Neon Orbit 9",
+      "genre": "Platform",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0279",
+      "name": "Quiet Vault 1",
+      "genre": "Platform",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0280",
+      "name": "Rusted Vigil 2",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0281",
+      "name": "Endless Signal 3",
+      "genre": "Horror",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0282",
+      "name": "Pale Ridge 4",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0283",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0284",
+      "name": "Hidden Passage 6",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0285",
+      "name": "Burning Bloom 7",
+      "genre": "Horror",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0286",
+      "name": "Lone Reach 8",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0287",
+      "name": "Vast Echo 9",
+      "genre": "Horror",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0288",
+      "name": "Iron Harbor 1",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0289",
+      "name": "Hollow Foundry 2",
+      "genre": "Horror",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0290",
+      "name": "Crimson Machine 3",
+      "genre": "Horror",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0291",
+      "name": "Silent Descent 4",
+      "genre": "Horror",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0292",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0293",
+      "name": "Frozen Cradle 6",
+      "genre": "Horror",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0294",
+      "name": "Last Garden 7",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0295",
+      "name": "Broken Tide 8",
+      "genre": "Puzzle",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0296",
+      "name": "Neon Orbit 9",
+      "genre": "Puzzle",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0297",
+      "name": "Quiet Vault 1",
+      "genre": "Puzzle",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0298",
+      "name": "Rusted Vigil 2",
+      "genre": "Puzzle",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0299",
+      "name": "Endless Signal 3",
+      "genre": "Puzzle",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0300",
+      "name": "Pale Ridge 4",
+      "genre": "Puzzle",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0301",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0302",
+      "name": "Hidden Passage 6",
+      "genre": "Puzzle",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0303",
+      "name": "Burning Bloom 7",
+      "genre": "Puzzle",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0304",
+      "name": "Lone Reach 8",
+      "genre": "Puzzle",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0305",
+      "name": "Vast Echo 9",
+      "genre": "Puzzle",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0306",
+      "name": "Iron Harbor 1",
+      "genre": "Puzzle",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0307",
+      "name": "Hollow Foundry 2",
+      "genre": "Puzzle",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0308",
+      "name": "Crimson Machine 3",
+      "genre": "Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0309",
+      "name": "Silent Descent 4",
+      "genre": "Simulator",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0310",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0311",
+      "name": "Frozen Cradle 6",
+      "genre": "Simulator",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0312",
+      "name": "Last Garden 7",
+      "genre": "Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0313",
+      "name": "Broken Tide 8",
+      "genre": "Simulator",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0314",
+      "name": "Neon Orbit 9",
+      "genre": "Simulator",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0315",
+      "name": "Quiet Vault 1",
+      "genre": "Simulator",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0316",
+      "name": "Rusted Vigil 2",
+      "genre": "Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0317",
+      "name": "Endless Signal 3",
+      "genre": "Platformer",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0318",
+      "name": "Pale Ridge 4",
+      "genre": "Platformer",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0319",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0320",
+      "name": "Hidden Passage 6",
+      "genre": "Platformer",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0321",
+      "name": "Burning Bloom 7",
+      "genre": "Platformer",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0322",
+      "name": "Lone Reach 8",
+      "genre": "Platformer",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0323",
+      "name": "Vast Echo 9",
+      "genre": "Platformer",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0324",
+      "name": "Iron Harbor 1",
+      "genre": "Platformer",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0325",
+      "name": "Hollow Foundry 2",
+      "genre": "Tactical Shooter",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0326",
+      "name": "Crimson Machine 3",
+      "genre": "Tactical Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0327",
+      "name": "Silent Descent 4",
+      "genre": "Tactical Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0328",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0329",
+      "name": "Frozen Cradle 6",
+      "genre": "Tactical Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0330",
+      "name": "Last Garden 7",
+      "genre": "Tactical Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0331",
+      "name": "Broken Tide 8",
+      "genre": "Tactical Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0332",
+      "name": "Neon Orbit 9",
+      "genre": "Tactical Shooter",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0333",
+      "name": "Quiet Vault 1",
+      "genre": "Racing",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0334",
+      "name": "Rusted Vigil 2",
+      "genre": "Racing",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0335",
+      "name": "Endless Signal 3",
+      "genre": "Racing",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0336",
+      "name": "Pale Ridge 4",
+      "genre": "Racing",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0337",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0338",
+      "name": "Hidden Passage 6",
+      "genre": "Racing",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0339",
+      "name": "Burning Bloom 7",
+      "genre": "Racing",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0340",
+      "name": "Lone Reach 8",
+      "genre": "Racing Sim",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0341",
+      "name": "Vast Echo 9",
+      "genre": "Racing Sim",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0342",
+      "name": "Iron Harbor 1",
+      "genre": "Racing Sim",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0343",
+      "name": "Hollow Foundry 2",
+      "genre": "Racing Sim",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0344",
+      "name": "Crimson Machine 3",
+      "genre": "Racing Sim",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0345",
+      "name": "Silent Descent 4",
+      "genre": "Racing Sim",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0346",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "",
+      "mode": ""
+    },
+    {
+      "id": "g0347",
+      "name": "Frozen Cradle 6",
+      "genre": "Souls-like",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0348",
+      "name": "Last Garden 7",
+      "genre": "Souls-like",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0349",
+      "name": "Broken Tide 8",
+      "genre": "Souls-like",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0350",
+      "name": "Neon Orbit 9",
+      "genre": "Souls-like",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0351",
+      "name": "Quiet Vault 1",
+      "genre": "Souls-like",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0352",
+      "name": "Rusted Vigil 2",
+      "genre": "Roguelike",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0353",
+      "name": "Endless Signal 3",
+      "genre": "Roguelike",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0354",
+      "name": "Pale Ridge 4",
+      "genre": "Roguelike",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0355",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0356",
+      "name": "Hidden Passage 6",
+      "genre": "Roguelike",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0357",
+      "name": "Burning Bloom 7",
+      "genre": "Metroidvania",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0358",
+      "name": "Lone Reach 8",
+      "genre": "Metroidvania",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0359",
+      "name": "Vast Echo 9",
+      "genre": "Metroidvania",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0360",
+      "name": "Iron Harbor 1",
+      "genre": "Metroidvania",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0361",
+      "name": "Hollow Foundry 2",
+      "genre": "Metroidvania",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0362",
+      "name": "Crimson Machine 3",
+      "genre": "Survival Horror",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0363",
+      "name": "Silent Descent 4",
+      "genre": "Survival Horror",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0364",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0365",
+      "name": "Frozen Cradle 6",
+      "genre": "Survival Horror",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0366",
+      "name": "Last Garden 7",
+      "genre": "Survival Horror",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0367",
+      "name": "Broken Tide 8",
+      "genre": "FPS",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0368",
+      "name": "Neon Orbit 9",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0369",
+      "name": "Quiet Vault 1",
+      "genre": "FPS",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0370",
+      "name": "Rusted Vigil 2",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0371",
+      "name": "Endless Signal 3",
+      "genre": "Sandbox",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0372",
+      "name": "Pale Ridge 4",
+      "genre": "Sandbox",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0373",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0374",
+      "name": "Hidden Passage 6",
+      "genre": "Sandbox",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0375",
+      "name": "Burning Bloom 7",
+      "genre": "City Builder",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0376",
+      "name": "Lone Reach 8",
+      "genre": "City Builder",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0377",
+      "name": "Vast Echo 9",
+      "genre": "City Builder",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0378",
+      "name": "Iron Harbor 1",
+      "genre": "Point-and-click",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0379",
+      "name": "Hollow Foundry 2",
+      "genre": "Point-and-click",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0380",
+      "name": "Crimson Machine 3",
+      "genre": "Point-and-click",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0381",
+      "name": "Silent Descent 4",
+      "genre": "Deckbuilder",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0382",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0383",
+      "name": "Frozen Cradle 6",
+      "genre": "Deckbuilder",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0384",
+      "name": "Last Garden 7",
+      "genre": "MOBA",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0385",
+      "name": "Broken Tide 8",
+      "genre": "MOBA",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0386",
+      "name": "Neon Orbit 9",
+      "genre": "Rhythm",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0387",
+      "name": "Quiet Vault 1",
+      "genre": "Rhythm",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0388",
+      "name": "Rusted Vigil 2",
+      "genre": "Visual Novel",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0389",
+      "name": "Endless Signal 3",
+      "genre": "Visual Novel",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0390",
+      "name": "Pale Ridge 4",
+      "genre": "Driving Survival",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0391",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0392",
+      "name": "Hidden Passage 6",
+      "genre": "Battle Royale",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0393",
+      "name": "Burning Bloom 7",
+      "genre": "Battle Royale",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0394",
+      "name": "Lone Reach 8",
+      "genre": "Hack and Slash",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0395",
+      "name": "Vast Echo 9",
+      "genre": "Hack and Slash",
+      "perspective": "",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0396",
+      "name": "Iron Harbor 1",
+      "genre": "Auto Battler",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0397",
+      "name": "Hollow Foundry 2",
+      "genre": "Auto Battler",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0398",
+      "name": "Crimson Machine 3",
+      "genre": "Base Building",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0399",
+      "name": "Silent Descent 4",
+      "genre": "Boomer Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0400",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0401",
+      "name": "Frozen Cradle 6",
+      "genre": "Bullet Hell",
+      "perspective": "Third Person",
+      "mode": ""
+    },
+    {
+      "id": "g0402",
+      "name": "Last Garden 7",
+      "genre": "Card Game",
+      "perspective": "",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0403",
+      "name": "Broken Tide 8",
+      "genre": "Colony Sim",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0404",
+      "name": "Neon Orbit 9",
+      "genre": "Dungeon Crawler",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0405",
+      "name": "Quiet Vault 1",
+      "genre": "Dungeon Crawler",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0406",
+      "name": "Rusted Vigil 2",
+      "genre": "Extraction Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0407",
+      "name": "Endless Signal 3",
+      "genre": "Farming Sim",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0408",
+      "name": "Pale Ridge 4",
+      "genre": "Fighting",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0409",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0410",
+      "name": "Hidden Passage 6",
+      "genre": "Flight Sim",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0411",
+      "name": "Burning Bloom 7",
+      "genre": "Grand Strategy",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0412",
+      "name": "Lone Reach 8",
+      "genre": "Immersive Sim",
+      "perspective": "First Person",
+      "mode": ""
+    },
+    {
+      "id": "g0413",
+      "name": "Vast Echo 9",
+      "genre": "Immersive Sim",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0414",
+      "name": "Iron Harbor 1",
+      "genre": "Life Sim",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0415",
+      "name": "Hollow Foundry 2",
+      "genre": "Looter Shooter",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0416",
+      "name": "Crimson Machine 3",
+      "genre": "Open World",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0417",
+      "name": "Silent Descent 4",
+      "genre": "Open World",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0418",
+      "name": "Deep Drift 5",
+      "genre": "",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0419",
+      "name": "Frozen Cradle 6",
+      "genre": "Roguelite",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0420",
+      "name": "Last Garden 7",
+      "genre": "RTS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0421",
+      "name": "Broken Tide 8",
+      "genre": "RTS",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0422",
+      "name": "Neon Orbit 9",
+      "genre": "Stealth",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0423",
+      "name": "Quiet Vault 1",
+      "genre": "Tower Defense",
+      "perspective": "",
+      "mode": ""
+    },
+    {
+      "id": "g0424",
+      "name": "Rusted Vigil 2",
+      "genre": "Turn-Based Tactics",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0425",
+      "name": "Endless Signal 3",
+      "genre": "Turn-Based Tactics",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "g0426",
+      "name": "Pale Ridge 4",
+      "genre": "Twin-Stick Shooter",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "g0427",
+      "name": "Wild Circuit 5",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "PvP"
+    },
+    {
+      "id": "g0428",
+      "name": "Hidden Passage 6",
+      "genre": "Wave Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "g0429",
+      "name": "Burning Bloom 7",
+      "genre": "Wave Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    }
+  ],
+  "collections": [
+    {
+      "slug": "tactical-military",
+      "title": "Tactical & Military Shooters",
+      "blurb": "Deliberate pace, lethal time-to-kill and squad coordination.",
+      "filters": {
+        "perspective": [
+          "First Person"
+        ],
+        "genre": [
+          "Tactical Shooter",
+          "FPS",
+          "Shooter"
+        ]
+      },
+      "games": [
+        "g0325",
+        "g0326",
+        "g0327"
+      ]
+    },
+    {
+      "slug": "survival-coop",
+      "title": "Survival & Co-op",
+      "blurb": "Crafting, scarcity and staying alive with someone else on the line.",
+      "filters": {
+        "perspective": [
+          "First Person"
+        ],
+        "genre": [
+          "Survival",
+          "Survival Horror",
+          "Roguelike"
+        ],
+        "mode": [
+          "Co-op"
+        ]
+      },
+      "games": [
+        "g0242",
+        "g0243",
+        "g0244",
+        "g0245",
+        "g0295"
+      ]
+    },
+    {
+      "slug": "single-player-epics",
+      "title": "Single-player Epics",
+      "blurb": "Long campaigns worth finishing.",
+      "filters": {
+        "mode": [
+          "Singleplayer"
+        ],
+        "genre": [
+          "RPG",
+          "Adventure",
+          "Souls-like"
+        ]
+      },
+      "games": [
+        "g0160",
+        "g0164",
+        "g0168",
+        "g0172",
+        "g0176",
+        "g0180"
+      ]
+    },
+    {
+      "slug": "driving",
+      "title": "Driving & Racing",
+      "blurb": "Circuits, rally stages and long hauls.",
+      "filters": {
+        "genre": [
+          "Racing",
+          "Racing Sim",
+          "Driving Survival"
+        ]
+      },
+      "games": [
+        "g0333",
+        "g0334",
+        "g0335",
+        "g0336",
+        "g0338"
+      ]
+    },
+    {
+      "slug": "long-tail",
+      "title": "Odd Ones Out",
+      "blurb": "Genres with barely any titles in the catalogue.",
+      "filters": {
+        "genre": [
+          "Walking Simulator",
+          "Rhythm",
+          "Visual Novel"
+        ]
+      },
+      "games": [
+        "g0386",
+        "g0387"
+      ]
+    },
+    {
+      "slug": "no-metadata",
+      "title": "Unclassified",
+      "blurb": "Indexed titles that still have no genre on file.",
+      "filters": {},
+      "games": [
+        "g0004",
+        "g0013",
+        "g0022",
+        "g0031",
+        "g0040"
+      ]
+    }
+  ]
+}

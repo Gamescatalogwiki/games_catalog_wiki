@@ -1,0 +1,125 @@
+/* Generado por tools/wrap-catalog.mjs — no editar a mano.
+ * Contenido: el catalog.json provisto por el operador, tal cual.
+ */
+window.CATALOG = {
+  "version": "2026-08-19-sample",
+  "games": [
+    {
+      "id": "9f2a1c",
+      "name": "Portal 2",
+      "genre": "Platform",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "4b7e02",
+      "name": "Squad",
+      "genre": "Tactical Shooter",
+      "perspective": "First Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "c1d883",
+      "name": "The Forest",
+      "genre": "Survival Horror",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "77aa10",
+      "name": "Elden Ring",
+      "genre": "Souls-like",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "20ff5e",
+      "name": "Pacific Drive",
+      "genre": "Driving Survival",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "883b41",
+      "name": "Titulo Sin Genero",
+      "genre": "",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "5c9d77",
+      "name": "Titulo Sin Perspectiva",
+      "genre": "Adventure",
+      "perspective": "",
+      "mode": ""
+    },
+    {
+      "id": "e04412",
+      "name": "Otro Platformer",
+      "genre": "Platformer",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "aa31f0",
+      "name": "Shooter Que No Entra",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Multiplayer"
+    }
+  ],
+  "collections": [
+    {
+      "slug": "tactical-military",
+      "title": "Tactical & Military Shooters",
+      "blurb": "Combate tactico y militar en primera persona. OJO: filtrar por estos mismos valores devuelve 2 titulos, la coleccion muestra 1.",
+      "filters": {
+        "perspective": [
+          "First Person"
+        ],
+        "genre": [
+          "Tactical Shooter",
+          "FPS"
+        ]
+      },
+      "games": [
+        "4b7e02"
+      ]
+    },
+    {
+      "slug": "survival-coop",
+      "title": "Survival & Co-op",
+      "blurb": "Supervivencia, exploracion y terror para jugar acompanado.",
+      "filters": {
+        "perspective": [
+          "First Person"
+        ],
+        "genre": [
+          "Survival Horror",
+          "Survival"
+        ]
+      },
+      "games": [
+        "c1d883"
+      ]
+    },
+    {
+      "slug": "open-world",
+      "title": "Open World & Driving",
+      "blurb": "Mundos grandes, progresion y conduccion.",
+      "filters": {
+        "perspective": [
+          "First Person"
+        ],
+        "genre": [
+          "Driving Survival",
+          "Platform"
+        ]
+      },
+      "games": [
+        "20ff5e",
+        "9f2a1c"
+      ]
+    }
+  ]
+};
