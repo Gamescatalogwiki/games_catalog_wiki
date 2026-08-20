@@ -1,0 +1,52 @@
+name: Sync catalogo desde Airtable
+
+on:
+  # Boton manual: Actions -> Sync catalogo desde Airtable -> Run workflow
+  workflow_dispatch:
+    inputs:
+      allow_shrink:
+        description: 'Publicar aunque el catalogo se achique a la mitad o menos'
+        type: boolean
+        default: false
+  # Todos los dias a las 09:00 UTC (06:00 en Buenos Aires)
+  schedule:
+    - cron: '0 9 * * *'
+
+# Sin esto la Action puede leer el repo pero no commitear.
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-catalogo
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generar data/catalog.js desde Airtable
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+          ALLOW_SHRINK: ${{ inputs.allow_shrink && '1' || '0' }}
+        run: node tools/airtable-export.mjs
+
+      - name: Validar el catalogo generado
+        run: node tools/validate-catalog.mjs
+
+      - name: Commitear si cambio algo
+        run: |
+          if git diff --quiet -- data/catalog.js; then
+            echo "Sin cambios en el catalogo. No se commitea nada."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog.js
+          git commit -m "catalogo: sync desde Airtable"
+          git push
