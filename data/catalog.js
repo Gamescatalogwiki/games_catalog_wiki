@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-5c8421fce213",
+  "version": "at-9621cb628309",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -1930,6 +1930,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recewBkOH3kd6vlyy",
+      "name": "Metro: Last Light",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recIwKM1yTlp6hc1o",
       "name": "Metro: Last Light Redux",
       "genre": "FPS",
@@ -2369,6 +2376,13 @@ window.CATALOG = {
       "genre": "Souls-like",
       "perspective": "Third Person",
       "mode": "Co-op"
+    },
+    {
+      "id": "recflqTof2GtQpcuP",
+      "name": "Resident Evil 3",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
     },
     {
       "id": "reczYInCb1io5zApK",
@@ -2861,6 +2875,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recPFp6GpUs3zvijq",
+      "name": "Sylvio",
+      "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec0qfn904ebNeKCP",
       "name": "System Shock",
       "genre": "Shooter",
@@ -3264,6 +3285,13 @@ window.CATALOG = {
       "name": "Trans-Siberian Railway Simulator",
       "genre": "Simulator",
       "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "reckgojKDcfTuTiQW",
+      "name": "Travellers Rest",
+      "genre": "Role-playing (RPG)",
+      "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
