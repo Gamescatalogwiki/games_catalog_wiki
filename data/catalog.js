@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-362b821202d2",
+  "version": "at-417dca9ebb3c",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -570,6 +570,13 @@ window.CATALOG = {
       "genre": "Action, Fighting, Tactical, Hack and slash/Beat 'em up",
       "perspective": "First Person",
       "mode": "Multiplayer"
+    },
+    {
+      "id": "recJewLWyR2LgrW1L",
+      "name": "Chop Chop Inc.",
+      "genre": "Simulator, Adventure, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
     },
     {
       "id": "recgW1Sl699DmsnpY",
@@ -1538,6 +1545,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recje8FeZGML3FEGU",
+      "name": "Iron Nest: Heavy Turret Simulator",
+      "genre": "Puzzle, Simulator, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "reclyRDMLq0oKieoZ",
       "name": "Island Notes",
       "genre": "Shooter, Role-playing (RPG)",
@@ -1816,6 +1830,13 @@ window.CATALOG = {
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Multiplayer"
+    },
+    {
+      "id": "rec3UXDqsMm3FR7qd",
+      "name": "Malón",
+      "genre": "Action, Casual, Indie, Strategy",
+      "perspective": "Isometric",
+      "mode": "Singleplayer"
     },
     {
       "id": "recGUDJXLvnKFftSE",
@@ -2133,6 +2154,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "reczcD4cl9haysfSF",
+      "name": "Ore Factory Squad",
+      "genre": "Simulator, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recCTMxZ0v1Qg2UNx",
       "name": "Out of Action",
       "genre": "Shooter",
@@ -2388,6 +2416,13 @@ window.CATALOG = {
       "id": "reczYInCb1io5zApK",
       "name": "Responding",
       "genre": "Role-playing (RPG), Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recgHNbCgVjzKBIDh",
+      "name": "ReStory: Chill Electronics Repairs",
+      "genre": "Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
