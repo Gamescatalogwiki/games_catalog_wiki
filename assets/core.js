@@ -1,6 +1,9 @@
 /* gamescatalog.wiki — nucleo de datos y ruteo por URL.
  * Sin dependencias. Corre igual en el navegador (window.CatalogCore) y en node (require/import).
  * Este archivo no sabe nada de la UI: recibe datos crudos + una query string y devuelve una vista.
+ *
+ * genre, perspective y mode son MULTIVALUADOS: el archivo de datos puede traer un array
+ * o un string con los valores separados por coma ("Action Adventure, Shooter").
  */
 (function (root, factory) {
   var api = factory();
@@ -19,9 +22,19 @@
     return out;
   }
 
+  /* Un campo multivaluado: array, o string separado por comas. Devuelve siempre un array
+   * de valores limpios y sin repetir. Un campo vacio devuelve []. */
+  function values(raw) {
+    var list;
+    if (Array.isArray(raw)) list = raw;
+    else if (typeof raw === 'string') list = raw.split(',');
+    else list = [];
+    return uniq(list.map(str).filter(Boolean));
+  }
+
   /* Normalizacion de texto para el buscador: sin mayusculas y sin diacriticos. */
   function fold(s) {
-    return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    return String(s).trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
 
   function byName(a, b) {
@@ -48,9 +61,9 @@
       var game = {
         id: id,
         name: str(g.name) || '(sin nombre)',
-        perspective: str(g.perspective),
-        genre: str(g.genre),
-        mode: str(g.mode)
+        perspective: values(g.perspective),
+        genre: values(g.genre),
+        mode: values(g.mode)
       };
       byId[id] = game;
       games.push(game);
@@ -67,8 +80,7 @@
 
       var filters = {};
       ATTRS.forEach(function (attr) {
-        var vals = (c.filters && Array.isArray(c.filters[attr])) ? c.filters[attr] : [];
-        filters[attr] = uniq(vals.map(str).filter(Boolean));
+        filters[attr] = values(c.filters ? c.filters[attr] : null);
       });
 
       var ids = Array.isArray(c.games) ? c.games.map(str).filter(Boolean) : [];
@@ -84,15 +96,6 @@
       collections.push(col);
     });
 
-    /* La URL separa valores por coma: un valor que contenga una coma no seria representable. */
-    var commaOffenders = [];
-    games.forEach(function (g) {
-      ATTRS.forEach(function (attr) { if (g[attr].indexOf(',') !== -1) commaOffenders.push(g[attr]); });
-    });
-    uniq(commaOffenders).forEach(function (v) {
-      warnings.push('el valor "' + v + '" contiene una coma y no puede representarse en la URL.');
-    });
-
     var catalog = {
       version: str(data.version),
       games: games,
@@ -105,15 +108,14 @@
     return catalog;
   }
 
-  /* Vocabulario derivado EXCLUSIVAMENTE de los datos. El vacio no genera opcion. */
+  /* Vocabulario derivado EXCLUSIVAMENTE de los datos. Cada valor de un campo multivaluado
+   * cuenta por separado. El vacio no genera opcion. */
   function buildVocabulary(games) {
     var vocab = {};
     ATTRS.forEach(function (attr) {
       var counts = Object.create(null);
       games.forEach(function (g) {
-        var v = g[attr];
-        if (!v) return;
-        counts[v] = (counts[v] || 0) + 1;
+        g[attr].forEach(function (v) { counts[v] = (counts[v] || 0) + 1; });
       });
       vocab[attr] = Object.keys(counts)
         .map(function (v) { return { value: v, count: counts[v] }; })
@@ -148,7 +150,9 @@
     var params = new URLSearchParams(String(search || '').replace(/^[?#]/, ''));
     var state = emptyState();
 
-    state.q = str(params.get('q'));
+    /* El texto del buscador NO se recorta: se guarda tal cual lo escribio la persona,
+     * para que el campo no se le edite solo mientras tipea (los espacios importan). */
+    state.q = params.get('q') === null ? '' : String(params.get('q'));
 
     ATTRS.forEach(function (attr) {
       var vals = [];
@@ -223,7 +227,7 @@
 
   function setSearch(state, q) {
     var next = cloneState(state);
-    next.q = str(q);
+    next.q = typeof q === 'string' ? q : '';
     return next;
   }
 
@@ -238,14 +242,15 @@
   /* ----------------------------------------------------------------- vista -- */
 
   function matchesFilters(game, filters) {
-    /* OR dentro de un atributo, AND entre atributos. Un valor vacio nunca matchea
-     * una seleccion: el titulo simplemente queda fuera de ese filtro. */
+    /* OR dentro de un atributo, AND entre atributos. Un juego con varios valores en un
+     * atributo entra si CUALQUIERA de ellos esta seleccionado. Un atributo vacio nunca
+     * matchea una seleccion: el titulo queda fuera de ese filtro. */
     return ATTRS.every(function (attr) {
       var sel = filters[attr];
       if (!sel.length) return true;
-      var v = game[attr];
-      if (!v) return false;
-      return sel.indexOf(v) !== -1;
+      var mine = game[attr];
+      if (!mine.length) return false;
+      return mine.some(function (v) { return sel.indexOf(v) !== -1; });
     });
   }
 
@@ -255,7 +260,7 @@
 
   function resolve(catalog, state) {
     var notices = [];
-    var folded = state.q ? fold(state.q) : '';
+    var folded = fold(state.q);
 
     if (state.collection) {
       var col = catalog.bySlug[state.collection];
@@ -283,7 +288,7 @@
   }
 
   function resolveFree(catalog, state, folded, notices) {
-    folded = folded || (state.q ? fold(state.q) : '');
+    folded = folded || fold(state.q);
     var games = catalog.games.filter(function (g) {
       return matchesFilters(g, state.filters) && matchesQuery(g, folded);
     }).sort(byName);
@@ -301,6 +306,7 @@
 
   return {
     ATTRS: ATTRS,
+    values: values,
     normalizeCatalog: normalizeCatalog,
     buildVocabulary: buildVocabulary,
     optionsFor: optionsFor,

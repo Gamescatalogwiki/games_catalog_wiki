@@ -31,7 +31,6 @@
   }
 
   function show(node, visible) { if (node) node.hidden = !visible; }
-  function visible(node) { return !!(node && node.offsetParent !== null); }
 
   /* ------------------------------------------------------------------ carga -- */
 
@@ -203,14 +202,12 @@
     view = Core.resolve(catalog, state);
     shown = PAGE;
 
-    /* Si el foco esta en un buscador que este render va a ocultar (p.ej. el del
-     * hero, que se colapsa en cuanto hay busqueda), hay que mudarlo a otro
-     * buscador visible; si no, el usuario se queda sin donde seguir tecleando. */
-    var focused = document.activeElement;
-    var hadSearchFocus = !!(focused && focused.hasAttribute && focused.hasAttribute('data-search'));
-
     var q = state.q;
-    $$('[data-search]').forEach(function (i) { if (i.value !== q) i.value = q; });
+    /* Nunca reescribimos el campo que la persona esta usando: si lo hicieramos, cada
+     * espacio que escribe se le borraria y no podria tipear nombres de dos palabras. */
+    $$('[data-search]').forEach(function (i) {
+      if (i !== document.activeElement && i.value !== q) i.value = q;
+    });
 
     var isCollection = view.mode === 'collection';
     var active = isCollection || Core.hasFilters(state) || !!q;
@@ -245,15 +242,6 @@
     renderActiveTags();
     renderFilters();
     renderRows();
-
-    if (hadSearchFocus && !visible(focused)) {
-      var target = null;
-      $$('[data-search]').forEach(function (i) { if (!target && visible(i)) target = i; });
-      if (target) {
-        target.focus();
-        try { target.setSelectionRange(target.value.length, target.value.length); } catch (e) {}
-      }
-    }
   }
 
   function renderCount() {
@@ -352,13 +340,20 @@
     });
   }
 
+  /* Un atributo puede traer varios valores. Cada uno se pinta por separado y filtra solo. */
   function attrCell(game, attr) {
-    if (!game[attr]) {
+    var vals = game[attr];
+    if (!vals.length) {
       return el('td', { class: 'attr' }, [el('span', { class: 'none', text: '—', title: 'No value in the data' })]);
     }
-    var btn = el('button', { type: 'button', text: game[attr], title: 'Filter by ' + game[attr] });
-    btn.addEventListener('click', function () { toggle(attr, game[attr]); });
-    return el('td', { class: 'attr' }, [btn]);
+    var td = el('td', { class: 'attr', title: vals.join(', ') });
+    vals.forEach(function (v, i) {
+      if (i) td.appendChild(document.createTextNode(', '));
+      var btn = el('button', { type: 'button', text: v, title: 'Filter by ' + v });
+      btn.addEventListener('click', function () { toggle(attr, v); });
+      td.appendChild(btn);
+    });
+    return td;
   }
 
   function renderRows() {

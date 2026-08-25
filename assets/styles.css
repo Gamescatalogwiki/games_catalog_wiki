@@ -4,7 +4,7 @@
   --bg:#0b0b0d; --bg2:#111114; --card:#16161a; --card2:#1b1b20;
   --line:#232329; --line2:#2e2e36;
   --txt:#ffffff; --mut:#9b9ba4; --mut2:#6e6e78;
-  --acc:#86d927; --acc-d:#6abd13;
+  --acc:#53fc18; --acc-d:#3ad000;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--txt);
@@ -21,10 +21,8 @@ a{color:inherit;text-decoration:none}
 /* ---------- header ---------- */
 header{position:sticky;top:0;z-index:50;background:rgba(11,11,13,.92);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.hrow{display:flex;align-items:center;gap:28px;height:88px}
-.logo{display:flex;align-items:center;flex:none;line-height:0}
-.logo img{height:60px;width:auto;display:block}
-@media (max-width:640px){.hrow{height:64px}.logo img{height:40px}}
+.hrow{display:flex;align-items:center;gap:28px;height:64px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.4px;font-size:16px;flex:none}
 .mark{width:30px;height:30px;border-radius:8px;background:var(--acc);color:#000;
   display:grid;place-items:center;font-size:14px;font-weight:900}
 .logo span{color:var(--mut)}
@@ -47,6 +45,9 @@ nav a:hover,nav a.on{color:var(--txt)}
 /* ---------- hero ---------- */
 .hero{padding:64px 0 40px;border-bottom:1px solid var(--line);
   background:radial-gradient(900px 400px at 15% -10%,rgba(83,252,24,.10),transparent 60%)}
+.kick{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:800;
+  letter-spacing:1.6px;color:var(--acc);text-transform:uppercase;margin-bottom:18px}
+.kick i{width:6px;height:6px;background:var(--acc);border-radius:50%;display:block;flex:none}
 h1{font-size:52px;line-height:1.05;font-weight:900;letter-spacing:-2px;max-width:760px}
 h1 em{font-style:normal;color:var(--acc)}
 .lead{color:var(--mut);font-size:17px;margin-top:18px;max-width:620px}
@@ -122,7 +123,7 @@ tbody tr:hover{background:var(--card2)}
 .gt{font-weight:700}
 .attr{color:var(--mut)}
 .attr button{background:none;border:0;color:inherit;font:inherit;cursor:pointer;padding:0;
-  text-align:left;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  text-align:left;max-width:100%;white-space:nowrap}
 .attr button:hover{color:var(--acc)}
 .none{color:var(--mut2);opacity:.6}
 .empty{padding:34px 16px;text-align:center;color:var(--mut2);font-size:13.5px}
@@ -149,6 +150,7 @@ aside .nores{padding:10px 16px;color:var(--mut2);font-size:12.5px}
 .fsearch input:focus{outline:none;border-color:var(--acc)}
 .about{padding:16px;font-size:13px;color:var(--mut)}
 .about p+p{margin-top:10px}
+.about .ver{color:var(--mut2);font-size:11.5px}
 
 footer{border-top:1px solid var(--line);padding:34px 0 60px;margin-top:20px}
 .frow{display:flex;gap:40px;flex-wrap:wrap;font-size:13px;color:var(--mut2)}
@@ -177,8 +179,3 @@ footer{border-top:1px solid var(--line);padding:34px 0 60px;margin-top:20px}
   thead th:nth-child(4),tbody td:nth-child(4){display:none}
   .ptop input{width:100%}
 }
-
-/* Ocultos a proposito: app.js necesita que existan en el DOM,
-   pero no aportan nada al usuario. */
-.kick{display:none}
-.about .ver{display:none}
