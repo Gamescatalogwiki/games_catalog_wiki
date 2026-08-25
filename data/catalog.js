@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-417dca9ebb3c",
+  "version": "at-a56777423197",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -450,6 +450,13 @@ window.CATALOG = {
       "name": "Brothers: A Tale of Two Sons Remake",
       "genre": "Adventure, Puzzle",
       "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "reclU2LoSLLjfCN6N",
+      "name": "Buckshot Roulette",
+      "genre": "Simulator, Strategy, Indie",
+      "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
@@ -1230,6 +1237,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recuijYG9ga9PzhF2",
+      "name": "Forza Horizon 6",
+      "genre": "Racing, Simulator, Sport, Arcade",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "reclcLyMhkvU1zmav",
       "name": "Garten of Banban 7",
       "genre": "Puzzle, Arcade",
@@ -1272,6 +1286,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recygm4CiYLuc8N2q",
+      "name": "Good Pizza, Great Pizza",
+      "genre": "Simulator, Indie, Arcade",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recKTWJ5cMTJMFT5R",
       "name": "Goofy Gorillas",
       "genre": "Indie, Arcade",
@@ -1305,6 +1326,13 @@ window.CATALOG = {
       "genre": "Action RPG, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Co-op"
+    },
+    {
+      "id": "recvDD9tkluJEC9bB",
+      "name": "Grand Theft Auto V",
+      "genre": "Shooter, Racing, Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
     },
     {
       "id": "rec7IZWGvgTXA9pxZ",
@@ -1433,6 +1461,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recyi3G9inOjSG92S",
+      "name": "Higher or Lower: Spotify Edition",
+      "genre": "Quiz/Trivia, Arcade",
+      "perspective": "Text",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recaiVyfAJ5cJt0hA",
       "name": "Hitman 3",
       "genre": "Stealth, Shooter, Tactical",
@@ -1472,6 +1507,13 @@ window.CATALOG = {
       "name": "Horizon Zero Dawn",
       "genre": "Action RPG, Shooter, Role-playing (RPG)",
       "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "rec9yRtvHNZ8Fx8W5",
+      "name": "House Flipper",
+      "genre": "Simulator, Indie",
+      "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
@@ -1636,6 +1678,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recegddCeFfGbdGvl",
+      "name": "Kingdom Rush Origins",
+      "genre": "Real Time Strategy (RTS), Strategy, Indie",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recpRkoBk7UPtISVn",
       "name": "Kiosk",
       "genre": "Simulator",
@@ -1711,6 +1760,13 @@ window.CATALOG = {
       "genre": "Horror, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "rec3DhQMoxw0dEyUD",
+      "name": "League of Legends",
+      "genre": "Role-playing (RPG), Strategy, MOBA",
+      "perspective": "Isometric",
+      "mode": "Multiplayer"
     },
     {
       "id": "recjWcNc8Hk48Na8f",
@@ -1879,6 +1935,13 @@ window.CATALOG = {
       "genre": "Action Adventure, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "rec8FAmhdPckTKFL3",
+      "name": "Meccha Chameleon",
+      "genre": "Tactical, Indie",
+      "perspective": "First Person",
+      "mode": "Multiplayer"
     },
     {
       "id": "recG4tZAkfM26hfq4",
@@ -2140,6 +2203,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recoXOnRbtiOeSklJ",
+      "name": "One More Line",
+      "genre": "Music, Puzzle, Racing, Indie",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec9LLpwH0JeShyf1",
       "name": "One Piece Odyssey",
       "genre": "JRPG, Role-playing (RPG)",
@@ -2294,6 +2364,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recnAI8OBfHYFySQd",
+      "name": "Plague Inc: Evolved",
+      "genre": "Real Time Strategy (RTS), Simulator, Strategy, Tactical, Indie",
+      "perspective": "Isometric",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recZyzMUu939046jH",
       "name": "Platform 8",
       "genre": "Platform, Puzzle, Simulator",
@@ -2346,6 +2423,13 @@ window.CATALOG = {
       "id": "recmIxRMR6sRNb3Zi",
       "name": "R.E.P.O.",
       "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "rechkU97O2fbqSBjI",
+      "name": "Raft",
+      "genre": "Simulator, Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -2459,6 +2543,13 @@ window.CATALOG = {
       "name": "Rise of the Ronin",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recSmfEDY9qiHOXiE",
+      "name": "Rising Fox",
+      "genre": "Action, Adventure, Indie",
+      "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
@@ -2676,6 +2767,13 @@ window.CATALOG = {
       "name": "Silent Hill 2 (Remake)",
       "genre": "Survival Horror, Puzzle",
       "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recOyqSl71AxxVo1X",
+      "name": "Simple Solitaire",
+      "genre": "Simulator, Indie",
+      "perspective": "",
       "mode": "Singleplayer"
     },
     {
@@ -2938,6 +3036,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recjuNcH8LiUhF7RQ",
+      "name": "Tabletop Simulator",
+      "genre": "Role-playing (RPG), Simulator, Strategy, Indie, Card & Board Game",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recXhJRKk8Wrd7PTy",
       "name": "Tacoma",
       "genre": "Narrative Adventure",
@@ -2990,6 +3095,20 @@ window.CATALOG = {
       "id": "recHhnNWlaYfmUNQe",
       "name": "Taxi Life: A City Driving Simulator",
       "genre": "Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recoGFpKMAjKEanHx",
+      "name": "TBH: Task Bar Hero",
+      "genre": "Platform, Role-playing (RPG), Indie",
+      "perspective": "Side View",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recfowa7wRUJLPBka",
+      "name": "TCG Card Shop Simulator",
+      "genre": "Simulator, Strategy, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -3125,6 +3244,13 @@ window.CATALOG = {
       "genre": "Survival, Fighting, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Multiplayer"
+    },
+    {
+      "id": "recdJoBMssFvTjiJ8",
+      "name": "The Land of Pain",
+      "genre": "Adventure, Indie",
+      "perspective": "",
+      "mode": "Singleplayer"
     },
     {
       "id": "rec55dtcbluMdlyzD",
@@ -3309,6 +3435,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "rec2z81OSKZ65a2KO",
+      "name": "Trading Card Shop Simulator",
+      "genre": "Simulator, Strategy, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec5O86hZhIrLCwao",
       "name": "Train Sim World 5",
       "genre": "Simulation, Simulator",
@@ -3484,6 +3617,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recQB5mY6HtBqPEtT",
+      "name": "Who Are You!?",
+      "genre": "Adventure, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "reczo61eXmmjY81Xx",
       "name": "Witchaven",
       "genre": "Shooter, Role-playing (RPG)",
@@ -3545,6 +3685,13 @@ window.CATALOG = {
       "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Co-op"
+    },
+    {
+      "id": "rec7V96Vh3eY2WSga",
+      "name": "Worm.is: The Game",
+      "genre": "Casual, Free To Play",
+      "perspective": "",
+      "mode": "Multiplayer"
     },
     {
       "id": "recwuk1ak8ToycQW0",
