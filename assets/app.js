@@ -31,6 +31,7 @@
   }
 
   function show(node, visible) { if (node) node.hidden = !visible; }
+  function visible(node) { return !!(node && node.offsetParent !== null); }
 
   /* ------------------------------------------------------------------ carga -- */
 
@@ -202,6 +203,12 @@
     view = Core.resolve(catalog, state);
     shown = PAGE;
 
+    /* Si el foco esta en un buscador que este render va a ocultar (p.ej. el del
+     * hero, que se colapsa en cuanto hay busqueda), hay que mudarlo a otro
+     * buscador visible; si no, el usuario se queda sin donde seguir tecleando. */
+    var focused = document.activeElement;
+    var hadSearchFocus = !!(focused && focused.hasAttribute && focused.hasAttribute('data-search'));
+
     var q = state.q;
     $$('[data-search]').forEach(function (i) { if (i.value !== q) i.value = q; });
 
@@ -238,6 +245,15 @@
     renderActiveTags();
     renderFilters();
     renderRows();
+
+    if (hadSearchFocus && !visible(focused)) {
+      var target = null;
+      $$('[data-search]').forEach(function (i) { if (!target && visible(i)) target = i; });
+      if (target) {
+        target.focus();
+        try { target.setSelectionRange(target.value.length, target.value.length); } catch (e) {}
+      }
+    }
   }
 
   function renderCount() {
