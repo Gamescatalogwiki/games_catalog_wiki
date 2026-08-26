@@ -4,7 +4,7 @@
   --bg:#0b0b0d; --bg2:#111114; --card:#16161a; --card2:#1b1b20;
   --line:#232329; --line2:#2e2e36;
   --txt:#ffffff; --mut:#9b9ba4; --mut2:#6e6e78;
-  --acc:#53fc18; --acc-d:#3ad000;
+  --acc:#86d927; --acc-d:#6abd13;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--txt);
@@ -22,10 +22,8 @@ a{color:inherit;text-decoration:none}
 header{position:sticky;top:0;z-index:50;background:rgba(11,11,13,.92);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .hrow{display:flex;align-items:center;gap:28px;height:64px}
-.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.4px;font-size:16px;flex:none}
-.mark{width:30px;height:30px;border-radius:8px;background:var(--acc);color:#000;
-  display:grid;place-items:center;font-size:14px;font-weight:900}
-.logo span{color:var(--mut)}
+.logo{display:flex;align-items:center;flex:none}
+.logo img{display:block;height:30px;width:auto;max-width:100%}
 nav{display:flex;gap:22px;font-size:14px;font-weight:600;color:var(--mut)}
 nav a:hover,nav a.on{color:var(--txt)}
 .hsearch{margin-left:auto;display:flex;align-items:center;gap:10px}
@@ -44,7 +42,7 @@ nav a:hover,nav a.on{color:var(--txt)}
 
 /* ---------- hero ---------- */
 .hero{padding:64px 0 40px;border-bottom:1px solid var(--line);
-  background:radial-gradient(900px 400px at 15% -10%,rgba(83,252,24,.10),transparent 60%)}
+  background:radial-gradient(900px 400px at 15% -10%,rgba(134,217,39,.10),transparent 60%)}
 .kick{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:800;
   letter-spacing:1.6px;color:var(--acc);text-transform:uppercase;margin-bottom:18px}
 .kick i{width:6px;height:6px;background:var(--acc);border-radius:50%;display:block;flex:none}
@@ -92,7 +90,7 @@ h2{font-size:22px;font-weight:800;letter-spacing:-.5px}
 .panel.main{min-width:0}
 
 .viewhead{padding:18px 16px;border-bottom:1px solid var(--line);
-  background:radial-gradient(600px 200px at 0% -40%,rgba(83,252,24,.08),transparent 65%)}
+  background:radial-gradient(600px 200px at 0% -40%,rgba(134,217,39,.08),transparent 65%)}
 .viewhead .back{display:inline-block;color:var(--acc);font-size:12.5px;font-weight:700;margin-bottom:10px}
 .viewhead .back:hover{color:var(--acc-d)}
 .viewhead h2{font-size:20px}
@@ -113,6 +111,11 @@ h2{font-size:22px;font-weight:800;letter-spacing:-.5px}
 .tag:hover{border-color:var(--acc);color:var(--txt)}
 .tag i{font-style:normal;color:var(--mut2);font-size:14px;line-height:1}
 .tag:hover i{color:var(--acc)}
+
+.curatedhint{padding:12px 16px;border-bottom:1px solid var(--line);font-size:13px;
+  color:var(--mut);background:rgba(134,217,39,.06)}
+.curatedhint a{color:var(--acc);font-weight:700}
+.curatedhint a:hover{color:var(--acc-d)}
 
 table{width:100%;border-collapse:collapse;font-size:13.5px;table-layout:fixed}
 thead th{text-align:left;padding:11px 16px;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;

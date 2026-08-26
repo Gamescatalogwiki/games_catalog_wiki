@@ -254,6 +254,25 @@
     });
   }
 
+  /* Dos recortes son el mismo si, atributo por atributo, tienen exactamente los mismos
+   * valores (sin importar el orden en que esten escritos). */
+  function sameFilters(a, b) {
+    return ATTRS.every(function (attr) {
+      var x = a[attr].slice().sort(), y = b[attr].slice().sort();
+      return x.length === y.length && x.every(function (v, i) { return v === y[i]; });
+    });
+  }
+
+  /* Si el filtrado libre reproduce exactamente el recorte de una coleccion, la devolvemos
+   * para poder ofrecer el atajo a la seleccion curada. Nunca cambia lo que se muestra. */
+  function matchingCollection(catalog, state) {
+    if (state.collection || !hasFilters(state)) return null;
+    for (var i = 0; i < catalog.collections.length; i++) {
+      if (sameFilters(catalog.collections[i].filters, state.filters)) return catalog.collections[i];
+    }
+    return null;
+  }
+
   function matchesQuery(game, folded) {
     return !folded || fold(game.name).indexOf(folded) !== -1;
   }
@@ -300,6 +319,7 @@
       count: games.length,
       total: catalog.games.length,
       searchApplied: !!folded,
+      curatedMatch: matchingCollection(catalog, state),
       notices: notices || []
     };
   }
@@ -310,6 +330,8 @@
     normalizeCatalog: normalizeCatalog,
     buildVocabulary: buildVocabulary,
     optionsFor: optionsFor,
+    sameFilters: sameFilters,
+    matchingCollection: matchingCollection,
     emptyState: emptyState,
     parseQuery: parseQuery,
     serializeState: serializeState,

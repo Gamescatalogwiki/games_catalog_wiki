@@ -69,17 +69,15 @@
   /* --------------------------------------------------------------- estatico -- */
 
   function buildStatic() {
-    var v = catalog.version;
-    var kick = $('hero-kick');
-    if (v) kick.textContent = 'Static catalogue · ' + v;
-    else kick.parentNode.hidden = true;
-
     var stats = [
       [catalog.games.length, 'Titles indexed'],
       [catalog.vocabulary.genre.length, 'Genres'],
-      [catalog.collections.length, 'Collections'],
       [catalog.vocabulary.mode.length, 'Modes']
     ];
+    /* Si todavia no hay selecciones en el archivo, no mostramos un cero. */
+    if (catalog.collections.length) {
+      stats.splice(2, 0, [catalog.collections.length, 'Selections']);
+    }
     var box = $('hero-stats');
     box.textContent = '';
     stats.forEach(function (s) {
@@ -88,8 +86,6 @@
         el('span', { text: s[1] })
       ]));
     });
-
-    $('data-version').textContent = v ? 'Data file version: ' + v : '';
 
     /* Tarjetas de colecciones */
     var grid = $('collection-grid');
@@ -212,11 +208,21 @@
     var isCollection = view.mode === 'collection';
     var active = isCollection || Core.hasFilters(state) || !!q;
 
-    show($('hero'), !active);
+    /* El hero se oculta al buscar, pero tiene un buscador adentro: si lo escondemos con el
+     * foco puesto ahi, la persona pierde el cursor a la primera letra. Pasamos el foco al
+     * buscador del panel, con el mismo texto y el cursor al final, antes de ocultarlo. */
+    var hero = $('hero');
+    if (active && !hero.hidden && hero.contains(document.activeElement)) {
+      var dest = $('q-panel');
+      dest.value = q;
+      dest.focus();
+      try { dest.setSelectionRange(q.length, q.length); } catch (e) {}
+    }
+    show(hero, !active);
     show($('collections'), !active && catalog.collections.length > 0);
     show($('top-genres'), !active && catalog.vocabulary.genre.length > 0);
     show($('clear'), active);
-    $('clear').textContent = isCollection ? 'Leave collection' : 'Clear filters';
+    $('clear').textContent = isCollection ? 'Leave selection' : 'Clear filters';
 
     /* Encabezado de la vista */
     show($('viewhead'), active);
@@ -228,10 +234,10 @@
         show($('view-curated'), true);
       } else {
         $('view-title').textContent = view.requestedCollection
-          ? 'Collection not found'
+          ? 'Selection not found'
           : 'Filtered titles';
         $('view-blurb').textContent = view.requestedCollection
-          ? 'There is no collection called “' + view.requestedCollection + '” in this catalogue. Showing the full list instead.'
+          ? 'There is no selection called “' + view.requestedCollection + '” in this catalogue. Showing the full list instead.'
           : '';
         show($('view-blurb'), !!$('view-blurb').textContent);
         show($('view-curated'), false);
@@ -239,6 +245,7 @@
     }
 
     renderCount();
+    renderCuratedHint();
     renderActiveTags();
     renderFilters();
     renderRows();
@@ -248,11 +255,26 @@
     var n = view.count;
     var txt = n + (n === 1 ? ' title' : ' titles');
     if (view.mode === 'collection' && view.searchApplied && view.count !== view.collectionSize) {
-      txt = n + ' of ' + view.collectionSize + ' in this collection';
+      txt = n + ' of ' + view.collectionSize + ' in this selection';
     } else if (view.mode === 'free' && (Core.hasFilters(view.state) || view.searchApplied)) {
       txt = n + ' of ' + view.total + ' titles';
     }
     $('cnt').textContent = txt;
+  }
+
+  /* Puente para quien llego por filtros a un recorte que ademas tiene seleccion curada.
+   * No cambia la grilla: solo ofrece el link a la coleccion. */
+  function renderCuratedHint() {
+    var box = $('curated-hint');
+    var col = view.curatedMatch;
+    box.textContent = '';
+    if (!col) { show(box, false); return; }
+    box.appendChild(document.createTextNode('These filters match a hand-picked selection: '));
+    var a = el('a', { href: '?c=' + encodeURIComponent(col.slug),
+      text: col.title + ' (' + col.games.length + ')' });
+    box.appendChild(a);
+    box.appendChild(document.createTextNode('. The list below is the full filter result.'));
+    show(box, true);
   }
 
   function renderActiveTags() {
