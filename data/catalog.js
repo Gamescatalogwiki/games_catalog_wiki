@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-7df84d2afbd8",
+  "version": "at-80b092464043",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -236,6 +236,13 @@ window.CATALOG = {
       "mode": "Multiplayer"
     },
     {
+      "id": "recoOc60excfdrivs",
+      "name": "Asphalt Legends",
+      "genre": "Racing, Sport, Arcade",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec1PbD89O9mJzZ2b",
       "name": "Assetto Corsa Competizione (AC2)",
       "genre": "Racing, Simulator, Sport",
@@ -253,6 +260,13 @@ window.CATALOG = {
       "id": "recrEjEex8ItgxtHH",
       "name": "Atomic Heart",
       "genre": "Action RPG, Shooter, Role-playing (RPG)",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "reclXDJulwCdtfQsX",
+      "name": "Automobilista 2",
+      "genre": "Racing, Simulator, Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -551,6 +565,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recFLGTbzt0rKZPPX",
+      "name": "Car Dealer Simulator",
+      "genre": "Simulator, Strategy, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recZ48mncV4O19G1j",
       "name": "Car For Sale Simulator 2023",
       "genre": "Simulator",
@@ -621,6 +642,20 @@ window.CATALOG = {
       "mode": "Multiplayer"
     },
     {
+      "id": "recXUgQ62WGH5uZZ9",
+      "name": "Conscript",
+      "genre": "Puzzle, Role-playing (RPG), Adventure, Indie",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recIj3s4S9My4OPqZ",
+      "name": "Contraband Police",
+      "genre": "Shooter, Simulator, Adventure, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recZoLgB5maGwqDRD",
       "name": "Control",
       "genre": "Action Adventure, Shooter",
@@ -663,9 +698,23 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recEFsUGlB7iqNYWM",
+      "name": "Crime Scene Cleaner",
+      "genre": "Simulator, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recKiQIu5Uc3pSxMu",
       "name": "Crimson Desert",
       "genre": "Action RPG",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recRpjs3aLE6fvkcX",
+      "name": "Crimson Desert: Deluxe Edition",
+      "genre": "Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
@@ -682,6 +731,13 @@ window.CATALOG = {
       "genre": "Survival Horror, Shooter, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "recUoWiWrh6xN6NnW",
+      "name": "Crossout",
+      "genre": "Shooter, Racing, Simulator",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
     },
     {
       "id": "rec7EUmIAHqq9x4kI",
@@ -857,6 +913,20 @@ window.CATALOG = {
       "genre": "Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "recUTalE5XNwiUjae",
+      "name": "Dirt 5: Year One Edition",
+      "genre": "",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recvj3ljetDlaavet",
+      "name": "Dofus",
+      "genre": "Role-playing (RPG), Strategy, Adventure",
+      "perspective": "Isometric",
+      "mode": "Multiplayer"
     },
     {
       "id": "recqr9Fh5i9t2B0IL",
@@ -1055,6 +1125,13 @@ window.CATALOG = {
       "mode": "Multiplayer"
     },
     {
+      "id": "rec7N4gwcOzh9gPW5",
+      "name": "Emergency",
+      "genre": "",
+      "perspective": "",
+      "mode": ""
+    },
+    {
       "id": "recw4kBFv6BXUhFm6",
       "name": "Emergency Call 112: The Fire Fighting Simulation 2",
       "genre": "Simulator, Tactical",
@@ -1095,6 +1172,13 @@ window.CATALOG = {
       "genre": "Driving Sim, Racing, Simulator",
       "perspective": "First Person",
       "mode": "Multiplayer"
+    },
+    {
+      "id": "recZIswXoelNCrTgB",
+      "name": "Euro Truck Simulator 2: Legendary Edition",
+      "genre": "Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
     },
     {
       "id": "recnBQmvaA9C46rES",
@@ -1177,6 +1261,13 @@ window.CATALOG = {
       "id": "rec6zmVB0fAfSJLz3",
       "name": "Finnish Cottage Simulator",
       "genre": "Simulator",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recmSmh6N2VM6QkFt",
+      "name": "Firefighting Simulator: The Squad",
+      "genre": "Simulator, Strategy",
       "perspective": "",
       "mode": "Singleplayer"
     },
@@ -1279,6 +1370,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recR3iKYctsQDRQ42",
+      "name": "Goat Simulator 3",
+      "genre": "Simulator, Adventure",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recnDt60sPeggV9D6",
       "name": "Gone Home",
       "genre": "Narrative Adventure, Puzzle",
@@ -1359,6 +1457,13 @@ window.CATALOG = {
       "id": "reck0JuWWc3ETAMxY",
       "name": "Green Hell",
       "genre": "Survival, Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "rechzLsgk6hCmZmwU",
+      "name": "Greyhill Incident",
+      "genre": "Shooter, Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -1570,6 +1675,13 @@ window.CATALOG = {
       "name": "Incantation",
       "genre": "Adventure",
       "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recbaByxFrDiPnnvS",
+      "name": "Infinite Way",
+      "genre": "Strategy, Indie",
+      "perspective": "",
       "mode": "Singleplayer"
     },
     {
@@ -1853,6 +1965,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "reck2EF82qOQvec95",
+      "name": "Low-Budget Repairs",
+      "genre": "Simulator, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recsjTt6qg85Ufv7c",
       "name": "Lucid Blocks",
       "genre": "Role-playing (RPG), Simulator",
@@ -2028,10 +2147,24 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recFSUmmIvIyXoQSS",
+      "name": "Middle-earth: Shadow of War",
+      "genre": "Role-playing (RPG), Adventure",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec6HUgeb2k8iWXqf",
       "name": "Millennium Dream",
       "genre": "Adventure",
       "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recRHxhbdrFXqpyPm",
+      "name": "Minecraft: Story Mode - The Complete Adventure",
+      "genre": "Point-and-click, Adventure",
+      "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
@@ -2060,6 +2193,13 @@ window.CATALOG = {
       "name": "Mortal Shell",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recvr2KlZ2jbsXejz",
+      "name": "Motor Town: Behind the Wheel",
+      "genre": "Racing, Simulator, Indie",
+      "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
@@ -2182,6 +2322,13 @@ window.CATALOG = {
       "mode": "Multiplayer"
     },
     {
+      "id": "reca93wmLogEk7o9Q",
+      "name": "Nomad Drive",
+      "genre": "Simulator, Adventure, Indie",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recJHv9HywKvCk1rs",
       "name": "Nuclear Nightmare",
       "genre": "Survival Horror",
@@ -2273,6 +2420,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recgz4pPdl12Kmwav",
+      "name": "Overwatch",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rechdibY9oWStIzDo",
       "name": "Pacific Drive",
       "genre": "Driving Survival, Simulator",
@@ -2343,6 +2497,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recII7ozxiflg4P2N",
+      "name": "PC Building Simulator 2",
+      "genre": "Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec75UzFvpUm7Lzpk",
       "name": "Peak",
       "genre": "Platform",
@@ -2378,9 +2539,23 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "rec5Q0G5DN411gQYo",
+      "name": "Police Simulator: Patrol Officers",
+      "genre": "Simulator",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rech1tnAkqFNQ3wtZ",
       "name": "Portal 2",
       "genre": "Platform, Puzzle",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recdGMuJElhDltgjb",
+      "name": "PowerWash Simulator 2",
+      "genre": "Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -2423,6 +2598,13 @@ window.CATALOG = {
       "id": "recmIxRMR6sRNb3Zi",
       "name": "R.E.P.O.",
       "genre": "Strategy",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recPNToRfOJymaUk2",
+      "name": "RaceRoom Racing Experience",
+      "genre": "Racing, Simulator, Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -2588,6 +2770,13 @@ window.CATALOG = {
       "mode": "Co-op"
     },
     {
+      "id": "recb51Taq0KWtsY83",
+      "name": "Rocket League",
+      "genre": "Racing, Sport, Indie",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recZxKm0Oe9BOl1kX",
       "name": "Rogue Point",
       "genre": "Shooter",
@@ -2725,6 +2914,13 @@ window.CATALOG = {
       "name": "Schedule I",
       "genre": "Simulator",
       "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recd3FwAKvuwUuKwn",
+      "name": "Search",
+      "genre": "Simulator, Indie",
+      "perspective": "",
       "mode": "Singleplayer"
     },
     {
@@ -2969,6 +3165,13 @@ window.CATALOG = {
       "id": "rec8rrWIalBLw71Eg",
       "name": "Superliminal",
       "genre": "Puzzle",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "reclJaujQ6PqAA7XJ",
+      "name": "Supermarket Simulator",
+      "genre": "Simulator, Strategy, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -3491,6 +3694,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recM9s8bxYOWOFXq9",
+      "name": "UNCHARTED™: Legacy of Thieves Collection",
+      "genre": "Adventure",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec4zuanfOM8CajOT",
       "name": "Until Dawn",
       "genre": "Narrative Adventure",
@@ -3734,101 +3944,6 @@ window.CATALOG = {
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
-    }
-  ],
-  "collections": [
-    {
-      "slug": "conduccion-y-vehiculos",
-      "title": "Conducción y vehículos",
-      "blurb": "",
-      "filters": {
-        "perspective": [
-          "First Person",
-          "Third Person"
-        ],
-        "genre": [
-          "Driving Sim",
-          "Driving Survival",
-          "Racing",
-          "Racing Sim",
-          "Vehicle Combat"
-        ],
-        "mode": [
-          "Singleplayer",
-          "Multiplayer",
-          "Co-op"
-        ]
-      },
-      "games": [
-        "recpPNYTN2LdrNprK",
-        "rechdibY9oWStIzDo",
-        "recUsWh6ALFQIHwqH"
-      ]
-    },
-    {
-      "slug": "simulacion-de-oficios-y-tareas",
-      "title": "Simulación de oficios y tareas",
-      "blurb": "",
-      "filters": {
-        "perspective": [
-          "First Person"
-        ],
-        "genre": [
-          "Simulator",
-          "Simulation",
-          "Farming Sim",
-          "Hunting Sim"
-        ],
-        "mode": [
-          "Singleplayer",
-          "Multiplayer",
-          "Co-op"
-        ]
-      },
-      "games": [
-        "recMmantZiIFgnEsI",
-        "recmCkvGWrqnFvQbR",
-        "recBiDMjFmdtmMW9D",
-        "recZ48mncV4O19G1j",
-        "rec72H8yBhuac7drF",
-        "recAuD4R5VP58Sial",
-        "reclLGd8d2HL1btmN",
-        "recbnzJPKXx3u9IU0",
-        "rec31MT4x7Ek41vFr",
-        "recNd26o1a17qzr8m",
-        "recgrkmBJzOZT4HW4",
-        "recJVeB0pvhbNRMsc",
-        "recO9GxNaL7xjl2nj",
-        "recw4kBFv6BXUhFm6",
-        "rechZuG0RSU9tnc5q",
-        "recv2ZcM8EEQbtdN8",
-        "receTNBXihKy3heyV",
-        "recRovrGzOUiD7yFQ",
-        "recOIW6oj5jGiRfvq",
-        "recpRkoBk7UPtISVn",
-        "recX1hHeS1C93vXRn",
-        "recTdVHWou9xANL86",
-        "recFDOguhxRodP1EG",
-        "recQUtWQnfAQDupgV",
-        "recQ3ib4ooC4FeJAT",
-        "recHKQWCdAlb4Xz00",
-        "rec45pQPnTyl0iHj7",
-        "recWw9ZYjwv6bOuIo",
-        "recw0Jc9GgSbxyz1I",
-        "recG2Hi6s2alQQlag",
-        "recZ3wCzMv8k2ZGDN",
-        "rec8bN4ijHXuuWpKr",
-        "recHCCBMYgLxRwixP",
-        "rec8LspbMH5haL0qv",
-        "recEeNIsz2yvBRUr6",
-        "recVI2hfvu4jwOqeT",
-        "recHhnNWlaYfmUNQe",
-        "recxyNPdKtTGQbEVQ",
-        "rec55dtcbluMdlyzD",
-        "recDBowuejP2LXTYg",
-        "rec5O86hZhIrLCwao",
-        "recqceFViZopTF7Iq"
-      ]
     }
   ]
 };
