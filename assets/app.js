@@ -97,7 +97,6 @@
           el('span', { class: 'cat-name', text: col.title }),
           el('span', { class: 'cat-n', text: String(col.games.length) })
         ]),
-        el('p', { class: 'cat-desc', text: col.blurb }),
         el('p', { class: 'cat-eg', text: titles.slice(0, 3).join(' · ') })
       ]));
     });
@@ -249,8 +248,8 @@
     if (active) {
       if (isCollection) {
         $('view-title').textContent = view.collection.title;
-        $('view-blurb').textContent = view.collection.blurb;
-        show($('view-blurb'), !!view.collection.blurb);
+        $('view-blurb').textContent = '';
+        show($('view-blurb'), false);
         show($('view-curated'), true);
       } else {
         $('view-title').textContent = view.requestedCollection
@@ -319,10 +318,10 @@
     return state;
   }
 
-  /* Los valores que se pintan en los controles: los de la coleccion cuando estamos
-   * dentro de una (son descriptivos), o los del filtrado libre. */
+  /* Dentro de una seleccion no se pinta ningun filtro: la lista es la lista, y los
+   * valores que la originaron no se muestran. Fuera de ella, los del filtrado libre. */
   function paintedFilters() {
-    if (view.mode === 'collection') return view.collection.filters;
+    if (view.mode === 'collection') return { genre: [], perspective: [], mode: [] };
     return view.state.filters;
   }
 

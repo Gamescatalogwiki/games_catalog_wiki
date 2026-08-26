@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-e122c91d8940",
+  "version": "at-7df84d2afbd8",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -3740,7 +3740,7 @@ window.CATALOG = {
     {
       "slug": "conduccion-y-vehiculos",
       "title": "Conducción y vehículos",
-      "blurb": "Buscamos datasets de manejo: conducción, off-road, carreras y vehículos de combate.",
+      "blurb": "",
       "filters": {
         "perspective": [
           "First Person",
@@ -3768,7 +3768,7 @@ window.CATALOG = {
     {
       "slug": "simulacion-de-oficios-y-tareas",
       "title": "Simulación de oficios y tareas",
-      "blurb": "Buscamos datasets de simulación de tareas: cocinar, reparar, atender un local, operar maquinaria, ordenar, construir.",
+      "blurb": "",
       "filters": {
         "perspective": [
           "First Person"

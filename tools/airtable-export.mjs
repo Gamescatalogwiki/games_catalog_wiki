@@ -121,15 +121,6 @@ const slugify = (s) =>
   String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
-/* El blurb es el primer parrafo de la descripcion publica. Si es largo, la
- * primera oracion: la tarjeta del home es chica. */
-function blurbDe(texto) {
-  const primero = String(texto || '').split(/\n\s*\n/)[0].trim().replace(/\s+/g, ' ');
-  if (primero.length <= 180) return primero;
-  const corte = primero.slice(0, 180).match(/^.*[.:!?](?=\s|$)/);
-  return (corte ? corte[0] : primero.slice(0, 177) + '…').trim();
-}
-
 /* La lista de juegos viene como JSON en un campo de texto. Puede ser un array,
  * o un solo nombre suelto. Cualquier otra cosa se ignora avisando. */
 function nombresDe(raw, donde) {
@@ -181,7 +172,12 @@ try {
       return {
         slug,
         title: nombre,
-        blurb: blurbDe(f[CALLS.descripcion]),
+        /* Sin blurb a proposito: el sitio no repite el texto con el que se comunica
+         * la orden. En la tarjeta va el titulo, la cantidad y los juegos. */
+        blurb: '',
+        /* Estos valores NO se muestran en ningun lado. Quedan en el archivo solo para
+         * poder detectar cuando alguien llega por filtros al mismo recorte y ofrecerle
+         * el link a la seleccion. */
         filters: {
           perspective: (f[CALLS.perspectivas] || []).map(txt).filter(Boolean),
           genre:       (f[CALLS.categorias]   || []).map(txt).filter(Boolean),
