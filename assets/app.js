@@ -15,6 +15,10 @@
   var genreQuery = '';
   var genreExpanded = false;
 
+  /* Como se llama la seccion en el sitio. Se usa en el encabezado de una seleccion
+   * y en el aviso puente, para no mostrar nunca el nombre interno del feed. */
+  var SELECTION_LABEL = 'Weekly Selection';
+
   var $ = function (id) { return document.getElementById(id); };
   var $$ = function (sel) { return Array.prototype.slice.call(document.querySelectorAll(sel)); };
 
@@ -91,13 +95,13 @@
     var grid = $('collection-grid');
     grid.textContent = '';
     catalog.collections.forEach(function (col) {
+      /* Sin descripcion: la tarjeta es nombre, cantidad y titulos. */
       var titles = col.games.map(function (id) { return catalog.byId[id].name; });
       grid.appendChild(el('a', { class: 'cat', href: '?c=' + encodeURIComponent(col.slug) }, [
         el('div', { class: 'cat-top' }, [
-          el('span', { class: 'cat-name', text: col.title }),
-          el('span', { class: 'cat-n', text: String(col.games.length) })
+          el('span', { class: 'cat-name', text: col.games.length + (col.games.length === 1 ? ' title' : ' titles') })
         ]),
-        el('p', { class: 'cat-eg', text: titles.slice(0, 3).join(' · ') })
+        el('p', { class: 'cat-eg', text: titles.slice(0, 6).join(' · ') })
       ]));
     });
 
@@ -247,19 +251,19 @@
     show($('viewhead'), active);
     if (active) {
       if (isCollection) {
-        $('view-title').textContent = view.collection.title;
+        /* El sitio esta en ingles y el nombre de la seleccion viene del feed en
+         * castellano: no se muestra. El encabezado es siempre el de la seccion. */
+        $('view-title').textContent = SELECTION_LABEL;
         $('view-blurb').textContent = '';
         show($('view-blurb'), false);
-        show($('view-curated'), true);
       } else {
         $('view-title').textContent = view.requestedCollection
           ? 'Selection not found'
           : 'Filtered titles';
         $('view-blurb').textContent = view.requestedCollection
-          ? 'There is no selection called “' + view.requestedCollection + '” in this catalogue. Showing the full list instead.'
+          ? 'That selection is not in this catalogue any more. Showing the full list instead.'
           : '';
         show($('view-blurb'), !!$('view-blurb').textContent);
-        show($('view-curated'), false);
       }
     }
 
@@ -290,7 +294,7 @@
     if (!col) { show(box, false); return; }
     box.appendChild(document.createTextNode('These filters match a hand-picked selection: '));
     var a = el('a', { href: '?c=' + encodeURIComponent(col.slug),
-      text: col.title + ' (' + col.games.length + ')' });
+      text: SELECTION_LABEL + ' (' + col.games.length + ')' });
     box.appendChild(a);
     box.appendChild(document.createTextNode('. The list below is the full filter result.'));
     show(box, true);

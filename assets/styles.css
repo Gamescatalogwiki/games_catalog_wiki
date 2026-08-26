@@ -77,9 +77,8 @@ h2{font-size:22px;font-weight:800;letter-spacing:-.5px}
 .cat-name{font-weight:800;font-size:16px}
 .cat-n{background:#000;border:1px solid var(--line2);color:var(--acc);font-size:12px;
   font-weight:800;padding:2px 9px;border-radius:20px;flex:none}
-.cat-desc{color:var(--mut);font-size:13px;min-height:38px}
 .cat-eg{color:var(--mut2);font-size:11.5px;margin-top:10px;border-top:1px solid var(--line);
-  padding-top:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  padding-top:10px}
 
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:7px 14px;
