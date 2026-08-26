@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-a56777423197",
+  "version": "at-e122c91d8940",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -3734,6 +3734,101 @@ window.CATALOG = {
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
+    }
+  ],
+  "collections": [
+    {
+      "slug": "conduccion-y-vehiculos",
+      "title": "Conducción y vehículos",
+      "blurb": "Buscamos datasets de manejo: conducción, off-road, carreras y vehículos de combate.",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "genre": [
+          "Driving Sim",
+          "Driving Survival",
+          "Racing",
+          "Racing Sim",
+          "Vehicle Combat"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ]
+      },
+      "games": [
+        "recpPNYTN2LdrNprK",
+        "rechdibY9oWStIzDo",
+        "recUsWh6ALFQIHwqH"
+      ]
+    },
+    {
+      "slug": "simulacion-de-oficios-y-tareas",
+      "title": "Simulación de oficios y tareas",
+      "blurb": "Buscamos datasets de simulación de tareas: cocinar, reparar, atender un local, operar maquinaria, ordenar, construir.",
+      "filters": {
+        "perspective": [
+          "First Person"
+        ],
+        "genre": [
+          "Simulator",
+          "Simulation",
+          "Farming Sim",
+          "Hunting Sim"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ]
+      },
+      "games": [
+        "recMmantZiIFgnEsI",
+        "recmCkvGWrqnFvQbR",
+        "recBiDMjFmdtmMW9D",
+        "recZ48mncV4O19G1j",
+        "rec72H8yBhuac7drF",
+        "recAuD4R5VP58Sial",
+        "reclLGd8d2HL1btmN",
+        "recbnzJPKXx3u9IU0",
+        "rec31MT4x7Ek41vFr",
+        "recNd26o1a17qzr8m",
+        "recgrkmBJzOZT4HW4",
+        "recJVeB0pvhbNRMsc",
+        "recO9GxNaL7xjl2nj",
+        "recw4kBFv6BXUhFm6",
+        "rechZuG0RSU9tnc5q",
+        "recv2ZcM8EEQbtdN8",
+        "receTNBXihKy3heyV",
+        "recRovrGzOUiD7yFQ",
+        "recOIW6oj5jGiRfvq",
+        "recpRkoBk7UPtISVn",
+        "recX1hHeS1C93vXRn",
+        "recTdVHWou9xANL86",
+        "recFDOguhxRodP1EG",
+        "recQUtWQnfAQDupgV",
+        "recQ3ib4ooC4FeJAT",
+        "recHKQWCdAlb4Xz00",
+        "rec45pQPnTyl0iHj7",
+        "recWw9ZYjwv6bOuIo",
+        "recw0Jc9GgSbxyz1I",
+        "recG2Hi6s2alQQlag",
+        "recZ3wCzMv8k2ZGDN",
+        "rec8bN4ijHXuuWpKr",
+        "recHCCBMYgLxRwixP",
+        "rec8LspbMH5haL0qv",
+        "recEeNIsz2yvBRUr6",
+        "recVI2hfvu4jwOqeT",
+        "recHhnNWlaYfmUNQe",
+        "recxyNPdKtTGQbEVQ",
+        "rec55dtcbluMdlyzD",
+        "recDBowuejP2LXTYg",
+        "rec5O86hZhIrLCwao",
+        "recqceFViZopTF7Iq"
+      ]
     }
   ]
 };

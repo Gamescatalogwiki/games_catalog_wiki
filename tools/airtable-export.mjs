@@ -28,15 +28,29 @@ const GAMES = {
   publicado:   'fldiVYIKFjlsSPKCP', // checkbox: solo los tildados se publican
 };
 
-// Todavia no existe. Cuando se cree la tabla de colecciones, completar los IDs
-// aca y el export las incluye solo. Mientras siga en null, se exporta sin
-// colecciones y el sitio funciona igual.
-const COLLECTIONS = null;
-// const COLLECTIONS = {
-//   tableId: 'tbl...',
-//   slug: 'fld...', titulo: 'fld...', blurb: 'fld...',
-//   juegos: 'fld...', orden: 'fld...', publicada: 'fld...',
-// };
+// Las colecciones del sitio salen de las Open Calls de Gameplay Alliance, que
+// viven en OTRA base. Cada orden activa se publica como una coleccion con su
+// propia URL (?c=slug).
+//
+// Ojo con la semantica, que es la misma que documenta la propia orden en sus
+// notas: `categorias`, `perspectivas` y `modos` son DESCRIPTIVOS — pintan los
+// controles del sitio. Quien entra en la coleccion lo define `juegos`, la lista
+// curada. Filtrar por esas categorias devuelve mas titulos, y esta bien que asi
+// sea.
+const CALLS = {
+  baseId:  'appOMCoN1rvrRWNxQ',
+  tableId: 'tblzDrErQ9Yt8wXEk',
+  nombre:       'fldUNbeDC3aiRoIZw', // texto: da el titulo y el slug
+  codigo:       'fldnrccJs3q9alKBj', // GA-2026-018: desempata slugs repetidos
+  estado:       'fldHtrEHYPfrKnuxg', // solo se publican las "activo"
+  staging:      'fldhZa5ePPdq6vo73', // ordenes de prueba: nunca se publican
+  descripcion:  'fld1LuxrydjssNgQB', // multilinea: el primer parrafo es el blurb
+  juegos:       'fldBOoGG1GXIx1wGE', // JSON con NOMBRES de juego, no con ids
+  categorias:   'fldnnL7cILu1U5Uuc',
+  perspectivas: 'fldfzrjY5XGgDqu1A',
+  modos:        'fldPwnwg6K1TvvbI5',
+  orden:        'fldD3qahwYunTxpyO', // autonumero: la mas nueva primero
+};
 
 // Guarda de seguridad: si el catalogo se achica mas que esto de golpe, el
 // script aborta en vez de publicar. Un error de permisos o un filtro mal
@@ -55,11 +69,11 @@ if (!token) {
 
 const txt = (v) => (typeof v === 'string' ? v.trim() : v == null ? '' : String(v).trim());
 
-async function fetchAll(tableId) {
+async function fetchAll(tableId, baseId = BASE_ID) {
   const out = [];
   let offset;
   do {
-    const url = new URL(`https://api.airtable.com/v0/${BASE_ID}/${tableId}`);
+    const url = new URL(`https://api.airtable.com/v0/${baseId}/${tableId}`);
     url.searchParams.set('pageSize', '100');
     url.searchParams.set('returnFieldsByFieldId', 'true');
     if (offset) url.searchParams.set('offset', offset);
@@ -95,23 +109,96 @@ if (games.length === 0) {
   process.exit(1);
 }
 
+/* Nombre -> id del catalogo. Las ordenes listan juegos por nombre, y el sitio
+ * los referencia por record id, asi que hay que casarlos. Se compara sin
+ * acentos, sin mayusculas y sin espacios de mas para que un tilde no rompa. */
+const fold = (s) =>
+  String(s).trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ' ');
+
+const idPorNombre = new Map(games.map((g) => [fold(g.name), g.id]));
+
+const slugify = (s) =>
+  String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+/* El blurb es el primer parrafo de la descripcion publica. Si es largo, la
+ * primera oracion: la tarjeta del home es chica. */
+function blurbDe(texto) {
+  const primero = String(texto || '').split(/\n\s*\n/)[0].trim().replace(/\s+/g, ' ');
+  if (primero.length <= 180) return primero;
+  const corte = primero.slice(0, 180).match(/^.*[.:!?](?=\s|$)/);
+  return (corte ? corte[0] : primero.slice(0, 177) + '…').trim();
+}
+
+/* La lista de juegos viene como JSON en un campo de texto. Puede ser un array,
+ * o un solo nombre suelto. Cualquier otra cosa se ignora avisando. */
+function nombresDe(raw, donde) {
+  const t = txt(raw);
+  if (!t) return [];
+  if (t.startsWith('[')) {
+    try {
+      const v = JSON.parse(t);
+      if (Array.isArray(v)) return v.map(txt).filter(Boolean);
+    } catch {
+      console.warn(`aviso: ${donde} tiene una lista de juegos que no es JSON valido. Se ignora.`);
+      return [];
+    }
+  }
+  return [t];
+}
+
 let collections = [];
-if (COLLECTIONS) {
-  const publicados = new Set(games.map((g) => g.id));
-  collections = (await fetchAll(COLLECTIONS.tableId))
-    .filter((r) => r.fields[COLLECTIONS.publicada] === true)
-    .map((r) => ({
-      slug: txt(r.fields[COLLECTIONS.slug]),
-      title: txt(r.fields[COLLECTIONS.titulo]),
-      blurb: txt(r.fields[COLLECTIONS.blurb]),
-      // Solo juegos que ademas esten publicados: una coleccion no puede colar
-      // al sitio un titulo despublicado.
-      games: (r.fields[COLLECTIONS.juegos] || []).filter((id) => publicados.has(id)),
-      _orden: Number(r.fields[COLLECTIONS.orden] ?? 0),
-    }))
+try {
+  const rawCalls = await fetchAll(CALLS.tableId, CALLS.baseId);
+  const usados = new Set();
+
+  collections = rawCalls
+    .filter((r) => {
+      const f = r.fields;
+      return txt(f[CALLS.estado]) === 'activo' && f[CALLS.staging] !== true;
+    })
+    .map((r) => {
+      const f = r.fields;
+      const nombre = txt(f[CALLS.nombre]);
+      const codigo = txt(f[CALLS.codigo]);
+      const donde = codigo || r.id;
+
+      const nombres = nombresDe(f[CALLS.juegos], donde);
+      const ids = [];
+      const faltan = [];
+      for (const n of nombres) {
+        const id = idPorNombre.get(fold(n));
+        if (id) { if (!ids.includes(id)) ids.push(id); } else faltan.push(n);
+      }
+      if (faltan.length) {
+        console.warn(`aviso: ${donde} ("${nombre}") lista ${faltan.length} titulo(s) que no estan publicados en el catalogo: ${faltan.join(', ')}`);
+      }
+
+      let slug = slugify(nombre) || slugify(codigo);
+      if (usados.has(slug)) slug = slug + '-' + slugify(codigo);
+      usados.add(slug);
+
+      return {
+        slug,
+        title: nombre,
+        blurb: blurbDe(f[CALLS.descripcion]),
+        filters: {
+          perspective: (f[CALLS.perspectivas] || []).map(txt).filter(Boolean),
+          genre:       (f[CALLS.categorias]   || []).map(txt).filter(Boolean),
+          mode:        (f[CALLS.modos]        || []).map(txt).filter(Boolean),
+        },
+        games: ids,
+        _orden: Number(f[CALLS.orden] ?? 0),
+      };
+    })
     .filter((c) => c.slug !== '' && c.games.length > 0)
-    .sort((a, b) => a._orden - b._orden || a.slug.localeCompare(b.slug))
+    .sort((a, b) => b._orden - a._orden || a.slug.localeCompare(b.slug))
     .map(({ _orden, ...c }) => c);
+} catch (err) {
+  /* Si el token no llega a la base de las ordenes, el catalogo se publica igual
+   * y sin colecciones, en vez de romper todo el sync. */
+  console.warn(`aviso: no se pudieron leer las Open Calls (${err.message}). Se publica sin colecciones.`);
+  collections = [];
 }
 
 // Guarda: caida brusca respecto de lo ya publicado.
