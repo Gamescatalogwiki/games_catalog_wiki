@@ -179,14 +179,34 @@
       if (nav) {
         ev.preventDefault();
         go(Core.clearAll());
-        if (nav !== 'home') {
-          var target = $(nav === 'browse' ? 'browse' : nav === 'collections' ? 'collections' : 'about');
-          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
+        scrollToSection(nav);
       }
     });
+  }
+
+  /* El header es sticky: si mandamos la seccion al tope de la ventana queda tapada
+   * por la barra y parece que el link no hizo nada. Descontamos su altura.
+   * Ademas go() acaba de rehacer la grilla, asi que la pagina cambia de alto: hay
+   * que medir en el frame siguiente o el scroll cae en el lugar equivocado. */
+  function scrollToSection(nav) {
+    if (nav === 'home') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    var target = $(nav === 'browse' ? 'browse' : nav === 'collections' ? 'collections' : 'about');
+    /* Si todavia no hay selecciones en el archivo de datos, esa seccion esta oculta:
+     * mandamos a la grilla en vez de dejar el click sin efecto. */
+    if (!target || target.hidden) target = $('browse');
+    if (!target) return;
+
+    var run = function () {
+      var bar = document.querySelector('header');
+      var alto = bar ? bar.getBoundingClientRect().height : 0;
+      var top = target.getBoundingClientRect().top + (window.pageYOffset || document.documentElement.scrollTop) - alto - 12;
+      window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+    };
+    if (window.requestAnimationFrame) window.requestAnimationFrame(run);
+    else run();
   }
 
   function toggle(attr, value) {

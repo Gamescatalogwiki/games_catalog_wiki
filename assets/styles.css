@@ -59,6 +59,9 @@ h1 em{font-style:normal;color:var(--acc)}
 .stat span{font-size:12px;color:var(--mut2);text-transform:uppercase;letter-spacing:1.2px;font-weight:700}
 
 /* ---------- secciones ---------- */
+html{scroll-behavior:smooth}
+/* Para que el ancla nativa (#browse, #about) no quede tapada por el header sticky. */
+section,#about{scroll-margin-top:108px}
 section{padding:52px 0}
 section.tight{padding-top:0}
 .shead{display:flex;align-items:baseline;gap:14px;margin-bottom:22px;flex-wrap:wrap}
