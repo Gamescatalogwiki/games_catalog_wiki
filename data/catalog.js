@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-80b092464043",
+  "version": "at-5afd68d7369e",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -320,6 +320,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "rec88WRSGF14UBb6c",
+      "name": "Battle Bits",
+      "genre": "Adventure, Indie",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recJegvbhPPO8D5Mj",
       "name": "Battlefield 4",
       "genre": "FPS, Shooter, Simulator",
@@ -593,6 +600,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recgjgt5ZIs3Scb5G",
+      "name": "Chameleon",
+      "genre": "Puzzle, Card & Board Game",
+      "perspective": "Isometric",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rece7NkfoVlE50fFK",
       "name": "Chivalry 2",
       "genre": "Action, Fighting, Tactical, Hack and slash/Beat 'em up",
@@ -621,6 +635,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "receGwtXqfJ9MSCcd",
+      "name": "Cleaning up the Puzzle Gallery",
+      "genre": "Puzzle, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recB37H5bpvaKvzRb",
       "name": "Climb The Backrooms",
       "genre": "Platform, Puzzle",
@@ -632,6 +653,13 @@ window.CATALOG = {
       "name": "Colony 37",
       "genre": "Adventure",
       "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recnMz2FbHkOxqMel",
+      "name": "Company of Heroes",
+      "genre": "Real Time Strategy (RTS), Strategy",
+      "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
@@ -2168,6 +2196,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recOyJRtNvCFSaH9Z",
+      "name": "Mir 4",
+      "genre": "Role-playing (RPG), Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
       "id": "recejS5lwxErueNkp",
       "name": "MiSide",
       "genre": "Adventure",
@@ -2434,6 +2469,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "recECzs6AwHHOt4o9",
+      "name": "Pacific Drive: Whispers Edition",
+      "genre": "",
+      "perspective": "",
+      "mode": ""
+    },
+    {
       "id": "recJoMTVvB2loKt7b",
       "name": "Pacify",
       "genre": "Horror, Simulator",
@@ -2493,6 +2535,13 @@ window.CATALOG = {
       "id": "recfa5SDYKnzKj90z",
       "name": "Pathologic 3",
       "genre": "Role-playing (RPG), Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recNLepmA62DGGIDD",
+      "name": "Payday 2",
+      "genre": "Shooter, Role-playing (RPG), Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -2675,6 +2724,13 @@ window.CATALOG = {
       "id": "recflqTof2GtQpcuP",
       "name": "Resident Evil 3",
       "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "rec0rBEM6ntmhy8B0",
+      "name": "Resident Evil 4",
+      "genre": "Shooter, Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
@@ -3048,6 +3104,13 @@ window.CATALOG = {
       "genre": "Shooter, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "recfav8RsAPkeMjLy",
+      "name": "SpiritVale",
+      "genre": "Role-playing (RPG), Indie",
+      "perspective": "Isometric",
+      "mode": "Multiplayer"
     },
     {
       "id": "rec3FQVhsiY1ptLER",
