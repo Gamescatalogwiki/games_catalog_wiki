@@ -15,10 +15,6 @@
   var genreQuery = '';
   var genreExpanded = false;
 
-  /* Como se llama la seccion en el sitio. Se usa en el encabezado de una seleccion
-   * y en el aviso puente, para no mostrar nunca el nombre interno del feed. */
-  var SELECTION_LABEL = 'Weekly Selection';
-
   var $ = function (id) { return document.getElementById(id); };
   var $$ = function (sel) { return Array.prototype.slice.call(document.querySelectorAll(sel)); };
 
@@ -80,7 +76,7 @@
     ];
     /* Si todavia no hay selecciones en el archivo, no mostramos un cero. */
     if (catalog.collections.length) {
-      stats.splice(2, 0, [catalog.collections.length, 'Selections']);
+      stats.splice(2, 0, [catalog.collections.length, 'Categories']);
     }
     var box = $('hero-stats');
     box.textContent = '';
@@ -99,7 +95,8 @@
       var titles = col.games.map(function (id) { return catalog.byId[id].name; });
       grid.appendChild(el('a', { class: 'cat', href: '?c=' + encodeURIComponent(col.slug) }, [
         el('div', { class: 'cat-top' }, [
-          el('span', { class: 'cat-name', text: col.games.length + (col.games.length === 1 ? ' title' : ' titles') })
+          el('span', { class: 'cat-name', text: col.title }),
+          el('span', { class: 'cat-n', text: String(col.games.length) })
         ]),
         el('p', { class: 'cat-eg', text: titles.slice(0, 6).join(' · ') })
       ]));
@@ -219,6 +216,16 @@
   function render() {
     var state = currentState();
     view = Core.resolve(catalog, state);
+
+    /* Si el recorte de filtros es exactamente el de una categoria curada, la vista es
+     * la categoria: se muestra su lista y la URL pasa a ser la suya, que es la que
+     * conviene compartir. Se reemplaza la entrada del historial para no dejar dos
+     * pasos que van al mismo lugar. */
+    if (view.curatedMatch) {
+      go(Core.openCollection(view.curatedMatch.slug), true);
+      return;
+    }
+
     shown = PAGE;
 
     var q = state.q;
@@ -251,9 +258,8 @@
     show($('viewhead'), active);
     if (active) {
       if (isCollection) {
-        /* El sitio esta en ingles y el nombre de la seleccion viene del feed en
-         * castellano: no se muestra. El encabezado es siempre el de la seccion. */
-        $('view-title').textContent = SELECTION_LABEL;
+        /* El nombre lo pone el exportador, ya en ingles. */
+        $('view-title').textContent = view.collection.title;
         $('view-blurb').textContent = '';
         show($('view-blurb'), false);
       } else {
@@ -268,7 +274,6 @@
     }
 
     renderCount();
-    renderCuratedHint();
     renderActiveTags();
     renderFilters();
     renderRows();
@@ -283,21 +288,6 @@
       txt = n + ' of ' + view.total + ' titles';
     }
     $('cnt').textContent = txt;
-  }
-
-  /* Puente para quien llego por filtros a un recorte que ademas tiene seleccion curada.
-   * No cambia la grilla: solo ofrece el link a la coleccion. */
-  function renderCuratedHint() {
-    var box = $('curated-hint');
-    var col = view.curatedMatch;
-    box.textContent = '';
-    if (!col) { show(box, false); return; }
-    box.appendChild(document.createTextNode('These filters match a hand-picked selection: '));
-    var a = el('a', { href: '?c=' + encodeURIComponent(col.slug),
-      text: SELECTION_LABEL + ' (' + col.games.length + ')' });
-    box.appendChild(a);
-    box.appendChild(document.createTextNode('. The list below is the full filter result.'));
-    show(box, true);
   }
 
   function renderActiveTags() {

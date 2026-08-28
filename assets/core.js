@@ -91,7 +91,8 @@
       });
       if (ids.length !== uniq(ids).length) warnings.push('la coleccion "' + slug + '" repite ids; se deduplican.');
 
-      var col = { slug: slug, title: str(c.title) || slug, blurb: str(c.blurb), filters: filters, games: kept };
+      var col = { slug: slug, title: str(c.title) || slug, blurb: str(c.blurb), filters: filters,
+        games: kept, curated: c.curated !== false };
       bySlug[slug] = col;
       collections.push(col);
     });
@@ -104,18 +105,61 @@
       bySlug: bySlug,
       warnings: warnings
     };
-    catalog.vocabulary = buildVocabulary(games);
+    catalog.curatedGenres = buildCuratedGenres(collections);
+    catalog.vocabulary = buildVocabulary(games, catalog.curatedGenres);
     return catalog;
+  }
+
+  /* Generos que quedan "reservados" por una categoria curada.
+   *
+   * Si una categoria tiene lista curada, sus generos describen algo que ademas esta
+   * elegido a mano: filtrar por uno de esos generos tiene que devolver los titulos
+   * elegidos, no todos los que llevan la etiqueta. Sin esto, el mismo genero da
+   * resultados distintos segun cuantos otros generos se marquen a la vez.
+   *
+   * Un genero que ademas pertenece a una categoria SIN curaduria no se reserva: esa
+   * categoria acepta cualquier titulo que lo tenga, asi que restringirlo se
+   * contradiria con su propia lista.
+   *
+   * Devuelve { genero: { idPermitido: true } }. Un genero ausente no restringe nada. */
+  function buildCuratedGenres(collections) {
+    var abiertos = Object.create(null);
+    collections.forEach(function (col) {
+      if (col.curated) return;
+      col.filters.genre.forEach(function (g) { abiertos[g] = true; });
+    });
+
+    var reservados = Object.create(null);
+    collections.forEach(function (col) {
+      if (!col.curated) return;
+      col.filters.genre.forEach(function (g) {
+        if (abiertos[g]) return;
+        if (!reservados[g]) reservados[g] = Object.create(null);
+        col.games.forEach(function (id) { reservados[g][id] = true; });
+      });
+    });
+    return reservados;
   }
 
   /* Vocabulario derivado EXCLUSIVAMENTE de los datos. Cada valor de un campo multivaluado
    * cuenta por separado. El vacio no genera opcion. */
-  function buildVocabulary(games) {
+  function buildVocabulary(games, reservados) {
+    reservados = reservados || Object.create(null);
     var vocab = {};
     ATTRS.forEach(function (attr) {
       var counts = Object.create(null);
       games.forEach(function (g) {
-        g[attr].forEach(function (v) { counts[v] = (counts[v] || 0) + 1; });
+        g[attr].forEach(function (v) {
+          /* Un genero reservado cuenta solo los titulos de su curaduria, para que el
+           * numero del panel sea el mismo que el resultado de tildarlo. El valor sigue
+           * en la lista aunque quede en cero: un genero que existe en los datos no
+           * desaparece del vocabulario, se muestra vacio. */
+          if (attr === 'genre' && reservados[v] && reservados[v][g.id] !== true) {
+            if (counts[v] === undefined) counts[v] = 0;
+            return;
+          }
+          counts[v] = (counts[v] || 0) + 1;
+        });
       });
       vocab[attr] = Object.keys(counts)
         .map(function (v) { return { value: v, count: counts[v] }; })
@@ -215,9 +259,11 @@
     if (ATTRS.indexOf(attr) === -1) throw new Error('atributo desconocido: ' + attr);
     var next = cloneState(state);
     if (state.collection) {
-      var col = catalog.bySlug[state.collection];
+      /* Dentro de una categoria no se pinta ningun control, asi que heredar su recorte
+       * al salir seria arrastrar un estado que la persona nunca vio. Se sale limpio y
+       * queda solo el valor que acaba de tocar. */
       next.collection = null;
-      ATTRS.forEach(function (a) { next.filters[a] = col ? col.filters[a].slice() : []; });
+      ATTRS.forEach(function (a) { next.filters[a] = []; });
     }
     var i = next.filters[attr].indexOf(value);
     if (i === -1) next.filters[attr].push(value);
@@ -241,16 +287,25 @@
 
   /* ----------------------------------------------------------------- vista -- */
 
-  function matchesFilters(game, filters) {
+  function matchesFilters(game, filters, reservados) {
     /* OR dentro de un atributo, AND entre atributos. Un juego con varios valores en un
      * atributo entra si CUALQUIERA de ellos esta seleccionado. Un atributo vacio nunca
-     * matchea una seleccion: el titulo queda fuera de ese filtro. */
+     * matchea una seleccion: el titulo queda fuera de ese filtro.
+     *
+     * Los generos reservados por una categoria curada solo dejan pasar a los titulos
+     * de esa curaduria (ver buildCuratedGenres). */
+    reservados = reservados || Object.create(null);
     return ATTRS.every(function (attr) {
       var sel = filters[attr];
       if (!sel.length) return true;
       var mine = game[attr];
       if (!mine.length) return false;
-      return mine.some(function (v) { return sel.indexOf(v) !== -1; });
+      return mine.some(function (v) {
+        if (sel.indexOf(v) === -1) return false;
+        if (attr !== 'genre') return true;
+        var permitidos = reservados[v];
+        return !permitidos || permitidos[game.id] === true;
+      });
     });
   }
 
@@ -309,7 +364,7 @@
   function resolveFree(catalog, state, folded, notices) {
     folded = folded || fold(state.q);
     var games = catalog.games.filter(function (g) {
-      return matchesFilters(g, state.filters) && matchesQuery(g, folded);
+      return matchesFilters(g, state.filters, catalog.curatedGenres) && matchesQuery(g, folded);
     }).sort(byName);
     return {
       mode: 'free',

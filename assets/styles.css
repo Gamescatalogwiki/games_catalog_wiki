@@ -26,6 +26,10 @@ header{position:sticky;top:0;z-index:50;background:rgba(11,11,13,.92);
 .logo img{display:block;height:60px;width:auto;max-width:100%}
 nav{display:flex;gap:22px;font-size:14px;font-weight:600;color:var(--mut)}
 nav a:hover,nav a.on{color:var(--txt)}
+/* El acceso a las categorias es el destacado del menu. */
+nav a[data-nav="collections"]{color:#fff;font-weight:800;display:inline-flex;align-items:center;gap:7px}
+nav a[data-nav="collections"]::before{content:"";width:7px;height:7px;border-radius:50%;
+  background:var(--acc);flex:none;animation:latido 1.8s ease-in-out infinite}
 .hsearch{margin-left:auto;display:flex;align-items:center;gap:10px}
 .hsearch input{background:var(--card);border:1px solid var(--line2);border-radius:8px;
   padding:9px 14px;color:var(--txt);font-size:13px;width:230px;font-family:inherit}
@@ -68,6 +72,22 @@ section.tight{padding-top:0}
 h2{font-size:22px;font-weight:800;letter-spacing:-.5px}
 .shead p{color:var(--mut2);font-size:13px}
 .shead a{margin-left:auto;color:var(--acc);font-size:13px;font-weight:700}
+
+/* Titulo destacado de la seccion de categorias: blanco, mas grande, con un punto
+   que late al lado. Se queda quieto si el sistema pide menos movimiento. */
+#collections .shead h2{color:#fff;font-weight:900;font-size:30px;letter-spacing:-.8px;
+  display:inline-flex;align-items:center;gap:12px;text-shadow:0 0 26px rgba(134,217,39,.35)}
+#collections .shead h2::before{content:"";width:11px;height:11px;border-radius:50%;
+  background:var(--acc);flex:none;box-shadow:0 0 0 0 rgba(134,217,39,.65);
+  animation:latido 1.8s ease-in-out infinite}
+@keyframes latido{
+  0%{box-shadow:0 0 0 0 rgba(134,217,39,.65);opacity:1}
+  70%{box-shadow:0 0 0 12px rgba(134,217,39,0);opacity:.75}
+  100%{box-shadow:0 0 0 0 rgba(134,217,39,0);opacity:1}
+}
+@media(prefers-reduced-motion:reduce){
+  #collections .shead h2::before,nav a[data-nav="collections"]::before{animation:none}
+}
 
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:14px}
 .cat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;
@@ -113,11 +133,6 @@ h2{font-size:22px;font-weight:800;letter-spacing:-.5px}
 .tag:hover{border-color:var(--acc);color:var(--txt)}
 .tag i{font-style:normal;color:var(--mut2);font-size:14px;line-height:1}
 .tag:hover i{color:var(--acc)}
-
-.curatedhint{padding:12px 16px;border-bottom:1px solid var(--line);font-size:13px;
-  color:var(--mut);background:rgba(134,217,39,.06)}
-.curatedhint a{color:var(--acc);font-weight:700}
-.curatedhint a:hover{color:var(--acc-d)}
 
 table{width:100%;border-collapse:collapse;font-size:13.5px;table-layout:fixed}
 thead th{text-align:left;padding:11px 16px;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;

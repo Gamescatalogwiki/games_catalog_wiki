@@ -49,8 +49,27 @@ const CALLS = {
   categorias:   'fldnnL7cILu1U5Uuc',
   perspectivas: 'fldfzrjY5XGgDqu1A',
   modos:        'fldPwnwg6K1TvvbI5',
-  orden:        'fldD3qahwYunTxpyO', // autonumero: la mas nueva primero
+  orden:        'fldD3qahwYunTxpyO', // autonumero
 };
+
+/* El sitio esta en ingles y las ordenes se llaman en castellano. Esta tabla es la
+ * unica fuente del nombre que se publica, y ademas decide QUE ordenes salen: una
+ * orden que no figure aca no se publica (se avisa en el log).
+ *
+ * El orden de las lineas es el orden en que aparecen las tarjetas en el home.
+ *
+ * Para agregar una categoria: sumar el codigo GA-XXXX con su nombre en ingles.
+ * Para sacarla: borrar la linea (o cerrar la orden en Airtable). */
+const NOMBRES = [
+  ['GA-2026-018', 'Driving & Vehicles'],
+  ['GA-2026-013', 'Jobs & Task Simulation'],
+  ['GA-2026-010', 'Action & Shooters'],
+  ['GA-2026-012', 'RPG & Roguelike'],
+  ['GA-2026-017', 'Open World & RPG'],
+  ['GA-2026-015', 'Shooters & Combat'],
+  ['GA-2026-016', 'Survival, Horror & Co-op'],
+  ['GA-2026-011', 'Adventure, Survival & Sandbox'],
+];
 
 // Guarda de seguridad: si el catalogo se achica mas que esto de golpe, el
 // script aborta en vez de publicar. Un error de permisos o un filtro mal
@@ -143,15 +162,37 @@ try {
   const rawCalls = await fetchAll(CALLS.tableId, CALLS.baseId);
   const usados = new Set();
 
+  const ingles = new Map(NOMBRES);
+  const posicion = new Map(NOMBRES.map(([c], i) => [c, i]));
+
+  /* Los valores multivaluados llegan como texto separado por coma. */
+  const valores = (v) => txt(v).split(',').map((x) => x.trim()).filter(Boolean);
+
+  /* Una orden sin lista curada acepta cualquier titulo que cumpla sus categorias:
+   * OR dentro de cada atributo, AND entre atributos, igual que el filtro del sitio.
+   * Un atributo vacio en el juego nunca entra si la orden pide ese atributo. */
+  function porCategorias(filtros) {
+    return games
+      .filter((g) =>
+        [['genre', 'genre'], ['perspective', 'perspective'], ['mode', 'mode']].every(([k]) => {
+          const pedidos = filtros[k];
+          if (!pedidos.length) return true;
+          const propios = valores(g[k]);
+          return propios.some((v) => pedidos.includes(v));
+        }))
+      .map((g) => g.id);
+  }
+
   collections = rawCalls
     .filter((r) => {
-      const f = r.fields;
-      return txt(f[CALLS.estado]) === 'activo' && f[CALLS.staging] !== true;
+      /* La lista NOMBRES es la que manda: si una orden figura ahi se publica, salvo
+       * que sea una orden de prueba. El estado en Airtable no la filtra. */
+      return ingles.has(txt(r.fields[CALLS.codigo])) && r.fields[CALLS.staging] !== true;
     })
     .map((r) => {
       const f = r.fields;
-      const nombre = txt(f[CALLS.nombre]);
       const codigo = txt(f[CALLS.codigo]);
+      const nombre = ingles.get(codigo);
       const donde = codigo || r.id;
 
       const nombres = nombresDe(f[CALLS.juegos], donde);
@@ -169,26 +210,39 @@ try {
       if (usados.has(slug)) slug = slug + '-' + slugify(codigo);
       usados.add(slug);
 
+      const filtros = {
+        perspective: (f[CALLS.perspectivas] || []).map(txt).filter(Boolean),
+        genre:       (f[CALLS.categorias]   || []).map(txt).filter(Boolean),
+        mode:        (f[CALLS.modos]        || []).map(txt).filter(Boolean),
+      };
+
+      /* Sin lista curada, la categoria se arma con los propios filtros de la orden. */
+      let miembros = ids;
+      let origen = 'curada';
+      if (!nombres.length) {
+        miembros = porCategorias(filtros);
+        origen = 'por categorias';
+      }
+      console.log(`   ${codigo} "${nombre}": ${miembros.length} titulos (${origen})`);
+
       return {
         slug,
         title: nombre,
         /* Sin blurb a proposito: el sitio no repite el texto con el que se comunica
          * la orden. En la tarjeta va el titulo, la cantidad y los juegos. */
         blurb: '',
-        /* Estos valores NO se muestran en ningun lado. Quedan en el archivo solo para
-         * poder detectar cuando alguien llega por filtros al mismo recorte y ofrecerle
-         * el link a la seleccion. */
-        filters: {
-          perspective: (f[CALLS.perspectivas] || []).map(txt).filter(Boolean),
-          genre:       (f[CALLS.categorias]   || []).map(txt).filter(Boolean),
-          mode:        (f[CALLS.modos]        || []).map(txt).filter(Boolean),
-        },
-        games: ids,
-        _orden: Number(f[CALLS.orden] ?? 0),
+        /* No se muestran en ningun lado. Sirven para que una URL de filtros que
+         * reproduce exactamente este recorte abra directamente la categoria. */
+        filters: filtros,
+        /* true = la lista viene elegida a mano en Airtable. false = se derivo de las
+         * categorias de la orden. El sitio usa esto para saber que generos reservar. */
+        curated: origen === 'curada',
+        games: miembros,
+        _orden: posicion.get(codigo) ?? 999,
       };
     })
     .filter((c) => c.slug !== '' && c.games.length > 0)
-    .sort((a, b) => b._orden - a._orden || a.slug.localeCompare(b.slug))
+    .sort((a, b) => a._orden - b._orden)
     .map(({ _orden, ...c }) => c);
 } catch (err) {
   /* Si el token no llega a la base de las ordenes, el catalogo se publica igual
