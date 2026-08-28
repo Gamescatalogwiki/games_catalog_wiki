@@ -76,7 +76,7 @@
     ];
     /* Si todavia no hay selecciones en el archivo, no mostramos un cero. */
     if (catalog.collections.length) {
-      stats.splice(2, 0, [catalog.collections.length, 'Categories']);
+      stats.splice(2, 0, [catalog.collections.length, 'Selections']);
     }
     var box = $('hero-stats');
     box.textContent = '';
