@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-08ccf5a8c74f",
+  "version": "at-f3b7fd06e8cd",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -2766,6 +2766,13 @@ window.CATALOG = {
       "id": "rec0rBEM6ntmhy8B0",
       "name": "Resident Evil 4",
       "genre": "Shooter, Adventure",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "rec5PBfSsdbqbmCGi",
+      "name": "Resonance: A Plague Tale Legacy",
+      "genre": "Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
