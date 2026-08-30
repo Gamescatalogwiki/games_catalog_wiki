@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-f3b7fd06e8cd",
+  "version": "at-2333b79e359a",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -2243,6 +2243,13 @@ window.CATALOG = {
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "receIh11i4w9dICLq",
+      "name": "Mistfall Hunter",
+      "genre": "Role-playing (RPG), Adventure",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
     },
     {
       "id": "rechwZkBWUlEJahjp",
