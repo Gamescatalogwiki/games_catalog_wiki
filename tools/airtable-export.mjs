@@ -79,6 +79,17 @@ const MAX_SHRINK = 0.5;
 const here = dirname(fileURLToPath(import.meta.url));
 const OUT = resolve(here, '..', 'data', 'catalog.js');
 
+/* Override manual de las selecciones.
+ *
+ * Mientras las ordenes definitivas no existan en Airtable, las categorias del sitio
+ * se definen en data/selections.json: es la fuente de verdad y Airtable ni se lee
+ * para esto. El formato es una lista de
+ *   { codigo, title, slug, filters: {genre,perspective,mode}, games: ["Nombre", ...] }
+ * con los juegos por NOMBRE, tal como se escriben en el catalogo.
+ *
+ * Para volver a que las categorias salgan de las Open Calls: borrar este archivo. */
+const OVERRIDE = resolve(here, '..', 'data', 'selections.json');
+
 // ------------------------------------------------------------------ util ---
 const token = process.env.AIRTABLE_TOKEN;
 if (!token) {
@@ -158,7 +169,40 @@ function nombresDe(raw, donde) {
 }
 
 let collections = [];
-try {
+
+if (existsSync(OVERRIDE)) {
+  const manual = JSON.parse(readFileSync(OVERRIDE, 'utf8'));
+  const porNombre = new Map(games.map((g) => [fold(g.name), g.id]));
+
+  collections = manual.map((c) => {
+    const ids = [];
+    const faltan = [];
+    for (const n of (c.games || [])) {
+      const id = porNombre.get(fold(n));
+      if (id) { if (!ids.includes(id)) ids.push(id); } else faltan.push(n);
+    }
+    if (faltan.length) {
+      console.warn(`aviso: ${c.slug} lista ${faltan.length} titulo(s) que no estan publicados en el catalogo: ${faltan.join(', ')}`);
+    }
+    console.log(`   ${c.codigo || c.slug} "${c.title}": ${ids.length} titulos (selections.json)`);
+    return {
+      slug: c.slug,
+      title: c.title,
+      blurb: '',
+      filters: {
+        perspective: (c.filters && c.filters.perspective) || [],
+        genre:       (c.filters && c.filters.genre) || [],
+        mode:        (c.filters && c.filters.mode) || [],
+      },
+      curated: c.curated !== false,
+      games: ids,
+    };
+  }).filter((c) => c.slug && c.games.length > 0);
+
+  console.log(`   (categorias tomadas de data/selections.json; no se leen las Open Calls)`);
+}
+
+if (!collections.length) try {
   const rawCalls = await fetchAll(CALLS.tableId, CALLS.baseId);
   const usados = new Set();
 

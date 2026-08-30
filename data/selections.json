@@ -1,0 +1,243 @@
+[
+  {
+    "codigo": "GA-2026-018",
+    "title": "Driving & Vehicles",
+    "slug": "driving-vehicles",
+    "filters": {
+      "genre": [
+        "Driving Sim",
+        "Driving Survival",
+        "Racing",
+        "Racing Sim",
+        "Vehicle Combat"
+      ],
+      "perspective": [
+        "First Person",
+        "Third Person"
+      ],
+      "mode": [
+        "Singleplayer",
+        "Multiplayer",
+        "Co-op"
+      ]
+    },
+    "curated": false,
+    "games": [
+      "Euro Truck Simulator 2",
+      "Pacific Drive"
+    ]
+  },
+  {
+    "codigo": "GA-2026-010",
+    "title": "Action & Shooters",
+    "slug": "action-shooters",
+    "filters": {
+      "genre": [
+        "FPS",
+        "Shooter",
+        "Tactical Shooter",
+        "Hero Shooter",
+        "Extraction Shooter",
+        "Roguelike Shooter",
+        "Battle Royale",
+        "Action",
+        "Action Adventure",
+        "Action RPG",
+        "Survival Action",
+        "Fighting",
+        "Stealth",
+        "Souls-like",
+        "Platformer",
+        "Platform"
+      ],
+      "perspective": [],
+      "mode": []
+    },
+    "curated": false,
+    "games": [
+      "Delta Force",
+      "Cyberpunk 2077",
+      "Rust",
+      "Battlefield 4",
+      "ARK: Survival Ascended",
+      "ARK: Survival Evolved",
+      "Arena Breakout: Infinite",
+      "Battlefield 6",
+      "Dying Light",
+      "Fallout: New Vegas",
+      "Fallout 76",
+      "Call of Duty: Modern Warfare",
+      "Call of Duty: Black Ops 7",
+      "Fallout 4",
+      "Chivalry 2",
+      "Squad",
+      "Arma 3",
+      "Black Ops III",
+      "Peak",
+      "Arma: Reforger",
+      "Borderlands 3",
+      "Borderlands 2",
+      "Borderlands 4",
+      "Back 4 Blood",
+      "Portal 2"
+    ]
+  },
+  {
+    "codigo": "GA-2026-012 + 017",
+    "title": "RPG, Roguelike & Open World",
+    "slug": "rpg-roguelike-open-world",
+    "filters": {
+      "genre": [
+        "RPG",
+        "Role-playing (RPG)",
+        "Action RPG",
+        "JRPG",
+        "MMORPG",
+        "Souls-like",
+        "Roguelike",
+        "Action Adventure",
+        "Adventure",
+        "Exploration"
+      ],
+      "perspective": [],
+      "mode": []
+    },
+    "curated": false,
+    "games": [
+      "Cyberpunk 2077",
+      "Rust",
+      "Dying Light 2: Stay Human",
+      "ARK: Survival Ascended",
+      "ARK: Survival Evolved",
+      "Dying Light",
+      "Fallout: New Vegas",
+      "Fallout 76",
+      "Fallout 4",
+      "Borderlands 3",
+      "Borderlands 2",
+      "Borderlands 4"
+    ]
+  },
+  {
+    "codigo": "GA-2026-015",
+    "title": "Shooters & Combat",
+    "slug": "shooters-combat",
+    "filters": {
+      "genre": [
+        "Action",
+        "Battle Royale",
+        "Extraction Shooter",
+        "FPS",
+        "Hero Shooter",
+        "Roguelike Shooter",
+        "Shooter",
+        "Tactical Shooter"
+      ],
+      "perspective": [
+        "First Person",
+        "Third Person"
+      ],
+      "mode": [
+        "Singleplayer",
+        "Multiplayer",
+        "Co-op"
+      ]
+    },
+    "curated": false,
+    "games": [
+      "Delta Force",
+      "Cyberpunk 2077",
+      "Rust",
+      "Battlefield 4",
+      "ARK: Survival Ascended",
+      "ARK: Survival Evolved",
+      "Arena Breakout: Infinite",
+      "Battlefield 6",
+      "Dying Light",
+      "Fallout: New Vegas",
+      "Fallout 76",
+      "Call of Duty: Modern Warfare",
+      "Call of Duty: Black Ops 7",
+      "Fallout 4",
+      "Chivalry 2",
+      "Squad",
+      "Arma 3",
+      "Black Ops III",
+      "Arma: Reforger",
+      "Borderlands 3",
+      "Borderlands 2",
+      "Borderlands 4",
+      "Back 4 Blood"
+    ]
+  },
+  {
+    "codigo": "GA-2026-016",
+    "title": "Survival, Horror & Co-op",
+    "slug": "survival-horror-co-op",
+    "filters": {
+      "genre": [
+        "Horror",
+        "Platform",
+        "Platformer",
+        "Puzzle",
+        "Survival",
+        "Survival Action",
+        "Survival Horror"
+      ],
+      "perspective": [
+        "First Person",
+        "Third Person"
+      ],
+      "mode": [
+        "Singleplayer",
+        "Multiplayer",
+        "Co-op"
+      ]
+    },
+    "curated": false,
+    "games": [
+      "Rust",
+      "Dying Light 2: Stay Human",
+      "ARK: Survival Ascended",
+      "ARK: Survival Evolved",
+      "Dying Light",
+      "The Outlast Trials",
+      "Sons of the Forest",
+      "The Forest",
+      "Peak",
+      "Portal 2"
+    ]
+  },
+  {
+    "codigo": "GA-2026-011",
+    "title": "Adventure, Survival & Sandbox",
+    "slug": "adventure-survival-sandbox",
+    "filters": {
+      "genre": [
+        "Adventure",
+        "Action Adventure",
+        "Narrative Adventure",
+        "Exploration",
+        "Metroidvania",
+        "Horror",
+        "Survival Horror",
+        "Survival",
+        "Sandbox",
+        "Immersive Sim"
+      ],
+      "perspective": [],
+      "mode": []
+    },
+    "curated": false,
+    "games": [
+      "Rust",
+      "Dying Light 2: Stay Human",
+      "ARK: Survival Ascended",
+      "ARK: Survival Evolved",
+      "Dying Light",
+      "The Outlast Trials",
+      "Sons of the Forest",
+      "The Forest"
+    ]
+  }
+]
