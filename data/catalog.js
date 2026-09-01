@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-5a092970521c",
+  "version": "at-164e6c7f8bff",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -535,6 +535,13 @@ window.CATALOG = {
       "genre": "FPS, Shooter",
       "perspective": "First Person",
       "mode": "Multiplayer"
+    },
+    {
+      "id": "recl5Az6NbH6fFiQ2",
+      "name": "Call of Duty: Black Ops Cold War",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
     },
     {
       "id": "recgP3HkrNlFj9ZE0",
@@ -2192,6 +2199,13 @@ window.CATALOG = {
       "id": "recbBqupdBHkhR27W",
       "name": "Metro Exodus",
       "genre": "FPS, Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "recCKKpDVjQBOpztn",
+      "name": "Metro Exodus: Enhanced Edition",
+      "genre": "Shooter, Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
