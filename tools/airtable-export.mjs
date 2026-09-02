@@ -61,15 +61,18 @@ const CALLS = {
  * Para agregar una categoria: sumar el codigo GA-XXXX con su nombre en ingles.
  * Para sacarla: borrar la linea (o cerrar la orden en Airtable). */
 const NOMBRES = [
-  ['GA-2026-018', 'Driving & Vehicles'],
-  ['GA-2026-013', 'Jobs & Task Simulation'],
-  ['GA-2026-010', 'Action & Shooters'],
-  ['GA-2026-012', 'RPG & Roguelike'],
-  ['GA-2026-017', 'Open World & RPG'],
   ['GA-2026-015', 'Shooters & Combat'],
-  ['GA-2026-016', 'Survival, Horror & Co-op'],
-  ['GA-2026-011', 'Adventure, Survival & Sandbox'],
+  ['GA-2026-016', 'Survival, Terror & Co-op'],
+  ['GA-2026-017', 'Open World & RPG'],
+  ['GA-2026-018', 'Driving & Vehicles'],
 ];
+
+/* Los generos de una categoria curada pueden "reservarse", de modo que filtrar por
+ * uno de ellos devuelva solo los titulos elegidos. Con cuatro ordenes que entre
+ * todas cubren casi todos los generos, eso vaciaria los filtros del catalogo, asi
+ * que queda apagado: las categorias muestran su lista y los filtros siguen
+ * recorriendo los 533 titulos. Poner en true para volver a reservarlos. */
+const RESERVAR_GENEROS = false;
 
 // Guarda de seguridad: si el catalogo se achica mas que esto de golpe, el
 // script aborta en vez de publicar. Un error de permisos o un filtro mal
@@ -194,7 +197,7 @@ if (existsSync(OVERRIDE)) {
         genre:       (c.filters && c.filters.genre) || [],
         mode:        (c.filters && c.filters.mode) || [],
       },
-      curated: c.curated !== false,
+      curated: RESERVAR_GENEROS && c.curated !== false,
       games: ids,
     };
   }).filter((c) => c.slug && c.games.length > 0);
@@ -280,7 +283,7 @@ if (!collections.length) try {
         filters: filtros,
         /* true = la lista viene elegida a mano en Airtable. false = se derivo de las
          * categorias de la orden. El sitio usa esto para saber que generos reservar. */
-        curated: origen === 'curada',
+        curated: RESERVAR_GENEROS && origen === 'curada',
         games: miembros,
         _orden: posicion.get(codigo) ?? 999,
       };
