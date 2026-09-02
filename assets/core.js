@@ -209,13 +209,10 @@
       state.filters[attr] = uniq(vals);
     });
 
+    /* La coleccion y los filtros conviven: los filtros acotan la lista de la categoria,
+     * nunca la amplian. */
     var c = str(params.get('c'));
-    if (c) {
-      /* Una coleccion y un filtrado libre son estados excluyentes: si conviven en la URL,
-       * gana la coleccion y los filtros de la query se descartan. */
-      state.collection = c;
-      ATTRS.forEach(function (attr) { state.filters[attr] = []; });
-    }
+    if (c) state.collection = c;
     return state;
   }
 
@@ -226,16 +223,15 @@
   /* Serializacion canonica: mismo estado -> misma URL, siempre. */
   function serializeState(state) {
     var params = new URLSearchParams();
-    if (state.collection) {
-      params.set('c', state.collection);
-    } else {
-      ATTRS.forEach(function (attr) {
-        var vals = state.filters[attr].slice().sort(function (a, b) {
-          return a.localeCompare(b, 'en', { sensitivity: 'base' });
-        });
-        if (vals.length) params.set(attr, vals.join(','));
+    /* La coleccion y los filtros conviven: dentro de una categoria se puede acotar
+     * por perspectiva, modo o genero sin salir de ella, y la URL lo refleja. */
+    if (state.collection) params.set('c', state.collection);
+    ATTRS.forEach(function (attr) {
+      var vals = state.filters[attr].slice().sort(function (a, b) {
+        return a.localeCompare(b, 'en', { sensitivity: 'base' });
       });
-    }
+      if (vals.length) params.set(attr, vals.join(','));
+    });
     if (state.q) params.set('q', state.q);
     var qs = params.toString();
     return qs ? '?' + qs : '';
@@ -258,13 +254,8 @@
   function toggleFilter(catalog, state, attr, value) {
     if (ATTRS.indexOf(attr) === -1) throw new Error('atributo desconocido: ' + attr);
     var next = cloneState(state);
-    if (state.collection) {
-      /* Dentro de una categoria no se pinta ningun control, asi que heredar su recorte
-       * al salir seria arrastrar un estado que la persona nunca vio. Se sale limpio y
-       * queda solo el valor que acaba de tocar. */
-      next.collection = null;
-      ATTRS.forEach(function (a) { next.filters[a] = []; });
-    }
+    /* Estando dentro de una categoria, tocar un filtro NO sale de ella: acota su lista.
+     * Para salir estan el link "All titles" y el boton de la cabecera. */
     var i = next.filters[attr].indexOf(value);
     if (i === -1) next.filters[attr].push(value);
     else next.filters[attr].splice(i, 1);
@@ -346,7 +337,12 @@
       }
       /* Membresia literal: exactamente los ids de `games`, en el orden declarado. */
       var list = col.games.map(function (id) { return catalog.byId[id]; });
-      var shown = folded ? list.filter(function (g) { return matchesQuery(g, folded); }) : list;
+      /* Los filtros acotan DENTRO de la categoria. Nunca agregan titulos: la lista
+       * curada sigue siendo el techo. Los generos reservados no se aplican aca —
+       * adentro de la curaduria no hay nada que reservar. */
+      var shown = list.filter(function (g) {
+        return matchesFilters(g, state.filters, null) && matchesQuery(g, folded);
+      });
       return {
         mode: 'collection',
         collection: col,
@@ -354,6 +350,7 @@
         games: shown,
         count: shown.length,
         collectionSize: list.length,
+        filtersApplied: hasFilters(state),
         searchApplied: !!folded,
         notices: notices
       };

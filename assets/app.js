@@ -156,7 +156,16 @@
       renderFilters();
     });
 
-    $('clear').addEventListener('click', function () { go(Core.clearAll()); });
+    $('clear').addEventListener('click', function () {
+      var st = currentState();
+      /* Dentro de una categoria con filtros, el boton los limpia y deja la categoria.
+       * Sin filtros, sale de la categoria. */
+      if (st.collection && Core.hasFilters(st)) {
+        go(Core.openCollection(st.collection));
+      } else {
+        go(Core.clearAll());
+      }
+    });
 
     $('more').addEventListener('click', function () {
       shown += PAGE;
@@ -252,7 +261,7 @@
     show($('collections'), !active && catalog.collections.length > 0);
     show($('top-genres'), !active && catalog.vocabulary.genre.length > 0);
     show($('clear'), active);
-    $('clear').textContent = isCollection ? 'Leave selection' : 'Clear filters';
+    $('clear').textContent = (isCollection && !Core.hasFilters(state)) ? 'Leave selection' : 'Clear filters';
 
     /* Encabezado de la vista */
     show($('viewhead'), active);
@@ -282,7 +291,7 @@
   function renderCount() {
     var n = view.count;
     var txt = n + (n === 1 ? ' title' : ' titles');
-    if (view.mode === 'collection' && view.searchApplied && view.count !== view.collectionSize) {
+    if (view.mode === 'collection' && view.count !== view.collectionSize) {
       txt = n + ' of ' + view.collectionSize + ' in this selection';
     } else if (view.mode === 'free' && (Core.hasFilters(view.state) || view.searchApplied)) {
       txt = n + ' of ' + view.total + ' titles';
@@ -312,11 +321,31 @@
     return state;
   }
 
-  /* Dentro de una seleccion no se pinta ningun filtro: la lista es la lista, y los
-   * valores que la originaron no se muestran. Fuera de ella, los del filtrado libre. */
+  /* Los controles reflejan lo que eligio la persona, este dentro de una categoria o
+   * no. Los valores descriptivos de la orden nunca se pintan. */
   function paintedFilters() {
-    if (view.mode === 'collection') return { genre: [], perspective: [], mode: [] };
     return view.state.filters;
+  }
+
+  /* Dentro de una categoria, los contadores del panel cuentan sobre SU lista, no sobre
+   * los 533: si dice "Co-op 6", tildarlo tiene que dar 6. */
+  function opciones(attr, selected) {
+    if (view.mode !== 'collection') return Core.optionsFor(catalog, attr, selected);
+
+    var base = view.collection.games.map(function (id) { return catalog.byId[id]; });
+    var counts = Object.create(null);
+    base.forEach(function (g) {
+      g[attr].forEach(function (v) { counts[v] = (counts[v] || 0) + 1; });
+    });
+    var out = Object.keys(counts).map(function (v) { return { value: v, count: counts[v] }; })
+      .sort(function (a, b) {
+        return b.count - a.count || a.value.localeCompare(b.value, 'en', { sensitivity: 'base' });
+      });
+    /* Un valor tildado que la categoria no tiene se muestra igual, en cero. */
+    (selected || []).forEach(function (v) {
+      if (counts[v] === undefined) out.push({ value: v, count: 0 });
+    });
+    return out;
   }
 
   function renderFilters() {
@@ -325,7 +354,7 @@
     ATTRS.forEach(function (attr) {
       var ul = document.querySelector('[data-filter-list="' + attr + '"]');
       var selected = painted[attr];
-      var options = Core.optionsFor(catalog, attr, selected);
+      var options = opciones(attr, selected);
 
       if (attr === 'genre') {
         if (genreQuery) {
