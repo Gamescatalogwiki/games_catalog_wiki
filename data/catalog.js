@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-164e6c7f8bff",
+  "version": "at-3159cfa0ad8c",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -989,6 +989,13 @@ window.CATALOG = {
       "name": "Don't Scream",
       "genre": "Horror, Simulator",
       "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "rec1ulGKbgKQ8bZzf",
+      "name": "Don't Starve",
+      "genre": "Simulator, Adventure, Indie",
+      "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
