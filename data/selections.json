@@ -1,0 +1,46 @@
+[
+  {
+    "codigo": "GA-2026-015",
+    "title": "Shooters & Combat",
+    "slug": "shooters-combat",
+    "filters": {
+      "genre": ["Action", "Battle Royale", "Extraction Shooter", "FPS", "Hero Shooter", "Roguelike Shooter", "Shooter", "Tactical Shooter"],
+      "perspective": ["First Person", "Third Person"],
+      "mode": ["Singleplayer", "Multiplayer", "Co-op"]
+    },
+    "games": ["Arena Breakout: Infinite", "Arma 3", "Arma: Reforger", "Back 4 Blood", "Battlefield 4", "Battlefield 6", "Black Ops III", "Borderlands 2", "Borderlands 3", "Borderlands 4", "Call of Duty", "Call of Duty: Black Ops 7", "Call of Duty: Modern Warfare", "Chivalry 2", "Counter-Strike 2", "Deadlock", "Delta Force", "Escape from Tarkov", "Helldivers II", "Left 4 Dead 2", "Ready or Not", "Squad", "The Finals", "Warframe"]
+  },
+  {
+    "codigo": "GA-2026-016",
+    "title": "Survival, Terror & Co-op",
+    "slug": "survival-terror-co-op",
+    "filters": {
+      "genre": ["Horror", "Platform", "Platformer", "Puzzle", "Survival", "Survival Action", "Survival Horror"],
+      "perspective": ["First Person", "Third Person"],
+      "mode": ["Singleplayer", "Multiplayer", "Co-op"]
+    },
+    "games": ["7 Days to Die", "ARK: Survival Ascended", "ARK: Survival Evolved", "DayZ", "Dying Light", "Dying Light 2: Stay Human", "Palworld", "Peak", "Phasmophobia", "Portal 2", "Rust", "Sons of the Forest", "The Forest", "The Outlast Trials", "Valheim"]
+  },
+  {
+    "codigo": "GA-2026-017",
+    "title": "Open World & RPG",
+    "slug": "open-world-rpg",
+    "filters": {
+      "genre": ["Action Adventure", "Action RPG", "Adventure", "Exploration", "JRPG", "MMORPG", "Role-playing (RPG)", "Souls-like"],
+      "perspective": ["First Person", "Third Person"],
+      "mode": ["Singleplayer", "Multiplayer", "Co-op"]
+    },
+    "games": ["Black Myth: Wukong", "Cyberpunk 2077", "Elden Ring", "Elden Ring Nightreign", "Fallout 4", "Fallout 76", "Fallout: New Vegas", "The Witcher 3: Wild Hunt"]
+  },
+  {
+    "codigo": "GA-2026-018",
+    "title": "Driving & Vehicles",
+    "slug": "driving-vehicles",
+    "filters": {
+      "genre": ["Driving Sim", "Driving Survival", "Racing", "Racing Sim", "Vehicle Combat"],
+      "perspective": ["First Person", "Third Person"],
+      "mode": ["Singleplayer", "Multiplayer", "Co-op"]
+    },
+    "games": ["Euro Truck Simulator 2", "Pacific Drive", "War Thunder"]
+  }
+]
