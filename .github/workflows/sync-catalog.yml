@@ -8,9 +8,7 @@ on:
         description: 'Publicar aunque el catalogo se achique a la mitad o menos'
         type: boolean
         default: false
-  # Todos los dias a las 09:00 UTC (06:00 en Buenos Aires)
-  schedule:
-    - cron: '0 9 * * *'
+
 
 # Sin esto la Action puede leer el repo pero no commitear.
 permissions:
