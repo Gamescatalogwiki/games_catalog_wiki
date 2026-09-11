@@ -114,4 +114,20 @@ const header =
   ' */\n';
 
 writeFileSync(OUT, header + 'window.CATALOG = ' + JSON.stringify({ version, ...payload }, null, 2) + ';\n', 'utf8');
+
+/* index.html pide data/catalog.js sin version, y GitHub Pages lo sirve con
+ * Cache-Control: max-age=600. Resultado: despues de publicar, durante hasta diez
+ * minutos los navegadores siguen mostrando el catalogo viejo (las tarjetas del
+ * home con la cantidad de antes). Pegarle la version al src rompe ese cache:
+ * cambia la URL, el navegador baja el archivo nuevo al instante. */
+const INDEX = resolve(root, 'index.html');
+if (existsSync(INDEX)) {
+  const antes = readFileSync(INDEX, 'utf8');
+  const despues = antes.replace(/src="data\/catalog\.js(?:\?[^"]*)?"/g, `src="data/catalog.js?v=${version}"`);
+  if (despues !== antes) {
+    writeFileSync(INDEX, despues, 'utf8');
+    console.log(`   index.html -> data/catalog.js?v=${version}`);
+  }
+}
+
 console.log(`ok: ${games.length} titulos, ${collections.length} colecciones (${version})`);
