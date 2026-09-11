@@ -3,7 +3,7 @@
  * tools/apply-extras.mjs sumo ademas los titulos de data/games-extra.json.
  */
 window.CATALOG = {
-  "version": "at-93e855e70896",
+  "version": "at-dfbf59324418",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -4885,6 +4885,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "xf864c8abf5b9ff7e",
+      "name": "War Thunder",
+      "genre": "Vehicle Combat",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
       "id": "recdmh5AaqM7y60JY",
       "name": "Warframe",
       "genre": "Shooter, Role-playing (RPG)",
@@ -5354,6 +5361,7 @@ window.CATALOG = {
       "games": [
         "recTiO2qAGeAIkF9i",
         "recRBS21aEJrR2Etu",
+        "rec0rLASkfdetDDkF",
         "recNPAn8WYQD7Sr9u",
         "reckSM9PGS8xLVEbl",
         "recD81mUBLrJHXzhR",
@@ -5386,7 +5394,8 @@ window.CATALOG = {
       "curated": false,
       "games": [
         "recpPNYTN2LdrNprK",
-        "rechdibY9oWStIzDo"
+        "rechdibY9oWStIzDo",
+        "xf864c8abf5b9ff7e"
       ]
     }
   ]
