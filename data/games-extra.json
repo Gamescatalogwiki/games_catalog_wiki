@@ -376,5 +376,11 @@
     "genre": "Horror",
     "perspective": "First Person",
     "mode": "Singleplayer"
+  },
+  {
+    "name": "War Thunder",
+    "genre": "Vehicle Combat",
+    "perspective": "Third Person",
+    "mode": "Multiplayer"
   }
 ]
