@@ -43,14 +43,16 @@ jobs:
       - name: Validar el catalogo generado
         run: node tools/validate-catalog.mjs
 
+      # index.html tambien cambia: apply-extras.mjs le pega la version al src de
+      # data/catalog.js para que el navegador no sirva el catalogo viejo cacheado.
       - name: Commitear si cambio algo
         run: |
-          if git diff --quiet -- data/catalog.js; then
+          if git diff --quiet -- data/catalog.js index.html; then
             echo "Sin cambios en el catalogo. No se commitea nada."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/catalog.js
+          git add data/catalog.js index.html
           git commit -m "catalogo: sync desde Airtable"
           git push
