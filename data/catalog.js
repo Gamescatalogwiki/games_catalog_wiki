@@ -2,7 +2,7 @@
  * Para actualizar el catalogo se edita Airtable, no este archivo.
  */
 window.CATALOG = {
-  "version": "at-1f3700b0efed",
+  "version": "at-1f0d9ce781ff",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -4686,6 +4686,206 @@ window.CATALOG = {
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
+    }
+  ],
+  "collections": [
+    {
+      "slug": "shooters-combat",
+      "title": "Shooters & Combat",
+      "blurb": "",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "genre": [
+          "Action",
+          "Battle Royale",
+          "Extraction Shooter",
+          "FPS",
+          "Hero Shooter",
+          "Roguelike Shooter",
+          "Shooter",
+          "Tactical Shooter"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ]
+      },
+      "curated": false,
+      "games": [
+        "reclHs5YrtBTRcgLS",
+        "recwyIg6ph8rc2bH3",
+        "recsgTiLGdB7KCvmn",
+        "recLTvwsHDbbeq767",
+        "recJegvbhPPO8D5Mj",
+        "recFi8V1ihxXZULZh",
+        "recG0Q80BUCjSTHwX",
+        "recS7OGiycS7ER0nw",
+        "recAa4qhLBhwBCtiS",
+        "reckRpwtBtjBlhulq",
+        "recBrCXbAtgyDKpKM",
+        "reclknZN0u0QlvgK5",
+        "recgP3HkrNlFj9ZE0",
+        "recEx6a7l3xGN5Faj",
+        "rece7NkfoVlE50fFK",
+        "rec5O10KzOsPFDNzk",
+        "recpO4XINK1sDefLE",
+        "recGrLah4JHwLe3k6",
+        "rec09l4c6qbkcX8sq",
+        "recN1OBuWsTwtSSbI",
+        "receYXC7J01uROOAh",
+        "recSu9kT5bu1qC9fM",
+        "recqMi1jdSjs28uBl",
+        "rec0rBEM6ntmhy8B0",
+        "reccX14NfbJSopd6T",
+        "recvvGdCK6lbr8Q78",
+        "recaVT2j2IRzSrJJR",
+        "recILmji0moErapZn",
+        "recbBqupdBHkhR27W",
+        "recpPRzDEkURdOj0d",
+        "reck0JuWWc3ETAMxY",
+        "recTHFMDbe2nuS7fU",
+        "recVtcm3ZwcdyBsjm",
+        "recSDc6H3QXRszpA7",
+        "recSwmfOI8BPz8ZZF",
+        "rec3J31p4bYyZUsqz",
+        "rec7EwkouOSgT7JMK",
+        "recoDnpgbbLawEHuR",
+        "recHLrrNoc3IaAYCl",
+        "recnKSQQBvfUtNZPz",
+        "recIFvdFnMMMBf8bb",
+        "reczDJWqy5w5EOIij",
+        "recxWBka2q0gYBOSb",
+        "recqN8TvMpJFM8xvH",
+        "recZoLgB5maGwqDRD",
+        "recM9s8bxYOWOFXq9",
+        "recuCb4ukyE6iTCbg",
+        "recK2qgFpMsADiQWB",
+        "recGCXv2sMKyrXwjr",
+        "rec18LiEGfGmPDjQB",
+        "recpGnQ8s5Ba4OWbU",
+        "recKGRz5dFkgXP6au",
+        "rec8CdiIljDXDFEj4",
+        "reciUavBVeGv5wx8J",
+        "rectkZuNEtHlbA7bp",
+        "recY6QBGkyz6W1II1",
+        "recz2v8UA0J5md2md",
+        "rec46iJjTapBpqLEh",
+        "reca9owqiv2kcsGbg",
+        "recbIYkUhHgKgGTj3",
+        "rec8IfDa12dPZ2VZ0",
+        "recXYANBx3HDU7c36"
+      ]
+    },
+    {
+      "slug": "survival-terror-co-op",
+      "title": "Survival, Terror & Co-op",
+      "blurb": "",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "genre": [
+          "Horror",
+          "Platform",
+          "Platformer",
+          "Puzzle",
+          "Survival",
+          "Survival Action",
+          "Survival Horror"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ]
+      },
+      "curated": false,
+      "games": [
+        "rec0l2hCWzHglrBNB",
+        "recNy6oCvS3PkVKmd",
+        "recCTZfJtc6uybfx1",
+        "recqPKqp9xRe3nrxo",
+        "reccajq9jIXIlMunc",
+        "rec5NsDW5J4kAsedy",
+        "recJrTgHBfBiihXwv",
+        "rec75UzFvpUm7Lzpk",
+        "recfkKBTvKWHFbNfz",
+        "rech1tnAkqFNQ3wtZ",
+        "recEARkACRVrl3u1v",
+        "recNK8C0q2n1sIF0j",
+        "recG9pcs1obTypYhy",
+        "rec8uORlW4GQPwEKX",
+        "recwovxU0mRIYVz7d"
+      ]
+    },
+    {
+      "slug": "open-world-rpg",
+      "title": "Open World & RPG",
+      "blurb": "",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "genre": [
+          "Action Adventure",
+          "Action RPG",
+          "Adventure",
+          "Exploration",
+          "JRPG",
+          "MMORPG",
+          "Role-playing (RPG)",
+          "Souls-like"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ]
+      },
+      "curated": false,
+      "games": [
+        "recTiO2qAGeAIkF9i",
+        "recRBS21aEJrR2Etu",
+        "recNPAn8WYQD7Sr9u",
+        "reckSM9PGS8xLVEbl",
+        "recD81mUBLrJHXzhR",
+        "recn9PQ1JyL6lL94X",
+        "recyTOzz7MMpASovz"
+      ]
+    },
+    {
+      "slug": "driving-vehicles",
+      "title": "Driving & Vehicles",
+      "blurb": "",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "genre": [
+          "Driving Sim",
+          "Driving Survival",
+          "Racing",
+          "Racing Sim",
+          "Vehicle Combat"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ]
+      },
+      "curated": false,
+      "games": [
+        "recpPNYTN2LdrNprK",
+        "rechdibY9oWStIzDo"
+      ]
     }
   ]
 };
