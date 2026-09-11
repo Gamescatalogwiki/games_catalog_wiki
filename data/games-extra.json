@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Sniper Elite 4",
+    "genre": "Shooter",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "GTFO",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Hitman: Absolution",
+    "genre": "Stealth",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Mass Effect Legendary Edition",
+    "genre": "Action RPG",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Stranded Deep",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Dead Space",
+    "genre": "Survival Horror",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Remnant: From the Ashes",
+    "genre": "Action RPG",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Resident Evil 6",
+    "genre": "Survival Horror",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Resident Evil 5",
+    "genre": "Survival Horror",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Bright Memory: Infinite",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "RoboCop: Rogue City",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Deus Ex: Mankind Divided",
+    "genre": "Immersive Sim",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "The Evil Within 2",
+    "genre": "Survival Horror",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Generation Zero",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Dead Island: Definitive Edition",
+    "genre": "Action",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Aliens: Fireteam Elite",
+    "genre": "Shooter",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "SurrounDead",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Deus Ex: Human Revolution - Director's Cut",
+    "genre": "Immersive Sim",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "The Evil Within",
+    "genre": "Survival Horror",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Dead Space 2",
+    "genre": "Survival Horror",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Shadow Warrior 2",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Resident Evil: Revelations 2",
+    "genre": "Survival Horror",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Wolfenstein: The Old Blood",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Rage",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Witchfire",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Crysis Remastered",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Sunkenland",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Rage 2",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Terminator: Resistance",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Osiris: New Dawn",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Mist Survival",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Elex",
+    "genre": "Action RPG",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Subsistence",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "F.E.A.R. 3",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Evil West",
+    "genre": "Action",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "The Beast Inside",
+    "genre": "Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Amnesia: A Machine for Pigs",
+    "genre": "Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Scorn",
+    "genre": "Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Chernobylite: Complete Edition",
+    "genre": "Survival Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Earth Defense Force 5",
+    "genre": "Shooter",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Strange Brigade",
+    "genre": "Shooter",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Voidtrain",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Crysis 2 Remastered",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "F.E.A.R. 2: Project Origin",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Slender: The Arrival",
+    "genre": "Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Volcanoids",
+    "genre": "Survival",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Forever Skies",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "The Mortuary Assistant",
+    "genre": "Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Dead Rising 4",
+    "genre": "Action",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Among the Sleep: Enhanced Edition",
+    "genre": "Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Binary Domain",
+    "genre": "Shooter",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Crysis 3 Remastered",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Blair Witch",
+    "genre": "Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Necromunda: Hired Gun",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Vanquish",
+    "genre": "Shooter",
+    "perspective": "Third Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Sengoku Dynasty",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Earth Defense Force 6",
+    "genre": "Shooter",
+    "perspective": "Third Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "The Infected",
+    "genre": "Survival",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "In Sound Mind",
+    "genre": "Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Singularity",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Shadow Warrior 3: Definitive Edition",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  },
+  {
+    "name": "Painkiller Hell & Damnation",
+    "genre": "FPS",
+    "perspective": "First Person",
+    "mode": "Co-op"
+  },
+  {
+    "name": "Penumbra: Overture",
+    "genre": "Horror",
+    "perspective": "First Person",
+    "mode": "Singleplayer"
+  }
+]
