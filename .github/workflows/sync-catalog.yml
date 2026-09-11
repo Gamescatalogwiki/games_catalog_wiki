@@ -34,6 +34,12 @@ jobs:
           ALLOW_SHRINK: ${{ inputs.allow_shrink && '1' || '0' }}
         run: node tools/airtable-export.mjs
 
+      # Parche temporal: suma los titulos de data/games-extra.json que todavia no
+      # estan en la tabla Games de Airtable. Cuando esten todos cargados alla, se
+      # borra este paso junto con el script y el json.
+      - name: Sumar titulos de data/games-extra.json
+        run: node tools/apply-extras.mjs
+
       - name: Validar el catalogo generado
         run: node tools/validate-catalog.mjs
 
