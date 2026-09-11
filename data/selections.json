@@ -1,0 +1,262 @@
+[
+  {
+    "codigo": "GA-2026-015",
+    "title": "Shooters & Combat",
+    "slug": "shooters-combat",
+    "filters": {
+      "genre": [
+        "Action",
+        "Battle Royale",
+        "Extraction Shooter",
+        "FPS",
+        "Hero Shooter",
+        "Roguelike Shooter",
+        "Shooter",
+        "Tactical Shooter"
+      ],
+      "perspective": [
+        "First Person",
+        "Third Person"
+      ],
+      "mode": [
+        "Singleplayer",
+        "Multiplayer",
+        "Co-op"
+      ]
+    },
+    "games": [
+      "Arena Breakout: Infinite",
+      "Arma 3",
+      "Arma: Reforger",
+      "Back 4 Blood",
+      "Battlefield 4",
+      "Battlefield 6",
+      "Black Ops III",
+      "Borderlands 2",
+      "Borderlands 3",
+      "Borderlands 4",
+      "Call of Duty",
+      "Call of Duty: Black Ops 7",
+      "Call of Duty: Black Ops III",
+      "Call of Duty: Modern Warfare",
+      "Chivalry 2",
+      "Deadlock",
+      "Delta Force",
+      "Escape from Tarkov",
+      "Helldivers II",
+      "Ready or Not",
+      "Squad",
+      "The Finals",
+      "The Elder Scrolls V: Skyrim - Special Edition",
+      "Resident Evil 4",
+      "Kingdom Come: Deliverance",
+      "Black Mesa",
+      "Outlast",
+      "Resident Evil Village",
+      "Metro Exodus",
+      "Just Cause 3",
+      "Green Hell",
+      "The Long Dark",
+      "Kingdom Come: Deliverance II",
+      "Days Gone",
+      "Starfield",
+      "Metal Gear Solid V: The Phantom Pain",
+      "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "Mad Max",
+      "Sleeping Dogs: Definitive Edition",
+      "Remnant 2",
+      "Outlast II",
+      "Dishonored 2",
+      "Sniper Elite 4",
+      "GTFO",
+      "Hitman: Absolution",
+      "Wolfenstein: The New Order",
+      "Mass Effect Legendary Edition",
+      "Wolfenstein II: The New Colossus",
+      "Stranded Deep",
+      "Dead Space",
+      "Remnant: From the Ashes",
+      "Control",
+      "UNCHARTED™: Legacy of Thieves Collection",
+      "SOMA",
+      "Resident Evil 6",
+      "Resident Evil 5",
+      "Bright Memory: Infinite",
+      "RoboCop: Rogue City",
+      "Tainted Grail: The Fall of Avalon",
+      "Amnesia: The Dark Descent",
+      "Deus Ex: Mankind Divided",
+      "The Evil Within 2",
+      "Generation Zero",
+      "The Outer Worlds",
+      "Dead Island: Definitive Edition",
+      "Aliens: Fireteam Elite",
+      "SurrounDead",
+      "Deus Ex: Human Revolution - Director's Cut",
+      "The Evil Within",
+      "Dead Space 2",
+      "Quantum Break",
+      "Shadow Warrior 2",
+      "Resident Evil: Revelations 2",
+      "Deathloop",
+      "Wolfenstein: The Old Blood",
+      "Rage",
+      "Breathedge",
+      "Witchfire",
+      "Crysis Remastered",
+      "Sunkenland",
+      "Rage 2",
+      "Wolfenstein: Youngblood",
+      "Terminator: Resistance",
+      "Osiris: New Dawn",
+      "Sniper Ghost Warrior Contracts 2",
+      "Mist Survival",
+      "Elex",
+      "Subsistence",
+      "F.E.A.R. 3",
+      "Evil West",
+      "Sniper Ghost Warrior Contracts",
+      "Still Wakes the Deep",
+      "Amnesia: The Bunker",
+      "The Beast Inside",
+      "Amnesia: A Machine for Pigs",
+      "Scorn",
+      "Chernobylite: Complete Edition",
+      "Earth Defense Force 5",
+      "Strange Brigade",
+      "Visage",
+      "Dishonored: Death of the Outsider",
+      "Smalland: Survive the Wilds",
+      "Voidtrain",
+      "Crysis 2 Remastered",
+      "F.E.A.R. 2: Project Origin",
+      "Slender: The Arrival",
+      "Volcanoids",
+      "Amnesia: Rebirth",
+      "Forever Skies",
+      "The Mortuary Assistant",
+      "Dead Rising 4",
+      "Among the Sleep: Enhanced Edition",
+      "Binary Domain",
+      "Crysis 3 Remastered",
+      "Blair Witch",
+      "Necromunda: Hired Gun",
+      "Vanquish",
+      "Sengoku Dynasty",
+      "Earth Defense Force 6",
+      "The Infected",
+      "In Sound Mind",
+      "Singularity",
+      "Shadow Warrior 3: Definitive Edition",
+      "Call of Juarez: Bound In Blood",
+      "Saints Row: The Third Remastered",
+      "Painkiller Hell & Damnation",
+      "Penumbra: Overture"
+    ]
+  },
+  {
+    "codigo": "GA-2026-016",
+    "title": "Survival, Terror & Co-op",
+    "slug": "survival-terror-co-op",
+    "filters": {
+      "genre": [
+        "Horror",
+        "Platform",
+        "Platformer",
+        "Puzzle",
+        "Survival",
+        "Survival Action",
+        "Survival Horror"
+      ],
+      "perspective": [
+        "First Person",
+        "Third Person"
+      ],
+      "mode": [
+        "Singleplayer",
+        "Multiplayer",
+        "Co-op"
+      ]
+    },
+    "games": [
+      "7 Days to Die",
+      "ARK: Survival Ascended",
+      "ARK: Survival Evolved",
+      "DayZ",
+      "Dying Light",
+      "Dying Light 2: Stay Human",
+      "Palworld",
+      "Peak",
+      "Phasmophobia",
+      "Portal 2",
+      "Rust",
+      "Sons of the Forest",
+      "The Forest",
+      "The Outlast Trials",
+      "Valheim"
+    ]
+  },
+  {
+    "codigo": "GA-2026-017",
+    "title": "Open World & RPG",
+    "slug": "open-world-rpg",
+    "filters": {
+      "genre": [
+        "Action Adventure",
+        "Action RPG",
+        "Adventure",
+        "Exploration",
+        "JRPG",
+        "MMORPG",
+        "Role-playing (RPG)",
+        "Souls-like"
+      ],
+      "perspective": [
+        "First Person",
+        "Third Person"
+      ],
+      "mode": [
+        "Singleplayer",
+        "Multiplayer",
+        "Co-op"
+      ]
+    },
+    "games": [
+      "Black Myth: Wukong",
+      "Cyberpunk 2077",
+      "Elden Ring Nightreign",
+      "Fallout 4",
+      "Fallout 76",
+      "Fallout: New Vegas",
+      "The Witcher 3: Wild Hunt"
+    ]
+  },
+  {
+    "codigo": "GA-2026-018",
+    "title": "Driving & Vehicles",
+    "slug": "driving-vehicles",
+    "filters": {
+      "genre": [
+        "Driving Sim",
+        "Driving Survival",
+        "Racing",
+        "Racing Sim",
+        "Vehicle Combat"
+      ],
+      "perspective": [
+        "First Person",
+        "Third Person"
+      ],
+      "mode": [
+        "Singleplayer",
+        "Multiplayer",
+        "Co-op"
+      ]
+    },
+    "games": [
+      "Euro Truck Simulator 2",
+      "Pacific Drive",
+      "War Thunder"
+    ]
+  }
+]
