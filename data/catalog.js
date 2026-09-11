@@ -1,8 +1,9 @@
 /* Generado por tools/airtable-export.mjs desde Airtable — no editar a mano.
  * Para actualizar el catalogo se edita Airtable, no este archivo.
+ * tools/apply-extras.mjs sumo ademas los titulos de data/games-extra.json.
  */
 window.CATALOG = {
-  "version": "at-1f0d9ce781ff",
+  "version": "at-93e855e70896",
   "games": [
     {
       "id": "recAySnOoxYP7Xif8",
@@ -131,6 +132,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "xfaa54999605a121f",
+      "name": "Aliens: Fireteam Elite",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "rec0hWfbnoJKsKJSO",
       "name": "Aloft",
       "genre": "Survival, Simulator",
@@ -152,6 +160,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x6f189642b9c7bd42",
+      "name": "Amnesia: A Machine for Pigs",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recbIYkUhHgKgGTj3",
       "name": "Amnesia: Rebirth",
       "genre": "Survival Horror, Puzzle",
@@ -169,6 +184,13 @@ window.CATALOG = {
       "id": "recGCXv2sMKyrXwjr",
       "name": "Amnesia: The Dark Descent",
       "genre": "Puzzle, Adventure, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x895397d6e55b8b74",
+      "name": "Among the Sleep: Enhanced Edition",
+      "genre": "Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -404,6 +426,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x431b1fc6684cd85a",
+      "name": "Binary Domain",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec8DEuc7G5DN1rDL",
       "name": "Black Desert Online",
       "genre": "MMORPG, Role-playing (RPG), Hack and slash/Beat 'em up",
@@ -437,6 +466,13 @@ window.CATALOG = {
       "genre": "FPS, Shooter",
       "perspective": "First Person",
       "mode": "Multiplayer"
+    },
+    {
+      "id": "xa9cdd3e2e29ec18c",
+      "name": "Blair Witch",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
     },
     {
       "id": "recmLE5xdERSbuSLy",
@@ -526,6 +562,13 @@ window.CATALOG = {
       "id": "rec8CdiIljDXDFEj4",
       "name": "Breathedge",
       "genre": "Role-playing (RPG), Simulator, Adventure, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "xa1f7be71a5294028",
+      "name": "Bright Memory: Infinite",
+      "genre": "FPS",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -695,6 +738,13 @@ window.CATALOG = {
       "name": "Chameleon",
       "genre": "Puzzle, Card & Board Game",
       "perspective": "Isometric",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x2afbb9c8eea5b0f9",
+      "name": "Chernobylite: Complete Edition",
+      "genre": "Survival Horror",
+      "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
@@ -887,6 +937,27 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x6b65b0bc6043d716",
+      "name": "Crysis 2 Remastered",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x46b1ff4166fd98d8",
+      "name": "Crysis 3 Remastered",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "xe56b43922a4053bc",
+      "name": "Crysis Remastered",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recDi3tXtL65rEu2H",
       "name": "Cubic Odyssey",
       "genre": "Role-playing (RPG)",
@@ -992,6 +1063,34 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x3525307d3f5f9df4",
+      "name": "Dead Island: Definitive Edition",
+      "genre": "Action",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "x2d3340ea11df125d",
+      "name": "Dead Rising 4",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "x487db63368261915",
+      "name": "Dead Space",
+      "genre": "Survival Horror",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x7004357832421554",
+      "name": "Dead Space 2",
+      "genre": "Survival Horror",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec5O10KzOsPFDNzk",
       "name": "Deadlock",
       "genre": "Shooter",
@@ -1059,6 +1158,20 @@ window.CATALOG = {
       "name": "Detroit: Become Human",
       "genre": "Narrative Adventure",
       "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "xf091f0b2bcb85dd2",
+      "name": "Deus Ex: Human Revolution - Director's Cut",
+      "genre": "Immersive Sim",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x108d2578a8010998",
+      "name": "Deus Ex: Mankind Divided",
+      "genre": "Immersive Sim",
+      "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
@@ -1258,6 +1371,20 @@ window.CATALOG = {
       "mode": "Co-op"
     },
     {
+      "id": "x2a1f6d830f7c50f0",
+      "name": "Earth Defense Force 5",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "x3d86bfe9eca28452",
+      "name": "Earth Defense Force 6",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recJpYCu4KJobq5XE",
       "name": "Eastshade",
       "genre": "Adventure",
@@ -1296,6 +1423,13 @@ window.CATALOG = {
       "id": "rec8asSOjRCoT5ukZ",
       "name": "Elden Ring: Shadow of the Erdtree",
       "genre": "Souls-like, Role-playing (RPG)",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x313c05636df08439",
+      "name": "Elex",
+      "genre": "Action RPG",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
@@ -1405,6 +1539,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x812e73d562036a8d",
+      "name": "Evil West",
+      "genre": "Action",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recCUB71yurnE2l9L",
       "name": "Exiled Survivors",
       "genre": "Shooter, Role-playing (RPG), Hack and slash/Beat 'em up",
@@ -1416,6 +1557,20 @@ window.CATALOG = {
       "name": "Expeditions: A MudRunner Game",
       "genre": "Driving Sim, Racing, Simulator",
       "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "x3fbd412cc2518448",
+      "name": "F.E.A.R. 2: Project Origin",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "xdfa11ab702b1dd84",
+      "name": "F.E.A.R. 3",
+      "genre": "FPS",
+      "perspective": "First Person",
       "mode": "Co-op"
     },
     {
@@ -1545,6 +1700,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x8cce61314a66d85d",
+      "name": "Forever Skies",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recpgkuaBbcbjhbsD",
       "name": "Forgive Me Father 2",
       "genre": "Shooter",
@@ -1606,6 +1768,13 @@ window.CATALOG = {
       "genre": "Shooter, Adventure, Indie",
       "perspective": "Third Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "xf309e7f58d88dd94",
+      "name": "Generation Zero",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Co-op"
     },
     {
       "id": "recmDQc1PcA8lULL1",
@@ -1741,6 +1910,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x31c97373f1315ba2",
+      "name": "GTFO",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recSUqgb4vOxbb3e2",
       "name": "Guild Wars 2",
       "genre": "MMORPG, Role-playing (RPG)",
@@ -1874,6 +2050,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x9eaac733b2fddf05",
+      "name": "Hitman: Absolution",
+      "genre": "Stealth",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recX7f6ZAP3OxXP3l",
       "name": "Hobo: Tough Life",
       "genre": "Role-playing (RPG), Simulator",
@@ -1982,6 +2165,13 @@ window.CATALOG = {
       "id": "recPx5LfoaRiAw4Wk",
       "name": "In Silence",
       "genre": "Adventure",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x6e4c5ff62f2e6957",
+      "name": "In Sound Mind",
+      "genre": "Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -2420,6 +2610,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x00614f9fd37dd496",
+      "name": "Mass Effect Legendary Edition",
+      "genre": "Action RPG",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec8FAmhdPckTKFL3",
       "name": "Meccha Chameleon",
       "genre": "Tactical, Indie",
@@ -2574,6 +2771,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "xcfe37980824601a9",
+      "name": "Mist Survival",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "receIh11i4w9dICLq",
       "name": "Mistfall Hunter",
       "genre": "Role-playing (RPG), Adventure",
@@ -2693,6 +2897,13 @@ window.CATALOG = {
       "mode": "Multiplayer"
     },
     {
+      "id": "x9555a7a4bfe068f3",
+      "name": "Necromunda: Hired Gun",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recU6zl45WG0vCacd",
       "name": "New World: Aeternum",
       "genre": "MMORPG, Role-playing (RPG)",
@@ -2805,6 +3016,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x176c76cc3b70048e",
+      "name": "Osiris: New Dawn",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recCTMxZ0v1Qg2UNx",
       "name": "Out of Action",
       "genre": "Shooter",
@@ -2880,6 +3098,13 @@ window.CATALOG = {
       "genre": "Shooter, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "x5a15283697e5af78",
+      "name": "Painkiller Hell & Damnation",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Co-op"
     },
     {
       "id": "recqxmCLXJ2Bs4zxA",
@@ -2962,6 +3187,13 @@ window.CATALOG = {
       "id": "rec75UzFvpUm7Lzpk",
       "name": "Peak",
       "genre": "Platform",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x8154fe79c3667dbb",
+      "name": "Penumbra: Overture",
+      "genre": "Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -3085,6 +3317,20 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "xe59389d9c8173527",
+      "name": "Rage",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x1e5cad9b6f39e45e",
+      "name": "Rage 2",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "reckVBuvrSQh13Osk",
       "name": "Railroader",
       "genre": "",
@@ -3148,6 +3394,13 @@ window.CATALOG = {
       "mode": "Co-op"
     },
     {
+      "id": "xb221049971c7c9b5",
+      "name": "Remnant: From the Ashes",
+      "genre": "Action RPG",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recflqTof2GtQpcuP",
       "name": "Resident Evil 3",
       "genre": "Shooter",
@@ -3162,11 +3415,32 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x98c75487e8df5314",
+      "name": "Resident Evil 5",
+      "genre": "Survival Horror",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "xacd136a6c909f9a5",
+      "name": "Resident Evil 6",
+      "genre": "Survival Horror",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recILmji0moErapZn",
       "name": "Resident Evil Village",
       "genre": "Survival Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "xe20a1597254ad944",
+      "name": "Resident Evil: Revelations 2",
+      "genre": "Survival Horror",
+      "perspective": "Third Person",
+      "mode": "Co-op"
     },
     {
       "id": "rec5PBfSsdbqbmCGi",
@@ -3258,6 +3532,13 @@ window.CATALOG = {
       "genre": "Sandbox, Platform, Simulator",
       "perspective": "Third Person",
       "mode": "Multiplayer"
+    },
+    {
+      "id": "xac0ce70db4a40120",
+      "name": "RoboCop: Rogue City",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
     },
     {
       "id": "rechUN6nmst5w1rA0",
@@ -3442,6 +3723,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "xc2a9a0e7139cf701",
+      "name": "Scorn",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recd3FwAKvuwUuKwn",
       "name": "Search",
       "genre": "Simulator, Indie",
@@ -3477,6 +3765,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x8077f920c6a13469",
+      "name": "Sengoku Dynasty",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recZZc5BbbFcgKvwJ",
       "name": "Sentry",
       "genre": "Shooter",
@@ -3488,6 +3783,20 @@ window.CATALOG = {
       "name": "Seven Deadly Sins",
       "genre": "Point-and-click",
       "perspective": "Side View",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "xeb4a38c28dbb16a1",
+      "name": "Shadow Warrior 2",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "x5a1c0791975f9876",
+      "name": "Shadow Warrior 3: Definitive Edition",
+      "genre": "FPS",
+      "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
@@ -3519,6 +3828,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x61933d3774170c68",
+      "name": "Singularity",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "reca4vntM8SFPTNaC",
       "name": "Sky",
       "genre": "Strategy",
@@ -3540,6 +3856,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x54e7287b2344eeb9",
+      "name": "Slender: The Arrival",
+      "genre": "Horror",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recAtqmLUVqt14vbq",
       "name": "Slime Rancher 2",
       "genre": "Shooter, Simulator",
@@ -3552,6 +3875,13 @@ window.CATALOG = {
       "genre": "Survival, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
+    },
+    {
+      "id": "x2af340a66f559d5a",
+      "name": "Sniper Elite 4",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
     },
     {
       "id": "recggENQlvTJudG4c",
@@ -3694,6 +4024,20 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "xefd6b661368b4384",
+      "name": "Stranded Deep",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x56bc27761036c259",
+      "name": "Strange Brigade",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recKBLLHuq0YakPav",
       "name": "Stray",
       "genre": "Adventure",
@@ -3743,10 +4087,24 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x2caf4ade6c75d688",
+      "name": "Subsistence",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
       "id": "recOgJvWS9IznuxQr",
       "name": "Suicide Squad: Kill the Justice League",
       "genre": "Shooter",
       "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "xe5b4e128edc548b0",
+      "name": "Sunkenland",
+      "genre": "Survival",
+      "perspective": "First Person",
       "mode": "Co-op"
     },
     {
@@ -3795,6 +4153,13 @@ window.CATALOG = {
       "id": "recO79S8x2v4fztx3",
       "name": "Supraworld",
       "genre": "Platform, Puzzle",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x6eb88ed77a0b47d0",
+      "name": "SurrounDead",
+      "genre": "Survival",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -3932,6 +4297,13 @@ window.CATALOG = {
       "mode": "Multiplayer"
     },
     {
+      "id": "x9c39470ad77f935e",
+      "name": "Terminator: Resistance",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recODvag2pPDwcNVp",
       "name": "Test Drive Unlimited Solar Crown",
       "genre": "Racing, Simulator",
@@ -3942,6 +4314,13 @@ window.CATALOG = {
       "id": "recx1G9ZzxHI7Qvmt",
       "name": "The Adventures of Sir Kicksalot",
       "genre": "Role-playing (RPG)",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "xa090929ee6a0f219",
+      "name": "The Beast Inside",
+      "genre": "Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
@@ -4030,6 +4409,20 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "xffddb230fdbe39f2",
+      "name": "The Evil Within",
+      "genre": "Survival Horror",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x4930605885549e0a",
+      "name": "The Evil Within 2",
+      "genre": "Survival Horror",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec2Uep9PUNXOCpzy",
       "name": "The Exit 8",
       "genre": "Puzzle, Simulator",
@@ -4063,6 +4456,13 @@ window.CATALOG = {
       "genre": "Hunting Sim, Shooter, Simulator, Sport",
       "perspective": "First Person",
       "mode": "Co-op"
+    },
+    {
+      "id": "xb6c0cf000e9378ef",
+      "name": "The Infected",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
     },
     {
       "id": "recJaRWctvsy6AvdU",
@@ -4125,6 +4525,13 @@ window.CATALOG = {
       "name": "The Misadventures of P.B. Winterbottom",
       "genre": "Platform, Puzzle, Adventure, Indie, Arcade",
       "perspective": "Side View",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "x73ffe0306fae3e3e",
+      "name": "The Mortuary Assistant",
+      "genre": "Horror",
+      "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
@@ -4415,6 +4822,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "x3d4552f7734e463a",
+      "name": "Vanquish",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "recCryfToeaHmdY3l",
       "name": "Verdun",
       "genre": "Shooter, Simulator",
@@ -4448,6 +4862,20 @@ window.CATALOG = {
       "genre": "Horror, Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
+    },
+    {
+      "id": "x3bbb59de632323c3",
+      "name": "Voidtrain",
+      "genre": "Survival",
+      "perspective": "First Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "x1ca63a897c64153a",
+      "name": "Volcanoids",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "Co-op"
     },
     {
       "id": "recqjE2EELAMtS3BF",
@@ -4541,6 +4969,13 @@ window.CATALOG = {
       "mode": "Singleplayer"
     },
     {
+      "id": "xc1571a10caada2bd",
+      "name": "Witchfire",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
       "id": "rec4uDeVpEEWPqmNZ",
       "name": "Wizardry: Proving Grounds of the Mad Overlord",
       "genre": "Role-playing (RPG)",
@@ -4578,6 +5013,13 @@ window.CATALOG = {
     {
       "id": "recxWBka2q0gYBOSb",
       "name": "Wolfenstein: The New Order",
+      "genre": "FPS",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "xadf2aa4682373724",
+      "name": "Wolfenstein: The Old Blood",
       "genre": "FPS",
       "perspective": "First Person",
       "mode": "Singleplayer"
@@ -4720,8 +5162,6 @@ window.CATALOG = {
         "recwyIg6ph8rc2bH3",
         "recsgTiLGdB7KCvmn",
         "recLTvwsHDbbeq767",
-        "recJegvbhPPO8D5Mj",
-        "recFi8V1ihxXZULZh",
         "recG0Q80BUCjSTHwX",
         "recS7OGiycS7ER0nw",
         "recAa4qhLBhwBCtiS",
@@ -4737,7 +5177,6 @@ window.CATALOG = {
         "rec09l4c6qbkcX8sq",
         "recN1OBuWsTwtSSbI",
         "receYXC7J01uROOAh",
-        "recSu9kT5bu1qC9fM",
         "recqMi1jdSjs28uBl",
         "rec0rBEM6ntmhy8B0",
         "reccX14NfbJSopd6T",
@@ -4758,26 +5197,89 @@ window.CATALOG = {
         "recnKSQQBvfUtNZPz",
         "recIFvdFnMMMBf8bb",
         "reczDJWqy5w5EOIij",
+        "x2af340a66f559d5a",
+        "x31c97373f1315ba2",
+        "x9eaac733b2fddf05",
         "recxWBka2q0gYBOSb",
+        "x00614f9fd37dd496",
         "recqN8TvMpJFM8xvH",
+        "xefd6b661368b4384",
+        "x487db63368261915",
+        "xb221049971c7c9b5",
         "recZoLgB5maGwqDRD",
         "recM9s8bxYOWOFXq9",
         "recuCb4ukyE6iTCbg",
+        "xacd136a6c909f9a5",
+        "x98c75487e8df5314",
+        "xa1f7be71a5294028",
+        "xac0ce70db4a40120",
         "recK2qgFpMsADiQWB",
         "recGCXv2sMKyrXwjr",
+        "x108d2578a8010998",
+        "x4930605885549e0a",
+        "xf309e7f58d88dd94",
         "rec18LiEGfGmPDjQB",
+        "x3525307d3f5f9df4",
+        "xfaa54999605a121f",
+        "x6eb88ed77a0b47d0",
+        "xf091f0b2bcb85dd2",
+        "xffddb230fdbe39f2",
+        "x7004357832421554",
         "recpGnQ8s5Ba4OWbU",
+        "xeb4a38c28dbb16a1",
+        "xe20a1597254ad944",
         "recKGRz5dFkgXP6au",
+        "xadf2aa4682373724",
+        "xe59389d9c8173527",
         "rec8CdiIljDXDFEj4",
+        "xc1571a10caada2bd",
+        "xe56b43922a4053bc",
+        "xe5b4e128edc548b0",
+        "x1e5cad9b6f39e45e",
         "reciUavBVeGv5wx8J",
+        "x9c39470ad77f935e",
+        "x176c76cc3b70048e",
+        "xcfe37980824601a9",
+        "x313c05636df08439",
+        "x2caf4ade6c75d688",
+        "xdfa11ab702b1dd84",
+        "x812e73d562036a8d",
         "rectkZuNEtHlbA7bp",
         "recY6QBGkyz6W1II1",
+        "xa090929ee6a0f219",
+        "x6f189642b9c7bd42",
+        "xc2a9a0e7139cf701",
+        "x2afbb9c8eea5b0f9",
+        "x2a1f6d830f7c50f0",
+        "x56bc27761036c259",
         "recz2v8UA0J5md2md",
         "rec46iJjTapBpqLEh",
         "reca9owqiv2kcsGbg",
+        "x3bbb59de632323c3",
+        "x6b65b0bc6043d716",
+        "x3fbd412cc2518448",
+        "x54e7287b2344eeb9",
+        "x1ca63a897c64153a",
         "recbIYkUhHgKgGTj3",
+        "x8cce61314a66d85d",
+        "x73ffe0306fae3e3e",
+        "x2d3340ea11df125d",
+        "x895397d6e55b8b74",
+        "x431b1fc6684cd85a",
+        "x46b1ff4166fd98d8",
+        "xa9cdd3e2e29ec18c",
+        "x9555a7a4bfe068f3",
+        "x3d4552f7734e463a",
+        "x8077f920c6a13469",
+        "x3d86bfe9eca28452",
+        "xb6c0cf000e9378ef",
+        "x6e4c5ff62f2e6957",
+        "x61933d3774170c68",
+        "x5a1c0791975f9876",
         "rec8IfDa12dPZ2VZ0",
-        "recXYANBx3HDU7c36"
+        "recXYANBx3HDU7c36",
+        "x5a15283697e5af78",
+        "x8154fe79c3667dbb"
       ]
     },
     {
