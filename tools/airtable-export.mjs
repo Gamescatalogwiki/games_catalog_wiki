@@ -171,6 +171,25 @@ function nombresDe(raw, donde) {
   return [t];
 }
 
+/* Los `filters` de una coleccion son descriptivos: NO definen la membresia (esa la
+ * define `games`), solo pintan los controles cuando se abre la URL. Por eso se
+ * derivan de los propios titulos de la lista en vez de escribirse a mano: una orden
+ * grande abarca mas generos de los que nadie va a enumerar, y los controles terminan
+ * describiendo algo que no es la lista. Orden: por frecuencia dentro de la coleccion. */
+const porIdCatalogo = new Map(games.map((g) => [g.id, g]));
+function filtrosDeLaLista(ids) {
+  const suyos = ids.map((id) => porIdCatalogo.get(id)).filter(Boolean);
+  const partes = (v) => String(v || '').split(',').map((x) => x.trim()).filter(Boolean);
+  const uni = (attr) => {
+    const cuenta = new Map();
+    for (const g of suyos) for (const v of partes(g[attr])) cuenta.set(v, (cuenta.get(v) || 0) + 1);
+    return [...cuenta.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([v]) => v);
+  };
+  return { perspective: uni('perspective'), genre: uni('genre'), mode: uni('mode') };
+}
+
 let collections = [];
 
 if (existsSync(OVERRIDE)) {
@@ -192,11 +211,7 @@ if (existsSync(OVERRIDE)) {
       slug: c.slug,
       title: c.title,
       blurb: '',
-      filters: {
-        perspective: (c.filters && c.filters.perspective) || [],
-        genre:       (c.filters && c.filters.genre) || [],
-        mode:        (c.filters && c.filters.mode) || [],
-      },
+      filters: filtrosDeLaLista(ids),
       curated: RESERVAR_GENEROS && c.curated !== false,
       games: ids,
     };
@@ -280,7 +295,7 @@ if (!collections.length) try {
         blurb: '',
         /* No se muestran en ningun lado. Sirven para que una URL de filtros que
          * reproduce exactamente este recorte abra directamente la categoria. */
-        filters: filtros,
+        filters: filtrosDeLaLista(miembros),
         /* true = la lista viene elegida a mano en Airtable. false = se derivo de las
          * categorias de la orden. El sitio usa esto para saber que generos reservar. */
         curated: RESERVAR_GENEROS && origen === 'curada',
