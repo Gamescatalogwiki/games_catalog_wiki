@@ -1,5136 +1,5205 @@
-/* Generado por tools/airtable-export.mjs desde Airtable — no editar a mano.
- * Para actualizar el catalogo se edita Airtable, no este archivo.
- * tools/apply-extras.mjs sumo ademas los titulos de data/games-extra.json.
+/* Generado por tools/wrap-catalog.mjs — no editar a mano.
+ * Contenido: el catalog.json provisto por el operador, tal cual.
  */
 window.CATALOG = {
-  "version": "at-dfbf59324418",
+  "version": "2026-09-12",
   "games": [
     {
-      "id": "recAySnOoxYP7Xif8",
-      "name": "[Chilla's Art] Night Security | 夜間警備",
-      "genre": "",
-      "perspective": "",
-      "mode": ""
-    },
-    {
-      "id": "recOX5bbrMvKg7zzK",
+      "id": "bd45c23b60ed",
       "name": "007 First Light",
       "genre": "Action Adventure, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec0l2hCWzHglrBNB",
+      "id": "4d85fc77426e",
       "name": "7 Days to Die",
       "genre": "Survival, Shooter, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recNeyNwcPxOWl1FW",
+      "id": "7b130736c870",
       "name": "A Hat in Time",
       "genre": "Platformer, Platform",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recsUaY8HQCPfXaMK",
+      "id": "cf93b758b3e5",
       "name": "A Plague Tale: Innocence",
       "genre": "Action Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reczrwZsa70b1bDLZ",
+      "id": "10fc745c8ec3",
       "name": "A Plague Tale: Requiem",
       "genre": "Action Adventure, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recOHNcq8ZwAvGN7b",
+      "id": "141d7bd2293e",
       "name": "A Quiet Place: The Road Ahead",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHf4Slj9Hf7mfvA",
+      "id": "5c36ac6a47e6",
       "name": "A Way Out",
       "genre": "Action Adventure",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "rec2LfYmHZ2tdax7z",
+      "id": "aefa976aac0c",
       "name": "Abiotic Factor",
       "genre": "Survival, Shooter, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recdt4twi1ztdbiRp",
+      "id": "82b35a307caf",
       "name": "Abnormality",
       "genre": "Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recVOxMMW33IYy3Il",
+      "id": "ec232aab9545",
       "name": "ABZU",
       "genre": "Exploration, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEZGHCXDTutDzBe",
+      "id": "ee262647be95",
       "name": "Aion 2",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recT4pL1mwrW5NWnE",
+      "id": "382322400cf6",
       "name": "Alan Wake 2",
       "genre": "Survival Horror, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec4ReGYrwuieifst",
+      "id": "57adeace5153",
       "name": "Alan Wake Remastered",
       "genre": "Action Adventure, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recnEkzjtC1v8ETEx",
+      "id": "4198f95873ff",
       "name": "Alaska Gold Fever",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec0WPpNMS4CeW0Ra",
+      "id": "266b74fc9dba",
       "name": "Ale & Tale Tavern",
       "genre": "Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recUTJduLLQgZ8LD3",
+      "id": "e34718bceef3",
       "name": "Alien: Isolation",
       "genre": "Survival Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpikL22GLZPEync",
+      "id": "637657823375",
       "name": "Alien: Rogue Incursion Evolved Edition",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xfaa54999605a121f",
+      "id": "2ce54bbd166e",
       "name": "Aliens: Fireteam Elite",
       "genre": "Shooter",
       "perspective": "Third Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "rec0hWfbnoJKsKJSO",
+      "id": "2895a2f48d5d",
       "name": "Aloft",
       "genre": "Survival, Simulator",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recdz6cWMYu65DyL6",
+      "id": "89d0c465fea5",
       "name": "Amanda the Adventurer",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reclNRuVN3LXS9vxq",
+      "id": "2de8189a63b2",
       "name": "Amerzone: The Explorer's Legacy",
       "genre": "Point-and-click, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x6f189642b9c7bd42",
+      "id": "ab612ca081d4",
       "name": "Amnesia: A Machine for Pigs",
-      "genre": "Horror",
+      "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recbIYkUhHgKgGTj3",
+      "id": "d35b1d342f5e",
       "name": "Amnesia: Rebirth",
       "genre": "Survival Horror, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recY6QBGkyz6W1II1",
+      "id": "85eba0fb874e",
       "name": "Amnesia: The Bunker",
       "genre": "Survival Horror, Shooter, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recGCXv2sMKyrXwjr",
+      "id": "172fd6e65bf3",
       "name": "Amnesia: The Dark Descent",
       "genre": "Puzzle, Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x895397d6e55b8b74",
+      "id": "68adc77a46ca",
       "name": "Among the Sleep: Enhanced Edition",
-      "genre": "Horror",
+      "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recacRHi40V9jby54",
+      "id": "0fa98e0064a8",
       "name": "Angel Engine",
       "genre": "Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec7KOv02jyuiE1sS",
+      "id": "1cd9a67ad8f4",
       "name": "ARC Raiders",
       "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recGqVjAnDI0uSGXg",
+      "id": "61375911d3f1",
       "name": "Arcade Paradise",
       "genre": "Puzzle, Simulator, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reclHs5YrtBTRcgLS",
+      "id": "592c1ca4af80",
       "name": "Arena Breakout: Infinite",
       "genre": "Extraction Shooter, Shooter, Tactical",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recNy6oCvS3PkVKmd",
+      "id": "ab9a6713d321",
       "name": "ARK: Survival Ascended",
       "genre": "Survival, Shooter, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recCTZfJtc6uybfx1",
+      "id": "aaa471768a90",
       "name": "ARK: Survival Evolved",
       "genre": "Survival, Shooter, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recDFYx4SdqokPDzA",
+      "id": "77de43419890",
       "name": "Arknights: Endfield",
       "genre": "Role-playing (RPG), Strategy, Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recwyIg6ph8rc2bH3",
+      "id": "9d02ab137846",
       "name": "Arma 3",
       "genre": "Tactical Shooter, Shooter, Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recsgTiLGdB7KCvmn",
+      "id": "3142c4128765",
       "name": "Arma: Reforger",
       "genre": "Tactical Shooter, Shooter, Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recB3N3ulo5U9Fgpd",
+      "id": "b6f76c8f7b88",
       "name": "Armored Core VI: Fires of Rubicon",
       "genre": "Action, Shooter",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recSP3JJGs2zKJ2g3",
+      "id": "3eb965f0be24",
       "name": "Arsonate",
       "genre": "Point-and-click, Card & Board Game",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rechBxrPKB83pqwgb",
+      "id": "f0f331aad6ff",
       "name": "Arx Fatalis",
       "genre": "Puzzle, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recyX0bInBV8M1ylJ",
+      "id": "ec1de7efc158",
       "name": "Asphalt 9: Legends",
       "genre": "Racing, Arcade",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recoOc60excfdrivs",
+      "id": "d32c0da3da86",
       "name": "Asphalt Legends",
       "genre": "Racing, Sport, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec1PbD89O9mJzZ2b",
+      "id": "827fe93db222",
       "name": "Assetto Corsa Competizione (AC2)",
       "genre": "Racing, Simulator, Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recBOS59cJw5QgPkp",
+      "id": "080ee3fb660f",
       "name": "Atomfall",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recrEjEex8ItgxtHH",
+      "id": "99ea188f4e7e",
       "name": "Atomic Heart",
       "genre": "Action RPG, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reclXDJulwCdtfQsX",
+      "id": "86367f16e7c1",
       "name": "Automobilista 2",
       "genre": "Racing, Simulator, Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recYC2r3dUHy2e2rB",
+      "id": "7dc96f776c84",
       "name": "B1",
       "genre": "Simulator, Adventure, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recLTvwsHDbbeq767",
+      "id": "230b796e3ea6",
       "name": "Back 4 Blood",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recPOtZQbkCebHq8O",
+      "id": "e90ec3b8d765",
       "name": "Backrooms: Escape Together",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recMmantZiIFgnEsI",
+      "id": "fd329fd63875",
       "name": "Bakery Cafe Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recYblFA3C3f1cFBC",
+      "id": "6f28f382d6dc",
       "name": "Banana Shooter",
       "genre": "Shooter, Indie",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rec2cojrxdWpIxHkx",
+      "id": "4d642155020a",
       "name": "Banishers: Ghosts of New Eden",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recKdUoTXN818Qjtk",
+      "id": "a3102f150abe",
       "name": "Batman: Arkham Asylum",
       "genre": "Action Adventure, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec0BVyWzEbZAWMUo",
+      "id": "b5c5b1e7cea2",
       "name": "Batman: Arkham City",
       "genre": "Action Adventure, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recRg2qZRU4DvIgAs",
+      "id": "431ba054a89a",
       "name": "Batman: Arkham Knight",
       "genre": "Action Adventure, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec88WRSGF14UBb6c",
+      "id": "721ca4c53d21",
       "name": "Battle Bits",
       "genre": "Adventure, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJegvbhPPO8D5Mj",
+      "id": "9499c2f06a88",
+      "name": "BattleBit Remastered",
+      "genre": "Shooter, Simulator, Tactical, Indie",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "767925057fde",
       "name": "Battlefield 4",
       "genre": "FPS, Shooter, Simulator",
       "perspective": "First Person",
-      "mode": "Multiplayer"
+      "mode": "Singleplayer, Multiplayer"
     },
     {
-      "id": "recFi8V1ihxXZULZh",
+      "id": "0a1984ffa536",
       "name": "Battlefield 6",
       "genre": "FPS, Shooter",
       "perspective": "First Person",
-      "mode": "Multiplayer"
+      "mode": "Singleplayer, Multiplayer"
     },
     {
-      "id": "reclkY5WJJTOV3Ouz",
+      "id": "90079640f6c8",
       "name": "Beauty Store Simulator",
       "genre": "Simulator",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "reczMFFK3TVEMqS1a",
+      "id": "041df83007e1",
       "name": "Bellwright",
       "genre": "Survival, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recM4I8P4SylfekYM",
+      "id": "667572452d61",
       "name": "Beyond Citadel",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x431b1fc6684cd85a",
+      "id": "431b1fc6684c",
       "name": "Binary Domain",
       "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8DEuc7G5DN1rDL",
+      "id": "f76a1c6bc15d",
       "name": "Black Desert Online",
       "genre": "MMORPG, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recQecaPVszROWSSA",
+      "id": "d8b9f907fa17",
       "name": "Black Desert Online: Prestige Edition",
       "genre": "Role-playing (RPG), Simulator, Strategy, Adventure",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recvvGdCK6lbr8Q78",
+      "id": "f319bd42b646",
       "name": "Black Mesa",
       "genre": "Shooter, Platform",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recTiO2qAGeAIkF9i",
+      "id": "ae1b26460582",
       "name": "Black Myth: Wukong",
       "genre": "Action RPG, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recG0Q80BUCjSTHwX",
+      "id": "20cfa0096b17",
       "name": "Black Ops III",
       "genre": "FPS, Shooter",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "xa9cdd3e2e29ec18c",
+      "id": "a9cdd3e2e29e",
       "name": "Blair Witch",
-      "genre": "Horror",
+      "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmLE5xdERSbuSLy",
+      "id": "e5da9c76c516",
       "name": "Blood High!",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec7yFCVO4Mh6b1Ca",
+      "id": "ea293ecd49af",
       "name": "Blood Reaver",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recLd9gGnNwpFEU0n",
+      "id": "1036c568cb57",
       "name": "Blood Strike",
       "genre": "Action, Adventure, Massively Multiplayer, Strategy, Free To Play",
       "perspective": "",
       "mode": "Co-op, Multiplayer"
     },
     {
-      "id": "recbPv8FduF8yt8rr",
+      "id": "91439b876662",
       "name": "Blood Vial",
       "genre": "",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recuZrOYLEguNiVgM",
+      "id": "b525a2a6fead",
       "name": "Blood West",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reczPP9SyhptlpOjA",
+      "id": "2b9941d50a57",
       "name": "Bloodthief",
       "genre": "Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recMEDbNkQo7WaavE",
+      "id": "249993eec332",
       "name": "Bodycam",
       "genre": "FPS, Simulator",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recZpcdOI7cx35Swb",
+      "id": "3d6c174ded45",
       "name": "Bomb Farm",
       "genre": "Role-playing (RPG), Simulator, Strategy, Indie",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recS7OGiycS7ER0nw",
+      "id": "fbc86a20e304",
       "name": "Borderlands 2",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recAa4qhLBhwBCtiS",
+      "id": "260ab9c65b5c",
       "name": "Borderlands 3",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "reckRpwtBtjBlhulq",
+      "id": "7eea03c42ea4",
       "name": "Borderlands 4",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recquOGelWg109INE",
+      "id": "2ef39c39d247",
       "name": "Botany Manor",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8CdiIljDXDFEj4",
+      "id": "0dad24fa3f0b",
       "name": "Breathedge",
       "genre": "Role-playing (RPG), Simulator, Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xa1f7be71a5294028",
+      "id": "057365a49e58",
       "name": "Bright Memory: Infinite",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recrdkSmsgBFmlNOQ",
+      "id": "fd65e8f57f65",
       "name": "Brotato",
       "genre": "Fighting, Shooter, Role-playing (RPG), Indie, Arcade",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recUwzDMvbtRcbNdG",
+      "id": "05943feed508",
       "name": "Brothers: A Tale of Two Sons Remake",
       "genre": "Adventure, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reclU2LoSLLjfCN6N",
+      "id": "63291d22a389",
       "name": "Buckshot Roulette",
       "genre": "Simulator, Strategy, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recgvhgo9A7uu6XwC",
+      "id": "a3bba559d280",
       "name": "Bugsnax",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmCkvGWrqnFvQbR",
+      "id": "b61c0284dfcd",
       "name": "Bult: Hunting Simulator",
       "genre": "Simulator, Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recl4iHSEWEzH5Eqv",
+      "id": "9fab82d08a15",
       "name": "Bum Simulator",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recBiDMjFmdtmMW9D",
+      "id": "a7e16788042b",
       "name": "Bus Simulator 21: Next Stop",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recBrCXbAtgyDKpKM",
+      "id": "6f2f1690b88a",
       "name": "Call of Duty",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recPzke6qzYReK3nO",
+      "id": "cc0b2c773ba2",
       "name": "Call of Duty: Black Ops 6",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reclknZN0u0QlvgK5",
+      "id": "9ab89f1e6b76",
       "name": "Call of Duty: Black Ops 7",
       "genre": "FPS, Shooter",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recl5Az6NbH6fFiQ2",
+      "id": "b2a04ac7df72",
       "name": "Call of Duty: Black Ops Cold War",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recgP3HkrNlFj9ZE0",
+      "id": "0d4d061f691a",
       "name": "Call of Duty: Black Ops III",
       "genre": "Shooter, Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEx6a7l3xGN5Faj",
+      "id": "56d25e36f9e4",
       "name": "Call of Duty: Modern Warfare",
       "genre": "FPS, Shooter",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rec38k59Suhlz10D1",
+      "id": "1be0560f9b50",
       "name": "Call of Duty: Modern Warfare 2",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reckneCfEjkekQdxI",
+      "id": "c1dc31578377",
+      "name": "Call of Duty: Modern Warfare 4",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "097ea95b721a",
+      "name": "Call of Duty: Warzone",
+      "genre": "Shooter, Tactical",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "cacd9f7ab5a4",
       "name": "Call of Juarez",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8IfDa12dPZ2VZ0",
+      "id": "022853caef9b",
       "name": "Call of Juarez: Bound In Blood",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recbRY942yfX23Nh3",
+      "id": "2e87a0838f35",
       "name": "Call of Juarez: Gunslinger",
       "genre": "Shooter, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recndwfpAKOh5zUFR",
+      "id": "d723cdabcfad",
       "name": "Captain Wayne: Vacation Desperation",
       "genre": "Shooter, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recYKImvXwfIT5aZG",
+      "id": "b737815f5ca9",
       "name": "Captured",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recFLGTbzt0rKZPPX",
+      "id": "ff8b5f5f50dc",
       "name": "Car Dealer Simulator",
       "genre": "Simulator, Strategy, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recZ48mncV4O19G1j",
+      "id": "c92156a2a906",
       "name": "Car For Sale Simulator 2023",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec72H8yBhuac7drF",
+      "id": "9d2430394c2f",
       "name": "Card Shop Simulator Multiplayer",
       "genre": "Simulator, Card & Board Game",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recAuD4R5VP58Sial",
+      "id": "1ac1185e29e1",
       "name": "Cash Cleaner Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recgjgt5ZIs3Scb5G",
+      "id": "ef58ef3c1e32",
       "name": "Chameleon",
       "genre": "Puzzle, Card & Board Game",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "x2afbb9c8eea5b0f9",
+      "id": "13458c66931b",
       "name": "Chernobylite: Complete Edition",
-      "genre": "Survival Horror",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rece7NkfoVlE50fFK",
+      "id": "2289732533b0",
+      "name": "[Chilla's Art] Night Security | 夜間警備",
+      "genre": "",
+      "perspective": "",
+      "mode": ""
+    },
+    {
+      "id": "5b17cb8cd732",
       "name": "Chivalry 2",
       "genre": "Action, Fighting, Tactical, Hack and slash/Beat 'em up",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recJewLWyR2LgrW1L",
+      "id": "9ffe2bd625a4",
       "name": "Chop Chop Inc.",
       "genre": "Simulator, Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recgW1Sl699DmsnpY",
+      "id": "ca6e99a67a7a",
       "name": "Chorus",
       "genre": "Action, Shooter, Arcade",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec12Okr8gBctfts4",
+      "id": "b65edc4d3b35",
       "name": "Clair Obscur: Expedition 33",
       "genre": "JRPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "receGwtXqfJ9MSCcd",
+      "id": "dc0f61c15b2f",
       "name": "Cleaning up the Puzzle Gallery",
       "genre": "Puzzle, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recB37H5bpvaKvzRb",
+      "id": "5a699ac802ed",
       "name": "Climb The Backrooms",
       "genre": "Platform, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recfWPfsafERl01Fe",
+      "id": "b58cf35d46a1",
       "name": "Colony 37",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recnMz2FbHkOxqMel",
+      "id": "f72a6a74141d",
+      "name": "Combat Master",
+      "genre": "Shooter, Tactical",
+      "perspective": "First Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "47c332703a09",
       "name": "Company of Heroes",
       "genre": "Real Time Strategy (RTS), Strategy",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpEA4Oiefp2CiVE",
+      "id": "7a368ee1724e",
       "name": "Conan Exiles",
       "genre": "Survival, Fighting, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recXUgQ62WGH5uZZ9",
+      "id": "c0f997be73b7",
       "name": "Conscript",
       "genre": "Puzzle, Role-playing (RPG), Adventure, Indie",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recIj3s4S9My4OPqZ",
+      "id": "f47817f7d190",
       "name": "Contraband Police",
       "genre": "Shooter, Simulator, Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recZoLgB5maGwqDRD",
+      "id": "0fcd568a5cb9",
       "name": "Control",
       "genre": "Action Adventure, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reclLGd8d2HL1btmN",
+      "id": "fa14ddf892e6",
       "name": "Cooking Simulator",
       "genre": "Simulator, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recbnzJPKXx3u9IU0",
+      "id": "62c24f47981f",
       "name": "Cooking Simulator 2: Better Together",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEoBy8tqz4JPU4f",
+      "id": "6d989e712da0",
       "name": "Core Keeper",
       "genre": "Role-playing (RPG), Simulator, Adventure, Indie",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec31MT4x7Ek41vFr",
+      "id": "cd00ba7f7070",
       "name": "Corner Shop: NightShift",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEoP3e7lISHzRBH",
+      "id": "dcdd8085f19d",
       "name": "Counter-Strike 2",
       "genre": "Shooter, Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rech5o9B0CWPew8cU",
+      "id": "ba8eece6edd8",
       "name": "Crabmeat",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEFsUGlB7iqNYWM",
+      "id": "c80e61e3936c",
       "name": "Crime Scene Cleaner",
       "genre": "Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recKiQIu5Uc3pSxMu",
+      "id": "d63a9fe0d21b",
       "name": "Crimson Desert",
       "genre": "Action RPG",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recRpjs3aLE6fvkcX",
+      "id": "d5fbc0967127",
       "name": "Crimson Desert: Deluxe Edition",
       "genre": "Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recA1U9R3r1hpcYEV",
+      "id": "b8dfcfd4f688",
       "name": "Crisol: Theater of Idols",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recF1U68vL8cnXDni",
+      "id": "df7d7d2b8736",
       "name": "Cronos: The New Dawn",
       "genre": "Survival Horror, Shooter, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recUoWiWrh6xN6NnW",
+      "id": "450f31a7b135",
       "name": "Crossout",
       "genre": "Shooter, Racing, Simulator",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rec7EUmIAHqq9x4kI",
+      "id": "0880c9b9a328",
       "name": "Crow Country",
       "genre": "Survival Horror, Shooter, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recZNNV6p4sZrcxV8",
+      "id": "811657430d67",
       "name": "Cruelty Squad",
       "genre": "Shooter, Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recqsovoviOuGWmvO",
+      "id": "17424f94f967",
       "name": "Cryo",
       "genre": "Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x6b65b0bc6043d716",
+      "id": "6b65b0bc6043",
       "name": "Crysis 2 Remastered",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x46b1ff4166fd98d8",
+      "id": "46b1ff4166fd",
       "name": "Crysis 3 Remastered",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xe56b43922a4053bc",
+      "id": "e56b43922a40",
       "name": "Crysis Remastered",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recDi3tXtL65rEu2H",
+      "id": "8be3c4a8d0ed",
       "name": "Cubic Odyssey",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec9AbfudJwUlR2hY",
+      "id": "71d213214b7d",
       "name": "Cursed Companions",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "receyNYIH04k8mvdb",
+      "id": "1e6b41f0261e",
       "name": "Cyberpunk",
       "genre": "",
       "perspective": "VR",
       "mode": "Multiplayer"
     },
     {
-      "id": "recRBS21aEJrR2Etu",
+      "id": "1816d91ee0ec",
       "name": "Cyberpunk 2077",
       "genre": "Action RPG, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recDuJiwwhCNE7MAg",
+      "id": "824ec7c06359",
       "name": "Cyberpunk Sex",
       "genre": "Simulator, Adventure, Indie",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec6DtAA9xKWY9fhh",
+      "id": "9cf62403ca68",
       "name": "Dagger Directive",
       "genre": "",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec2sryHfpOfq4PgX",
+      "id": "426dbcb13bd2",
       "name": "Daimon Blades",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec6TNlYGJNWL93uW",
+      "id": "a23b086c957b",
       "name": "Dark Souls II: Scholar of the First Sin",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recuGuWD6NN2zxG8A",
+      "id": "94cca2039fc4",
       "name": "Dark Souls III",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recvsA57OZWaCFe5V",
+      "id": "ad89ba371bf4",
       "name": "Dark Souls: Remastered",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recqpyCgvq0Qb7uce",
+      "id": "a970182a4f5f",
       "name": "Dauntless",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recSDc6H3QXRszpA7",
+      "id": "1fac0b407752",
       "name": "Days Gone",
       "genre": "Survival Action, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recqPKqp9xRe3nrxo",
+      "id": "aa6a9ba3c13f",
       "name": "DayZ",
       "genre": "Survival, Shooter, Role-playing (RPG), Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recqOlQWRP494Mlnj",
+      "id": "949e5828b4ad",
       "name": "Dead by Daylight",
       "genre": "Strategy",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recDRpSsJnzAs0EN0",
+      "id": "9aa6bac70dc1",
       "name": "Dead Cells",
       "genre": "Platform, Adventure, Indie",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "x3525307d3f5f9df4",
+      "id": "2f042f00b90a",
       "name": "Dead Island: Definitive Edition",
-      "genre": "Action",
+      "genre": "Shooter",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "x2d3340ea11df125d",
+      "id": "2d3340ea11df",
       "name": "Dead Rising 4",
-      "genre": "Action",
+      "genre": "Shooter",
       "perspective": "Third Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "x487db63368261915",
+      "id": "487db6336826",
       "name": "Dead Space",
-      "genre": "Survival Horror",
+      "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x7004357832421554",
+      "id": "700435783242",
       "name": "Dead Space 2",
-      "genre": "Survival Horror",
+      "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec5O10KzOsPFDNzk",
+      "id": "4f6c0efa1a0f",
       "name": "Deadlock",
       "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recrqgI9N8omFgXTb",
+      "id": "66c05e8a3978",
       "name": "Deadzone: Rogue",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recMYHYU5QYAxKpFC",
+      "id": "74287c16340a",
       "name": "Death in Unison",
       "genre": "Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rectUcVFmQwsoyFkA",
+      "id": "8d04c4c1b1e3",
       "name": "Death Stranding",
       "genre": "Action Adventure, Shooter, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recLmqOi90bcrTRKX",
+      "id": "4fab8f5dcb98",
       "name": "Death Stranding 2: On the Beach",
       "genre": "Action Adventure, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recKGRz5dFkgXP6au",
+      "id": "af266eda67ce",
       "name": "Deathloop",
       "genre": "Immersive Sim",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec5M7DrvTfbVE2ZF",
+      "id": "aff2d59f1367",
       "name": "Deep Rock Galactic",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recpO4XINK1sDefLE",
+      "id": "db2a4c1dbcbf",
       "name": "Delta Force",
       "genre": "Tactical Shooter, Shooter, Tactical",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recUJmUipXFOwOmDq",
+      "id": "1958fad5a810",
       "name": "Denizen",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recs5tZL0xemFHsio",
+      "id": "20230cfbe26c",
       "name": "Detroit: Become Human",
       "genre": "Narrative Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xf091f0b2bcb85dd2",
+      "id": "a7d66b3da32b",
       "name": "Deus Ex: Human Revolution - Director's Cut",
-      "genre": "Immersive Sim",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x108d2578a8010998",
+      "id": "7ee511f060a2",
       "name": "Deus Ex: Mankind Divided",
-      "genre": "Immersive Sim",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recIGxdvPovP7eHzY",
+      "id": "6f8dd72e0273",
       "name": "Dinoblade",
       "genre": "Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recUTalE5XNwiUjae",
+      "id": "9af3c96911e0",
       "name": "Dirt 5: Year One Edition",
       "genre": "",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "reczDJWqy5w5EOIij",
+      "id": "d4959ef3443f",
       "name": "Dishonored 2",
       "genre": "Immersive Sim",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec46iJjTapBpqLEh",
+      "id": "703ca419485c",
       "name": "Dishonored: Death of the Outsider",
       "genre": "Immersive Sim",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recvj3ljetDlaavet",
+      "id": "9cc9426cf6eb",
       "name": "Dofus",
       "genre": "Role-playing (RPG), Strategy, Adventure",
       "perspective": "Isometric",
       "mode": "Multiplayer"
     },
     {
-      "id": "recjcIGsRBAHCPdBs",
+      "id": "73e382d682e9",
       "name": "Dofus Retro",
       "genre": "Role-playing (RPG), Strategy, Turn-based strategy (TBS), Adventure",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recqr9Fh5i9t2B0IL",
+      "id": "0674f33aecc6",
       "name": "Don't Fool Me, Beauties!",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recfAVIb7y1KBPgTe",
+      "id": "38c7c13ea275",
       "name": "Don't Scream",
       "genre": "Horror, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec1ulGKbgKQ8bZzf",
+      "id": "45b5c023f148",
       "name": "Don't Starve",
       "genre": "Simulator, Adventure, Indie",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec2MG4uN90Znqtr2",
+      "id": "5da4ab7b8ef7",
       "name": "Don't Starve Together",
       "genre": "Simulator, Strategy, Adventure, Indie",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recMfpf5UuvrioNbB",
+      "id": "d1cf9e978ba6",
       "name": "DOOM (2016)",
       "genre": "FPS, Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recV2tXqnPUWp6jp1",
+      "id": "e4f38db39e85",
       "name": "DOOM Eternal",
       "genre": "FPS, Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec0uUOefN6STwblM",
+      "id": "496c16f8d501",
       "name": "DOOM: The Dark Ages",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8lqJacdCDyAXij",
+      "id": "4bd914689e7e",
       "name": "Dota 2",
       "genre": "Strategy, MOBA",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recdMWDRIxCgkzdzY",
+      "id": "0264956d7ba4",
       "name": "Dragon Ace Casino",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "recmMtw5kzhpdQbbf",
+      "id": "fa7a2053b831",
       "name": "Dragon Ball: Sparking! Zero",
       "genre": "Fighting",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recrtiYwYo72hSZ29",
+      "id": "d8f1f7df9de8",
       "name": "Dragon Ball: Xenoverse 2",
       "genre": "Fighting, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recNd26o1a17qzr8m",
+      "id": "471baecf5c71",
       "name": "DrainSim",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEjLrdi3xgZ0w6S",
+      "id": "d3c13a5d8492",
       "name": "Dread Delusion",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reczKLCDjUwdcXCto",
+      "id": "d9db412f6ba3",
       "name": "Dread Flats",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recn6Ib7okdlVEqZ7",
+      "id": "bfd0d752601a",
       "name": "Dreadzone",
       "genre": "Shooter, Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec46dlFru8lGFuwD",
+      "id": "2146092b3ffd",
       "name": "Drive Beyond Horizons",
       "genre": "Racing, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recgrkmBJzOZT4HW4",
+      "id": "630d50d225bc",
       "name": "Drug Dealer Simulator 2",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJVeB0pvhbNRMsc",
+      "id": "59716ec3b2ae",
       "name": "Dungeon Bodega Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recbS63e1L5ka1tNq",
+      "id": "7c3789c33fe8",
       "name": "Dungeons of Blood and Dream",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rectx5ZujB4d1D5gK",
+      "id": "29aef83195b2",
       "name": "Dusk",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reccajq9jIXIlMunc",
+      "id": "5e0d67c4bac6",
       "name": "Dying Light",
       "genre": "Survival Horror, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "rec5NsDW5J4kAsedy",
+      "id": "014d049b3003",
       "name": "Dying Light 2: Stay Human",
       "genre": "Survival Horror, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "x2a1f6d830f7c50f0",
+      "id": "2a1f6d830f7c",
       "name": "Earth Defense Force 5",
       "genre": "Shooter",
       "perspective": "Third Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "x3d86bfe9eca28452",
+      "id": "3d86bfe9eca2",
       "name": "Earth Defense Force 6",
       "genre": "Shooter",
       "perspective": "Third Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "recJpYCu4KJobq5XE",
+      "id": "0d8e622fcc48",
       "name": "Eastshade",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recxyOdfmH050NJYP",
+      "id": "675e56db1783",
       "name": "Echo Point Nova",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec9mDwlEwrz6169p",
+      "id": "67421a6c9f42",
       "name": "Eiyuden Chronicle: Hundred Heroes",
       "genre": "JRPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec0rLASkfdetDDkF",
+      "id": "1e772489c042",
       "name": "Elden Ring",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recNPAn8WYQD7Sr9u",
+      "id": "8450e82c7da0",
       "name": "Elden Ring Nightreign",
       "genre": "Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8asSOjRCoT5ukZ",
+      "id": "acd088f69a1f",
       "name": "Elden Ring: Shadow of the Erdtree",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x313c05636df08439",
+      "id": "313c05636df0",
       "name": "Elex",
-      "genre": "Action RPG",
+      "genre": "Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recljs7ZT7y76LOty",
+      "id": "5f809c3949f7",
       "name": "ELEX II",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recO9GxNaL7xjl2nj",
+      "id": "5c8a854546f1",
       "name": "Elite Dangerous",
       "genre": "Simulation, Shooter, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rec7N4gwcOzh9gPW5",
+      "id": "b955e6cd0808",
       "name": "Emergency",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "recw4kBFv6BXUhFm6",
+      "id": "90f23cd7d9ba",
       "name": "Emergency Call 112: The Fire Fighting Simulation 2",
       "genre": "Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rececc8tpK6c5Sr7k",
+      "id": "cb34de6a2702",
       "name": "Emissary Zero",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCha85GbuOR1xQ7",
+      "id": "b289786d425d",
       "name": "Empyrion: Galactic Survival",
       "genre": "Survival, Shooter, Simulator",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recRzKCJWHn8fuqxo",
+      "id": "ca3faf4622c3",
       "name": "Enshrouded",
       "genre": "Survival, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "rec4KdZc9nJfRgRPS",
+      "id": "6a6d1a3a4e00",
       "name": "Entropia Universe",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "reczFS4QlTYNouF6M",
+      "id": "033a31de6486",
       "name": "Epic Game Maker",
       "genre": "Simulator, Adventure, Indie",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recGrLah4JHwLe3k6",
+      "id": "9ed138de90c6",
       "name": "Escape from Tarkov",
       "genre": "Shooter, Role-playing (RPG), Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpPNYTN2LdrNprK",
+      "id": "a3dc59727b4e",
       "name": "Euro Truck Simulator 2",
       "genre": "Driving Sim, Racing, Simulator",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recZIswXoelNCrTgB",
+      "id": "20952342bee9",
       "name": "Euro Truck Simulator 2: Legendary Edition",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recnBQmvaA9C46rES",
+      "id": "db0e7dc87d7f",
       "name": "EVE Online",
       "genre": "MMORPG, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recxYvDVdGGLlS8H2",
+      "id": "759b561710a3",
       "name": "Everspace 2",
       "genre": "Action RPG, Shooter, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recD1Iuz0JZ7NZQW5",
+      "id": "453a532f6b57",
       "name": "Everybody's Gone to the Rapture",
       "genre": "Narrative Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x812e73d562036a8d",
+      "id": "812e73d56203",
       "name": "Evil West",
-      "genre": "Action",
+      "genre": "Shooter",
       "perspective": "Third Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "recCUB71yurnE2l9L",
+      "id": "3a2b49eb813d",
       "name": "Exiled Survivors",
       "genre": "Shooter, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpmpehLFchrya3z",
+      "id": "97de9125052f",
       "name": "Expeditions: A MudRunner Game",
       "genre": "Driving Sim, Racing, Simulator",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "x3fbd412cc2518448",
+      "id": "71e5b77b2b31",
       "name": "F.E.A.R. 2: Project Origin",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xdfa11ab702b1dd84",
+      "id": "9d8744c464e3",
       "name": "F.E.A.R. 3",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "reckSM9PGS8xLVEbl",
+      "id": "30444ad70b28",
       "name": "Fallout 4",
       "genre": "Action RPG, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recD81mUBLrJHXzhR",
+      "id": "249b8551f4aa",
       "name": "Fallout 76",
       "genre": "Action RPG, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recn9PQ1JyL6lL94X",
+      "id": "e9210d56546d",
       "name": "Fallout: New Vegas",
       "genre": "Action RPG, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rechZuG0RSU9tnc5q",
+      "id": "25a3736e12f6",
       "name": "Farming Simulator 25",
       "genre": "Simulation, Simulator",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recY5fLbgpzBkEwsE",
+      "id": "59f5fec43b01",
       "name": "Fears to Fathom: Ironbark Lookout",
       "genre": "Strategy",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recv2ZcM8EEQbtdN8",
+      "id": "2641d73d20ec",
       "name": "Fernbus Coach Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reckEwo1QbXu0bcUf",
+      "id": "e564a697affc",
       "name": "Finding Frankie",
       "genre": "Platform, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec6zmVB0fAfSJLz3",
+      "id": "271c7d0cad9e",
       "name": "Finnish Cottage Simulator",
       "genre": "Simulator",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmSmh6N2VM6QkFt",
+      "id": "27418a071273",
       "name": "Firefighting Simulator: The Squad",
       "genre": "Simulator, Strategy",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recRyQjBNJsBS2ZCP",
+      "id": "2421d8158697",
       "name": "Firewatch",
       "genre": "Narrative Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "receTNBXihKy3heyV",
+      "id": "e30f37b848a6",
       "name": "Fisher Online",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "MMO"
     },
     {
-      "id": "recOzZSa3RCnXTdNy",
+      "id": "2d9745ff34eb",
       "name": "Fishing: North Atlantic - Enhanced Edition",
       "genre": "Simulator",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "reca9lW0uH0c5vVjI",
+      "id": "80cb706b9201",
       "name": "Fistful of Frags",
       "genre": "Shooter, Indie",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recLnGHX4r2xmUbLb",
+      "id": "825fb7b4a780",
       "name": "Five Hearts Under One Roof",
       "genre": "Role-playing (RPG), Simulator, Visual Novel",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec6xBBVcFBmnukfE",
+      "id": "b4a2821ad8e9",
       "name": "Five Nights at Freddy's: Secret of the Mimic",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpBqNPsB2hJXmOe",
+      "id": "7675dfd5f581",
       "name": "Flotsam",
       "genre": "Adventure, Indie, Visual Novel",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recG7h7O17gYmfiXH",
+      "id": "c06b0cfe0cc5",
       "name": "Flower",
       "genre": "Exploration, Visual Novel",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJSUqJYtTeOZ0VA",
+      "id": "52e498521cbe",
       "name": "FlyKnight",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x8cce61314a66d85d",
+      "id": "8cce61314a66",
       "name": "Forever Skies",
-      "genre": "Survival",
+      "genre": "Simulator",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "recpgkuaBbcbjhbsD",
+      "id": "1a95d7b4f53f",
       "name": "Forgive Me Father 2",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec67XvK4WDUt7LjC",
+      "id": "51aa8f7f35a1",
       "name": "Fortnite",
       "genre": "Shooter, Simulator",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recuijYG9ga9PzhF2",
+      "id": "385c50f3e546",
       "name": "Forza Horizon 6",
       "genre": "Racing, Simulator, Sport, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJkQYtRgfVHFRQf",
+      "id": "3a98cd5d3632",
       "name": "Game of Thrones",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "receQNkVxk73h3y62",
+      "id": "4cf5e6a3e626",
       "name": "Game of Thrones: Legends",
       "genre": "Puzzle, Arcade, Card & Board Game",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recE4LiSr5I1WCmVB",
+      "id": "294d9c6ac045",
       "name": "Game of Thrones: Winter is Coming",
       "genre": "Role-playing (RPG), Simulator, Strategy",
       "perspective": "",
       "mode": "Multiplayer"
     },
     {
-      "id": "reclcLyMhkvU1zmav",
+      "id": "2b5746533a8d",
       "name": "Garten of Banban 7",
       "genre": "Puzzle, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reciSwJoyVKP4bqV8",
+      "id": "45ed8e403a30",
       "name": "Garten of Banban 8: Anti Devil",
       "genre": "Puzzle, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recklXHzpNfHTnaff",
+      "id": "9ce00b27299c",
       "name": "Gatekeeper",
       "genre": "Shooter, Adventure, Indie",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xf309e7f58d88dd94",
+      "id": "f309e7f58d88",
       "name": "Generation Zero",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "recmDQc1PcA8lULL1",
+      "id": "9f501242525d",
       "name": "Ghost of Tsushima",
       "genre": "Action Adventure, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rechBroDXmO7mAY7E",
+      "id": "49e3d820772d",
       "name": "Ghost of Tsushima: Director's Cut",
       "genre": "Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recLgg8kiAeQ0yXiE",
+      "id": "4f197d024837",
       "name": "Gloomwood",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recR3iKYctsQDRQ42",
+      "id": "5bfae4b59f1e",
       "name": "Goat Simulator 3",
       "genre": "Simulator, Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recnDt60sPeggV9D6",
+      "id": "53efcb8596d3",
       "name": "Gone Home",
       "genre": "Narrative Adventure, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recygm4CiYLuc8N2q",
+      "id": "12eddde1160c",
       "name": "Good Pizza, Great Pizza",
       "genre": "Simulator, Indie, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recKTWJ5cMTJMFT5R",
+      "id": "2f77a32a1a5d",
       "name": "Goofy Gorillas",
       "genre": "Indie, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recqrKhDxcxmxST0n",
+      "id": "d89531c8fcbc",
       "name": "GoreBox",
       "genre": "Shooter, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec6AkmskIeQRhEW2",
+      "id": "fd933309bb7e",
       "name": "Gotham Knights",
       "genre": "Action RPG, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recAr7ROf8224Rmnp",
+      "id": "8b88e16be893",
       "name": "Gothic 1 Remake",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recMekOx6eV0UD17a",
+      "id": "38431ff9da99",
       "name": "Granblue Fantasy: Relink",
       "genre": "Action RPG, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recvDD9tkluJEC9bB",
+      "id": "4f77d8d48d8e",
       "name": "Grand Theft Auto V",
       "genre": "Shooter, Racing, Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHWQzbM9BNDoU6A",
+      "id": "aa650916ed0b",
       "name": "Grand Theft Auto V: Special Edition",
       "genre": "Shooter, Racing, Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recrhNlYP1Ut0pMNp",
+      "id": "a7d88dfb53dd",
       "name": "Graveyard Keeper",
       "genre": "Simulator, Strategy, Adventure, Indie",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec7IZWGvgTXA9pxZ",
+      "id": "e5424f70cfa4",
       "name": "Great God Grove",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recsOmFXMeZqZCMYQ",
+      "id": "8bd58ede387c",
       "name": "GreedFall",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec7qTM2d9uQuVsym",
+      "id": "17226e8b192b",
       "name": "GreedFall II: The Dying World",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reck0JuWWc3ETAMxY",
+      "id": "f1a54f792b5e",
       "name": "Green Hell",
       "genre": "Survival, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rechzLsgk6hCmZmwU",
+      "id": "029f78629ac9",
       "name": "Greyhill Incident",
       "genre": "Shooter, Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x31c97373f1315ba2",
+      "id": "31c97373f131",
       "name": "GTFO",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Multiplayer"
     },
     {
-      "id": "recSUqgb4vOxbb3e2",
+      "id": "6118726aca9f",
       "name": "Guild Wars 2",
       "genre": "MMORPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recN2Phbj6J8oeEAX",
+      "id": "63d170be0d78",
       "name": "Guild Wars 2: Heart of Thorns - Deluxe Edition",
       "genre": "Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "MMO"
     },
     {
-      "id": "rec3TTF6uY090Dmon",
+      "id": "85223fa48cb6",
       "name": "Gunfire Reborn",
       "genre": "Roguelike Shooter, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recyBGe0a9PvQysif",
+      "id": "086378ba95c5",
       "name": "Gunsmith Simulator",
       "genre": "Shooter, Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recb4IajY5rvGnFPw",
+      "id": "a831f1ff1a6c",
       "name": "Habitat",
       "genre": "Strategy, Adventure",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recsVQxZE7m8KqmIW",
+      "id": "2efadb119ee1",
       "name": "Half-Life",
       "genre": "Shooter, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec5xvXZplmfXwvuP",
+      "id": "bef2455409a5",
       "name": "Halo Infinite",
       "genre": "Shooter, Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reckmL7dE7Ml3F4M6",
+      "id": "1cc985056cd1",
       "name": "Hamster Hunter",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recRovrGzOUiD7yFQ",
+      "id": "de964cd7a289",
       "name": "Hardspace: Shipbreaker",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recWxZQTaKmzTdhPp",
+      "id": "ceb54cd5bf1f",
       "name": "Heavy Rain",
       "genre": "Narrative Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reckaYvaGIcjdhqKd",
+      "id": "5e5912dda704",
       "name": "Hell is Us",
       "genre": "Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recuwZvZ5RphwJnkf",
+      "id": "b38c677a28aa",
       "name": "Hell Let Loose",
       "genre": "Tactical Shooter, Shooter, Simulator",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recDKYEBTX8d1BpRp",
+      "id": "d5e87c68a605",
       "name": "Hellblade: Senua's Sacrifice",
       "genre": "Action Adventure, Simulator, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmX49ufxQuiYkVs",
+      "id": "4c2f7af6c539",
       "name": "Hellbreak",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec09l4c6qbkcX8sq",
+      "id": "ba19a3d9fe72",
       "name": "Helldivers II",
       "genre": "Shooter, Tactical",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recupNNvKsp4j0LGl",
+      "id": "2baffa879684",
       "name": "Hello Neighbor",
       "genre": "Puzzle, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recshUuofUueUUwcs",
+      "id": "28e87a5f5885",
       "name": "Hello Neighbor 2",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recyi3G9inOjSG92S",
+      "id": "0e317ddbcac0",
       "name": "Higher or Lower: Spotify Edition",
       "genre": "Quiz/Trivia, Arcade",
       "perspective": "Text",
       "mode": "Singleplayer"
     },
     {
-      "id": "recaiVyfAJ5cJt0hA",
+      "id": "3f4c0f235869",
       "name": "Hitman 3",
       "genre": "Stealth, Shooter, Tactical",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x9eaac733b2fddf05",
+      "id": "5d664057def5",
       "name": "Hitman: Absolution",
-      "genre": "Stealth",
+      "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recX7f6ZAP3OxXP3l",
+      "id": "ddde9ac62520",
       "name": "Hobo: Tough Life",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recDeWsRPL3r4Sx6R",
+      "id": "5b8f177fecec",
       "name": "Hogwarts Legacy",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recM40QftScACZrKg",
+      "id": "8855d74e4d9d",
       "name": "Hollow Knight Silksong",
       "genre": "Platform, Adventure",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recTLYTy3ZxFd9cJD",
+      "id": "4ae443493168",
       "name": "Homefront",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recILqx8eT0znlrZ5",
+      "id": "042fe45e59f2",
       "name": "Horizon Forbidden West",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recBqymwk88U0HTs9",
+      "id": "e0a5a19a700c",
       "name": "Horizon Zero Dawn",
       "genre": "Action RPG, Shooter, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recbKErbCYlKEKSIU",
+      "id": "940a36857fd1",
       "name": "Hot Wheels Unleashed",
       "genre": "Racing, Arcade",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec9yRtvHNZ8Fx8W5",
+      "id": "8e20804d1fdc",
       "name": "House Flipper",
       "genre": "Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recOIW6oj5jGiRfvq",
+      "id": "0de60be25841",
       "name": "House Flipper 2",
       "genre": "Simulation, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rechZWcuw8lTWarFR",
+      "id": "af948a6700cb",
       "name": "How to Fish",
       "genre": "Shooter, Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recai6IqJMpePrbWo",
+      "id": "d93ec52e5878",
       "name": "Hunt: Showdown",
       "genre": "Extraction Shooter, Shooter, Simulator",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recqCVPNotTA5pHi2",
+      "id": "dfe955d428a5",
       "name": "Hytale",
       "genre": "Sandbox, Role-playing (RPG), Simulator, Arcade",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rectz9xjLi5Jp3Beq",
+      "id": "ae7efcdff2c5",
       "name": "I Know a Guy: Shady Life Simulator",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "rec4A1my3qo4YBIn6",
+      "id": "02960e0be166",
       "name": "ICARUS",
       "genre": "Survival, Simulator",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recPDZj5mse1f0vmT",
+      "id": "767b0d4f24ad",
       "name": "Idle Slayer",
       "genre": "Strategy, Indie",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recPx5LfoaRiAw4Wk",
+      "id": "ec74738cec44",
       "name": "In Silence",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x6e4c5ff62f2e6957",
+      "id": "6e4c5ff62f2e",
       "name": "In Sound Mind",
-      "genre": "Horror",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recjUBUgKf0tAUWZM",
+      "id": "20141c3169fe",
       "name": "In The Black",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "recKyy6JQmBNMppCb",
+      "id": "594bca3bf3f1",
       "name": "Incantation",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recbaByxFrDiPnnvS",
+      "id": "e28bff16ae39",
       "name": "Infinite Way",
       "genre": "Strategy, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recnrBdiXNxN3xdFs",
+      "id": "aefb4734f4fe",
       "name": "Infinity Nikki",
       "genre": "Adventure, Platform, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec2JGtEx9OGnlYTA",
+      "id": "ad179c896f67",
       "name": "Inmost",
       "genre": "Platform, Puzzle, Adventure, Indie",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recgrpBdojuN1l1o4",
+      "id": "6fabd2813431",
       "name": "Inscryption",
       "genre": "Puzzle, Strategy, Adventure, Indie, Card & Board Game",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recUohqZ854ABIkJO",
+      "id": "a6448bf0ab07",
       "name": "Inside The Backrooms",
       "genre": "",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recje8FeZGML3FEGU",
+      "id": "63f75b46ea45",
       "name": "Iron Nest: Heavy Turret Simulator",
       "genre": "Puzzle, Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reclyRDMLq0oKieoZ",
+      "id": "9063211c5223",
       "name": "Island Notes",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recGTVlMfxkDFhcB5",
+      "id": "5736eba28a6e",
       "name": "Island of Hearts",
       "genre": "Role-playing (RPG), Simulator, Visual Novel",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recPffMuye3ZhUNBV",
+      "id": "63cefb8bb960",
       "name": "It Has My Face",
       "genre": "Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recI0SUaKPIOHeE1V",
+      "id": "5cfade73c2be",
       "name": "John Carpenter's Toxic Commando",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec3IIRoKKQuztB2w",
+      "id": "cde56892bbeb",
       "name": "Journey",
       "genre": "Exploration, Platform",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recVDDMXPKOpV9qXZ",
+      "id": "e30bd174af06",
       "name": "Journey to the Savage Planet",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recPA6OgsRPlW6iMd",
+      "id": "2a86846878a7",
       "name": "Just Cause 2",
       "genre": "Action Adventure, Shooter, Racing",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpPRzDEkURdOj0d",
+      "id": "ca7d280ef791",
       "name": "Just Cause 3",
       "genre": "Action Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec4K0T7MXOVYgn3m",
+      "id": "3d6bc1908351",
       "name": "Kamla",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reca8Hz9ioaAjr2BF",
+      "id": "17ed21ee178b",
       "name": "Kena: Bridge of Spirits",
       "genre": "Action Adventure, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recs0iahZ5sI2xysk",
+      "id": "b03ae5c83dc4",
       "name": "Killer Frequency",
       "genre": "Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reccX14NfbJSopd6T",
+      "id": "b03df321f297",
       "name": "Kingdom Come: Deliverance",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recVtcm3ZwcdyBsjm",
+      "id": "d2d5340d02f1",
       "name": "Kingdom Come: Deliverance II",
       "genre": "Action RPG, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recegddCeFfGbdGvl",
+      "id": "8577e0f54afb",
       "name": "Kingdom Rush Origins",
       "genre": "Real Time Strategy (RTS), Strategy, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpRkoBk7UPtISVn",
+      "id": "d99cff6fc8a2",
       "name": "Kiosk",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec1xUubL2sN73LRS",
+      "id": "f76b86802daa",
       "name": "Kletka",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recLgklg9mqMh88QO",
+      "id": "e67881450712",
       "name": "Knights End",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recP9o4cKjXbc5rZy",
+      "id": "4314c186f032",
       "name": "Knowledge, or Know Lady",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "reczTltgbqPaiA3WJ",
+      "id": "eff270c1f50d",
       "name": "Kvark",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reco6r2CpfIqkuSRM",
+      "id": "6f021f0268d5",
       "name": "Lake",
       "genre": "Narrative Adventure, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recQgkaLJdZ4NCGvi",
+      "id": "defa112c44e4",
       "name": "Landlord's Super",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHLJtMIoNFpPUCn",
+      "id": "8ce2208db043",
       "name": "Lanesplit",
       "genre": "Racing, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reco5WAtVIYLurSIY",
+      "id": "c295ce3ef505",
       "name": "Last Train Outta' Wormtown",
       "genre": "Indie",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recRlvP9t47GUEV74",
+      "id": "2c442b2f7359",
       "name": "Laundering Simulator - Clean Cash and Laundry",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "recUhloOk3S7Y4DB2",
+      "id": "5cdc8f432b92",
       "name": "Layers of Fear",
       "genre": "Horror, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec3DhQMoxw0dEyUD",
+      "id": "9ea5367e53ce",
       "name": "League of Legends",
       "genre": "Role-playing (RPG), Strategy, MOBA",
       "perspective": "Isometric",
       "mode": "Multiplayer"
     },
     {
-      "id": "recjWcNc8Hk48Na8f",
+      "id": "4240689723de",
       "name": "Left 4 Dead 2",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCJWQvcT1xro86J",
+      "id": "a1c99ab609ef",
       "name": "Lethal Company",
       "genre": "Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recA39EPN0eSNi35j",
+      "id": "262e807a409a",
       "name": "Lies of P",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCYexVxGRCQ1F90",
+      "id": "b01f8d42c46b",
       "name": "Light No Fire",
       "genre": "Survival, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recX1hHeS1C93vXRn",
+      "id": "979d2ec8fec8",
       "name": "Lightyear Frontier",
       "genre": "Farming Sim, Simulator",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recIxo74HQ1c6hhsK",
+      "id": "355a61ea1af2",
       "name": "Limbo",
       "genre": "Platform, Puzzle, Adventure, Indie",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recqW3beCXnwQFT0D",
+      "id": "0713f136ea31",
       "name": "Lineage",
       "genre": "",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recLt3XxSBjZAxkX6",
+      "id": "665c9eef7243",
       "name": "Lineage II",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recKQcJaEtibXaUeC",
+      "id": "4221bf25d329",
       "name": "Link Penguins",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recIyYe84RNJkv9Wt",
+      "id": "407fdb257bba",
       "name": "Little Nightmares",
       "genre": "Horror, Platform, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recSAo6Sin6gSijHv",
+      "id": "26f17b6cb203",
       "name": "Little Nightmares II",
       "genre": "Horror, Platform, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recw38XXP5tRTpmq8",
+      "id": "aabd07ba5667",
       "name": "Little Nightmares III",
       "genre": "Horror, Platform, Puzzle",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recMUeWD6815AJbni",
+      "id": "04067ccfefdb",
       "name": "Lockdown Protocol",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "reczgDo3JgDKPrdE4",
+      "id": "56a61339744c",
       "name": "Lords of the Fallen",
       "genre": "Souls-like, Fighting, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recvB205ojC0reo8h",
+      "id": "97e4044b1b19",
       "name": "Love Is All Around",
       "genre": "Role-playing (RPG), Simulator, Visual Novel",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reck2EF82qOQvec95",
+      "id": "7816aea465f0",
       "name": "Low-Budget Repairs",
       "genre": "Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recsjTt6qg85Ufv7c",
+      "id": "e7dd29cf9e65",
       "name": "Lucid Blocks",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recrn5q3lI3cArr8a",
+      "id": "03d1bed80372",
       "name": "Luna Abyss",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recTdVHWou9xANL86",
+      "id": "1faf11d081ff",
       "name": "Lushfoil Photography Sim",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recoDnpgbbLawEHuR",
+      "id": "fb9844533609",
       "name": "Mad Max",
       "genre": "Action Adventure, Racing, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recUXIv2MCaPPjhcN",
+      "id": "0fa4e9620bd9",
       "name": "Mage Arena",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rec3UXDqsMm3FR7qd",
+      "id": "9efda8285550",
       "name": "Malón",
       "genre": "Action, Casual, Indie, Strategy",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recGUDJXLvnKFftSE",
+      "id": "8bd4c82e2cfe",
       "name": "Mama's Sleeping Angels",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recqzUQydmzW4gICp",
+      "id": "8d6b1c08386a",
       "name": "Manifold Garden",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recyv5pFulwE2mwgw",
+      "id": "953f6e0c5993",
       "name": "Martha is Dead",
       "genre": "Horror, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recupyW8wBUQN9th7",
+      "id": "8eb746adc641",
+      "name": "Marvel Rivals",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "fadabe5787a8",
       "name": "Marvel's Avengers",
       "genre": "Action RPG, Puzzle, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recHN23Tzu8EMvif9",
+      "id": "a2245d6b4436",
       "name": "Marvel's Spider-Man",
       "genre": "Action Adventure, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec2kin10bSre4vVk",
+      "id": "a71502b08ddc",
       "name": "Marvel's Spider-Man 2",
       "genre": "Action Adventure, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x00614f9fd37dd496",
+      "id": "00614f9fd37d",
       "name": "Mass Effect Legendary Edition",
-      "genre": "Action RPG",
+      "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8FAmhdPckTKFL3",
+      "id": "c6fb145decbd",
       "name": "Meccha Chameleon",
       "genre": "Tactical, Indie",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recG4tZAkfM26hfq4",
+      "id": "1e1571bd31ad",
       "name": "MechWarrior 5: Clans",
       "genre": "Shooter, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recfSkv1HLSSCkjeW",
+      "id": "65d9a7158793",
       "name": "MechWarrior 5: Mercenaries",
       "genre": "Fighting, Shooter, Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmQHLbxFRbJ2Lep",
+      "id": "80595a62cb34",
       "name": "Medieval Blacksmith",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec7gzeg3yacwx1zD",
+      "id": "100a02b7ce37",
       "name": "Medieval Dynasty",
       "genre": "Survival, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec2UC2hAj33uldm6",
+      "id": "de93992f9911",
       "name": "MediEvil",
       "genre": "Platform, Puzzle, Hack and slash/Beat 'em up, Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCUD5oHd2hTNkcx",
+      "id": "c1965619a1c7",
       "name": "Metal Eden",
       "genre": "Shooter, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recdzEjDpFspxP8YW",
+      "id": "77ef70a36ca5",
       "name": "Metal Gear Solid Delta: Snake Eater",
       "genre": "Stealth, Shooter, Tactical",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec3J31p4bYyZUsqz",
+      "id": "9356ca72f17c",
       "name": "Metal Gear Solid V: The Phantom Pain",
       "genre": "Stealth",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recO4Q2w9rexOdiiv",
+      "id": "4e717699b006",
       "name": "Metal: Hellsinger",
       "genre": "Shooter, Music",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recDvOubxIXqVajmA",
+      "id": "0bc851d8e886",
       "name": "Metro",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "rectX2YJ874sHgIJc",
+      "id": "671a3c36ace6",
       "name": "Metro 2033",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recP2cCUIytxWOFv5",
+      "id": "c8e564c17166",
       "name": "Metro 2033 Redux",
       "genre": "FPS, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recbBqupdBHkhR27W",
+      "id": "58ebf6338cf8",
       "name": "Metro Exodus",
       "genre": "FPS, Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCKKpDVjQBOpztn",
+      "id": "8697effc4bc1",
       "name": "Metro Exodus: Enhanced Edition",
       "genre": "Shooter, Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recewBkOH3kd6vlyy",
+      "id": "c945a8e8486b",
       "name": "Metro: Last Light",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recIwKM1yTlp6hc1o",
+      "id": "8f7c7a715cad",
       "name": "Metro: Last Light Redux",
       "genre": "FPS, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recFSUmmIvIyXoQSS",
+      "id": "c01aeff3b092",
       "name": "Middle-earth: Shadow of War",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec6HUgeb2k8iWXqf",
+      "id": "ec4d292d95fa",
       "name": "Millennium Dream",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recRHxhbdrFXqpyPm",
+      "id": "0f15d9a261b7",
       "name": "Minecraft: Story Mode - The Complete Adventure",
       "genre": "Point-and-click, Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recOyJRtNvCFSaH9Z",
+      "id": "e3e0d7055436",
       "name": "Mir 4",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recejS5lwxErueNkp",
+      "id": "e0c74524d5db",
       "name": "MiSide",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xcfe37980824601a9",
+      "id": "cfe379808246",
       "name": "Mist Survival",
-      "genre": "Survival",
+      "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "receIh11i4w9dICLq",
+      "id": "e8d58a2c3ba6",
       "name": "Mistfall Hunter",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rechwZkBWUlEJahjp",
+      "id": "25c1ca96eb11",
       "name": "Mon Bazou",
       "genre": "Racing, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHDqbAEdzI7PqNE",
+      "id": "a0be2a46659e",
       "name": "Mortal Kombat 1",
       "genre": "Fighting",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recUdAxXD9QZESmNv",
+      "id": "7edd7fccb1ff",
       "name": "Mortal Shell",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJIFN7kllLGZmS7",
+      "id": "460342a49599",
       "name": "Mortal Shell II",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recvr2KlZ2jbsXejz",
+      "id": "3a6d7fad4df7",
       "name": "Motor Town: Behind the Wheel",
       "genre": "Racing, Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recgzLb4FKsu306tz",
+      "id": "44101e591a01",
       "name": "Mount & Blade II",
       "genre": "Action RPG, Role-playing (RPG), Simulator, Tactical",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rece7aw6ydhDMA9YH",
+      "id": "47c5c28cae25",
       "name": "Mouse",
       "genre": "Platform, Adventure, Indie",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recanyweBnYzwAzXS",
+      "id": "891dcd6f3848",
       "name": "Mouthwashing",
       "genre": "Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEhiHs7j1NZa998",
+      "id": "8a9fbc56b487",
       "name": "Moves Of The Diamond Hand",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recKJJeAl8WGe40Ru",
+      "id": "34594ec4ef2c",
       "name": "Mudrunner",
       "genre": "Driving Sim, Racing, Simulator",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recRVUV6UlNAzzKkq",
+      "id": "84a54fbaf53a",
       "name": "Mundaun",
       "genre": "Horror, Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8fXe4fDywk64rB",
+      "id": "706873274ad4",
       "name": "Murky Divers",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recvIt9ydMZAv7iEr",
+      "id": "60d4deac8f33",
       "name": "My Friendly Neighborhood",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recUOSevVhLtGGEMB",
+      "id": "9fea82f3e51b",
       "name": "My Garage",
       "genre": "Racing, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpxIK3BeqZArOlP",
+      "id": "f8f0ed711f3d",
       "name": "Mythwrecked: Ambrosia Island",
       "genre": "Narrative Adventure, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recODAqFqUyNOvSoy",
+      "id": "d928e3502f46",
       "name": "Naruto X Boruto Ultimate Ninja Storm Connections",
       "genre": "Fighting",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "x9555a7a4bfe068f3",
+      "id": "c3557ecea13d",
       "name": "Necromunda: Hired Gun",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recU6zl45WG0vCacd",
+      "id": "8a7a6eb289ac",
       "name": "New World: Aeternum",
       "genre": "MMORPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rec71TtRwUM7Ad5s7",
+      "id": "95d9970943a8",
       "name": "Ni no Kuni II: Revenant Kingdom",
       "genre": "JRPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recMVT4YP0t4RzB4k",
+      "id": "0556408ce05e",
       "name": "Ni no Kuni: Wrath of the White Witch Remastered",
       "genre": "JRPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recktRjFv3EnUhzhj",
+      "id": "5d56f934eb26",
       "name": "Nightingale",
       "genre": "Survival, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recCMPjRx9aedMVDO",
+      "id": "7f555cb999f7",
       "name": "Nioh",
       "genre": "Souls-like, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recZfuDZDdN0H5Gga",
+      "id": "a406812961e0",
       "name": "Nioh 2",
       "genre": "Souls-like, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reciMbAztre3P8wux",
+      "id": "4f90f041e28f",
       "name": "No Man's Sky",
       "genre": "Exploration, Shooter, Simulator, Arcade",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "reca93wmLogEk7o9Q",
+      "id": "61daa9f4bde4",
       "name": "Nomad Drive",
       "genre": "Simulator, Adventure, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recP2EistPJcHxfNK",
+      "id": "0a67df9dc20b",
       "name": "NTE: Neverness to Everness",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJHv9HywKvCk1rs",
+      "id": "42a927d973c8",
       "name": "Nuclear Nightmare",
       "genre": "Survival Horror",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recFDOguhxRodP1EG",
+      "id": "1d440e5d1ff4",
       "name": "Nuclear Option",
       "genre": "Simulator, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recQUtWQnfAQDupgV",
+      "id": "7d33068042e3",
       "name": "Old Market Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recoXOnRbtiOeSklJ",
+      "id": "c061b4665e63",
+      "name": "Once Human",
+      "genre": "Survival",
+      "perspective": "Third Person",
+      "mode": "Multiplayer"
+    },
+    {
+      "id": "032f914eb927",
       "name": "One More Line",
       "genre": "Music, Puzzle, Racing, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec9LLpwH0JeShyf1",
+      "id": "e26e639ebdce",
       "name": "One Piece Odyssey",
       "genre": "JRPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recQ3ib4ooC4FeJAT",
+      "id": "fe71bacb1959",
       "name": "Order 13",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reczcD4cl9haysfSF",
+      "id": "03781fd6b421",
       "name": "Ore Factory Squad",
       "genre": "Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x176c76cc3b70048e",
+      "id": "99db08f64ae6",
       "name": "Osiris: New Dawn",
-      "genre": "Survival",
+      "genre": "Role-playing (RPG)",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "recCTMxZ0v1Qg2UNx",
+      "id": "9cd64ee21a80",
       "name": "Out of Action",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHKQWCdAlb4Xz00",
+      "id": "d1ee9663bd8b",
       "name": "Out of Ore",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec45pQPnTyl0iHj7",
+      "id": "492b86438ee1",
       "name": "Outbreak Island",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recrC1uKGuveLfobN",
+      "id": "267cb1a89b74",
       "name": "Outer Wilds",
       "genre": "Exploration, Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recaVT2j2IRzSrJJR",
+      "id": "edb442f20fe1",
       "name": "Outlast",
       "genre": "Survival Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recIFvdFnMMMBf8bb",
+      "id": "c060d0f6e6d9",
       "name": "Outlast II",
       "genre": "Survival Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recgz4pPdl12Kmwav",
+      "id": "6df983c20df2",
       "name": "Overwatch",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rechdibY9oWStIzDo",
+      "id": "580c0ece9d2d",
       "name": "Pacific Drive",
       "genre": "Driving Survival, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recECzs6AwHHOt4o9",
+      "id": "5e6cf9cc29fb",
       "name": "Pacific Drive: Whispers Edition",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "recJoMTVvB2loKt7b",
+      "id": "39064dfd3da4",
       "name": "Pacify",
       "genre": "Horror, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec7rmhhB81qkjbxb",
+      "id": "72b55ae32885",
       "name": "Painkiller",
       "genre": "Shooter, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x5a15283697e5af78",
+      "id": "71dd414ce67b",
       "name": "Painkiller Hell & Damnation",
-      "genre": "FPS",
+      "genre": "FPS, Shooter",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer, Co-op"
     },
     {
-      "id": "recqxmCLXJ2Bs4zxA",
+      "id": "a1a38b5bae58",
       "name": "Pal",
       "genre": "Simulator, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJrTgHBfBiihXwv",
+      "id": "652ccbed27d3",
       "name": "Palworld",
       "genre": "Survival, Shooter, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "rec2M5nmYv1ZBm44C",
+      "id": "95212618b8b0",
       "name": "Paragnosia: Museum",
       "genre": "Simulator",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recDmzYugOyDfolzA",
+      "id": "913983e8e9c2",
       "name": "Paranoia Place",
       "genre": "Adventure",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec3j2Vz4OC3gsbaf",
+      "id": "f5d2408e9e32",
       "name": "Paranormal Cleanup",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recWw9ZYjwv6bOuIo",
+      "id": "1a66c7a8f8b5",
       "name": "Parcel Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recAsUWIz9vwGiUVu",
+      "id": "f8fadb442867",
       "name": "Path of Exile",
       "genre": "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recNLNw1lNNjnWArA",
+      "id": "2e1f22745a1a",
       "name": "Pathologic 2",
       "genre": "Survival Horror, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recfa5SDYKnzKj90z",
+      "id": "6a6df66e0a51",
       "name": "Pathologic 3",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recNLepmA62DGGIDD",
+      "id": "6de41230562b",
       "name": "Payday 2",
       "genre": "Shooter, Role-playing (RPG), Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recII7ozxiflg4P2N",
+      "id": "cc4546a46b3e",
       "name": "PC Building Simulator 2",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec75UzFvpUm7Lzpk",
+      "id": "9ee9e606474e",
       "name": "Peak",
       "genre": "Platform",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x8154fe79c3667dbb",
+      "id": "e7b7b4afc390",
       "name": "Penumbra: Overture",
-      "genre": "Horror",
+      "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recGVfQzKzbTaZcfa",
+      "id": "010ea55db548",
       "name": "Phantom Blade Zero",
       "genre": "Action RPG, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recfkKBTvKWHFbNfz",
+      "id": "0c3fe1e45c9e",
       "name": "Phasmophobia",
       "genre": "Puzzle, Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recnAI8OBfHYFySQd",
+      "id": "a6cfbc42a84c",
       "name": "Plague Inc: Evolved",
       "genre": "Real Time Strategy (RTS), Simulator, Strategy, Tactical, Indie",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recZyzMUu939046jH",
+      "id": "619d956362e6",
       "name": "Platform 8",
       "genre": "Platform, Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec5Q0G5DN411gQYo",
+      "id": "679d3f15cae0",
       "name": "Police Simulator: Patrol Officers",
       "genre": "Simulator",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rech1tnAkqFNQ3wtZ",
+      "id": "b55aa5f537be",
       "name": "Portal 2",
       "genre": "Platform, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recdGMuJElhDltgjb",
+      "id": "ed93b32f297b",
       "name": "PowerWash Simulator 2",
       "genre": "Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCIGPvWSx4muOoJ",
+      "id": "fc8037d3ae7e",
       "name": "Prison Simulator",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recE2cwSaD0VMOAvw",
+      "id": "84b589473d78",
       "name": "Pro Soccer Online",
       "genre": "Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpdvvIAjiQBwemP",
+      "id": "18eab77bec4b",
       "name": "Project Castaway",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec2orHvwZRH9iftG",
+      "id": "42a2505ea5a5",
       "name": "Project Playtime",
       "genre": "Survival Horror",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recqcXSjjhQZG34dT",
+      "id": "a9da8c79c858",
       "name": "Prototype 2",
       "genre": "Platform, Hack and slash/Beat 'em up, Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpGnQ8s5Ba4OWbU",
+      "id": "c219dbb33792",
       "name": "Quantum Break",
       "genre": "Action Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recw0Jc9GgSbxyz1I",
+      "id": "d0bc8123c5c0",
       "name": "Quarantine Zone: The Last Check",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmIxRMR6sRNb3Zi",
+      "id": "d05813bff18d",
       "name": "R.E.P.O.",
       "genre": "Strategy",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recPNToRfOJymaUk2",
+      "id": "624bdd06be6c",
       "name": "RaceRoom Racing Experience",
       "genre": "Racing, Simulator, Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rechkU97O2fbqSBjI",
+      "id": "76a35072df72",
       "name": "Raft",
       "genre": "Simulator, Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xe59389d9c8173527",
+      "id": "e59389d9c817",
       "name": "Rage",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x1e5cad9b6f39e45e",
+      "id": "1e5cad9b6f39",
       "name": "Rage 2",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reckVBuvrSQh13Osk",
+      "id": "b04871118586",
       "name": "Railroader",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "recG2Hi6s2alQQlag",
+      "id": "914c343224b0",
       "name": "Ranch Farm and Store Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recNruBHjnhk4sB6A",
+      "id": "c78f589ed2d0",
       "name": "Ratchet & Clank: Rift Apart",
       "genre": "Platformer, Shooter, Platform",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recN1OBuWsTwtSSbI",
+      "id": "905003df5669",
       "name": "Ready or Not",
       "genre": "Shooter, Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec9thbQ3ggvL5Eyg",
+      "id": "ee5ffc46c506",
       "name": "Rec Room",
       "genre": "Fighting, Shooter, Music, Platform, Role-playing (RPG), Simulator, Sport, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recZ3wCzMv8k2ZGDN",
+      "id": "44264c0df61b",
       "name": "Recycling Center Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recT2ipUN9eNiKkmY",
+      "id": "3f21bb44e84c",
       "name": "Red Dead Redemption 2",
       "genre": "Shooter, Role-playing (RPG), Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec4Hq3CbMjvmMxWe",
+      "id": "dc80c36255c3",
       "name": "Red Orchestra 2: Heroes of Stalingrad with Rising Storm",
       "genre": "",
       "perspective": "First Person",
       "mode": ""
     },
     {
-      "id": "recnKSQQBvfUtNZPz",
+      "id": "3e1570dbb504",
       "name": "Remnant 2",
       "genre": "Souls-like, Shooter, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "xb221049971c7c9b5",
+      "id": "d8c97a3f6fea",
       "name": "Remnant: From the Ashes",
-      "genre": "Action RPG",
+      "genre": "Shooter",
       "perspective": "Third Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "recflqTof2GtQpcuP",
+      "id": "a14abb14293c",
       "name": "Resident Evil 3",
       "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec0rBEM6ntmhy8B0",
+      "id": "1cbbd6ff864a",
       "name": "Resident Evil 4",
       "genre": "Shooter, Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x98c75487e8df5314",
+      "id": "98c75487e8df",
       "name": "Resident Evil 5",
-      "genre": "Survival Horror",
+      "genre": "Shooter",
       "perspective": "Third Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "xacd136a6c909f9a5",
+      "id": "acd136a6c909",
       "name": "Resident Evil 6",
-      "genre": "Survival Horror",
+      "genre": "Shooter",
       "perspective": "Third Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "recILmji0moErapZn",
+      "id": "4940c77cd629",
+      "name": "Resident Evil: Revelations 2",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "20e513569964",
       "name": "Resident Evil Village",
       "genre": "Survival Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xe20a1597254ad944",
-      "name": "Resident Evil: Revelations 2",
-      "genre": "Survival Horror",
-      "perspective": "Third Person",
-      "mode": "Co-op"
-    },
-    {
-      "id": "rec5PBfSsdbqbmCGi",
+      "id": "474f821126bb",
       "name": "Resonance: A Plague Tale Legacy",
       "genre": "Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reczYInCb1io5zApK",
+      "id": "05ba0849c5c3",
       "name": "Responding",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recgHNbCgVjzKBIDh",
+      "id": "082f3203b278",
       "name": "ReStory: Chill Electronics Repairs",
       "genre": "Simulator, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reccVJ4rWd3iBteZb",
+      "id": "6273add34650",
       "name": "Returnal",
       "genre": "Roguelike Shooter, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8bN4ijHXuuWpKr",
+      "id": "90d18e0c49c7",
       "name": "Rewind 99",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recbAVpXHoO2alhfa",
+      "id": "cf9eec30c3be",
       "name": "Ride 5",
       "genre": "Racing Sim, Racing, Simulator, Sport",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recVj4D76lL2Apjoi",
+      "id": "b0532e1af75c",
       "name": "RiME",
       "genre": "Adventure, Platform, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recxabuHAD20AautK",
+      "id": "21fb627d7a11",
       "name": "Rise of the Ronin",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recSmfEDY9qiHOXiE",
+      "id": "85fd0cf6daec",
       "name": "Rising Fox",
       "genre": "Action, Adventure, Indie",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recSSx2AtdJ294Bg0",
+      "id": "4cababe842ad",
       "name": "Risk of Rain 2",
       "genre": "Roguelike Shooter, Shooter",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "rec2yrP6cFdctAeqp",
+      "id": "b87b36970508",
       "name": "Riven",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recDdSQV68FX45A0t",
+      "id": "bcd48807a799",
       "name": "Road 96",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recv9iU52M13QldOF",
+      "id": "d36e5a1a7a3c",
       "name": "Roblox",
       "genre": "Sandbox, Platform, Simulator",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "xac0ce70db4a40120",
+      "id": "874d780612b5",
       "name": "RoboCop: Rogue City",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rechUN6nmst5w1rA0",
+      "id": "17b05e96efae",
       "name": "Roboquest",
       "genre": "Roguelike Shooter, Shooter",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recNCIHkOsE7KyGB0",
+      "id": "c38d3d88cf25",
       "name": "Robot Wars",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "recb51Taq0KWtsY83",
+      "id": "54bf08dd5e85",
       "name": "Rocket League",
       "genre": "Racing, Sport, Indie",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recZxKm0Oe9BOl1kX",
+      "id": "c677b25ab17e",
       "name": "Rogue Point",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recGLYrFyHG43t3fC",
+      "id": "22800516ae36",
       "name": "Roommates, Romance, and Ringing Hearts",
       "genre": "Role-playing (RPG), Simulator, Visual Novel",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec7AlhreAcFQIicY",
+      "id": "fde55b36ec36",
       "name": "Routine",
       "genre": "Horror",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recFSlbTGTc7uaZwG",
+      "id": "c3512e226bb1",
       "name": "RPG MO Sandbox",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "recEBaQ9efvMqcSMS",
+      "id": "76a7aaa5a08a",
       "name": "Russian Fishing 4",
       "genre": "Role-playing (RPG), Simulator, Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEARkACRVrl3u1v",
+      "id": "521fe5c9ece1",
       "name": "Rust",
       "genre": "Survival, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recvf2sUafqMIiGWD",
+      "id": "8ab51f25d75c",
       "name": "Rustler",
       "genre": "Shooter, Racing, Role-playing (RPG), Adventure, Indie",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recd6gTYG5k3EsUN4",
+      "id": "0a48f98f7a24",
       "name": "S.N.A.P.",
       "genre": "Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec7EwkouOSgT7JMK",
+      "id": "4d6452aaf808",
       "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
       "genre": "FPS, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recrZZkXcKTfqkcly",
+      "id": "4cffdaa7628c",
       "name": "S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recYS4Bu6fmyMWqxx",
+      "id": "66a90cea21ec",
       "name": "S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEdtK8lgjgqlIL1",
+      "id": "609e43675820",
       "name": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
       "genre": "FPS, Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recL5h0wzIKujq8NN",
+      "id": "3b023cc7c228",
       "name": "S.T.A.L.K.E.R.: Shadow of Chornobyl - Enhanced Edition",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec5CyZe44HTg98bd",
+      "id": "cfd90af84039",
       "name": "Sable",
       "genre": "Exploration, Platform, Puzzle, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recXcyQu83wX69io0",
+      "id": "96638ad78978",
       "name": "Sackboy: A Big Adventure",
       "genre": "Platformer, Platform",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recw6GyJoWwmlzVHQ",
+      "id": "f0884f55200b",
       "name": "Saiko no Sutoka",
       "genre": "Puzzle, Simulator, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recX7zh92X9zMDILm",
+      "id": "1db78cd7f18e",
       "name": "Saints Row IV",
       "genre": "Action Adventure, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recXYANBx3HDU7c36",
+      "id": "b4fb0dc1b6e2",
       "name": "Saints Row: The Third Remastered",
       "genre": "Action Adventure, Shooter, Racing",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHCCBMYgLxRwixP",
+      "id": "1e7df441e66b",
       "name": "Sandwich Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recXDceR9nCMZZNu2",
+      "id": "24b564a03f3b",
       "name": "Satisfactory",
       "genre": "Survival, Simulator",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recQ58y4RBHl66veZ",
+      "id": "95567ce4fef4",
       "name": "Sayonara Wild Hearts",
       "genre": "Action, Music, Arcade",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recNoUWHJlFdhzCoG",
+      "id": "8c0275f35f9e",
       "name": "Scary Game 2: The Mad Shepherd",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8LspbMH5haL0qv",
+      "id": "b1524ccbad1c",
       "name": "Schedule I",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xc2a9a0e7139cf701",
+      "id": "c2a9a0e7139c",
       "name": "Scorn",
-      "genre": "Horror",
+      "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recd3FwAKvuwUuKwn",
+      "id": "241932906782",
       "name": "Search",
       "genre": "Simulator, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec40Y8Sv5Zd6Ce2D",
+      "id": "3752bd90fe8e",
       "name": "Season: A Letter to the Future",
       "genre": "Narrative Adventure, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recQUO13dbnMLIQKI",
+      "id": "1c511e312cb3",
       "name": "Sekiro: Shadows Die Twice",
       "genre": "Souls-like",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recKcjAIuOBhU1e3R",
+      "id": "956cb08d8f53",
       "name": "Sekiro: Shadows Die Twice - Game of the Year Edition",
       "genre": "Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recXbZCv74rvEc8vo",
+      "id": "7252302e6af8",
       "name": "Selaco",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x8077f920c6a13469",
+      "id": "8077f920c6a1",
       "name": "Sengoku Dynasty",
-      "genre": "Survival",
-      "perspective": "First Person",
-      "mode": "Co-op"
+      "genre": "Simulator",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
     },
     {
-      "id": "recZZc5BbbFcgKvwJ",
+      "id": "0cf6855c1a3c",
       "name": "Sentry",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJWcjNlO1WG6zDL",
+      "id": "39644e10d588",
       "name": "Seven Deadly Sins",
       "genre": "Point-and-click",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "xeb4a38c28dbb16a1",
+      "id": "eb4a38c28dbb",
       "name": "Shadow Warrior 2",
-      "genre": "FPS",
-      "perspective": "First Person",
-      "mode": "Co-op"
-    },
-    {
-      "id": "x5a1c0791975f9876",
-      "name": "Shadow Warrior 3: Definitive Edition",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recWe810p5aGUtEEf",
+      "id": "d09f06ed87e3",
+      "name": "Shadow Warrior 3: Definitive Edition",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "62d080c8704c",
       "name": "Shower With Your Dad Simulator 2015: Do You Still Shower With Your Dad?",
       "genre": "Puzzle, Simulator, Indie, Arcade",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recYHYmN8Ij0nmYDc",
+      "id": "6656f9259f53",
       "name": "Sifu",
       "genre": "Action, Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recYBk7M3Q8ahl67s",
+      "id": "74b405a64e26",
       "name": "Silent Hill 2 (Remake)",
       "genre": "Survival Horror, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recOyqSl71AxxVo1X",
+      "id": "6fa09efec105",
       "name": "Simple Solitaire",
       "genre": "Simulator, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "x61933d3774170c68",
+      "id": "61933d377417",
       "name": "Singularity",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reca4vntM8SFPTNaC",
+      "id": "05f514fae7ca",
       "name": "Sky",
       "genre": "Strategy",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recMRqv4bSK9Hanck",
+      "id": "17f128b05a71",
       "name": "Sky: Children of the Light",
       "genre": "Exploration, Puzzle, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recHLrrNoc3IaAYCl",
+      "id": "089157fddb4d",
       "name": "Sleeping Dogs: Definitive Edition",
       "genre": "Action Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x54e7287b2344eeb9",
+      "id": "471f376c282d",
       "name": "Slender: The Arrival",
-      "genre": "Horror",
+      "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recAtqmLUVqt14vbq",
+      "id": "1e696e92c0ae",
       "name": "Slime Rancher 2",
       "genre": "Shooter, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reca9owqiv2kcsGbg",
+      "id": "e3938ce7de8a",
       "name": "Smalland: Survive the Wilds",
       "genre": "Survival, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "x2af340a66f559d5a",
+      "id": "2af340a66f55",
       "name": "Sniper Elite 4",
       "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recggENQlvTJudG4c",
+      "id": "bc040e734913",
+      "name": "Sniper Elite 4: Limited Edition",
+      "genre": "",
+      "perspective": "",
+      "mode": ""
+    },
+    {
+      "id": "1f2965e0b60a",
       "name": "Sniper Elite 5",
       "genre": "Tactical Shooter, Shooter, Simulator",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recGA7i0Z73a6BleV",
+      "id": "5c7693ac4cd6",
+      "name": "Sniper Ghost Warrior Contracts",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "871badbefab7",
+      "name": "Sniper Ghost Warrior Contracts 2",
+      "genre": "Shooter",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "2a1b67d418fe",
       "name": "Snowbreak: Containment Zone",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recYNlQuwoPkT1nME",
+      "id": "f6c2dd5bb7bf",
       "name": "Snowrunner",
       "genre": "Driving Sim, Racing, Simulator, Arcade",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recfB7cersmlL5Un1",
+      "id": "3a75c0ce6343",
       "name": "Solar Ash",
       "genre": "Action Adventure, Platform",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recuCb4ukyE6iTCbg",
+      "id": "80d078c7dc84",
       "name": "SOMA",
       "genre": "Survival Horror, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recNK8C0q2n1sIF0j",
+      "id": "757d00f06e11",
       "name": "Sons of the Forest",
       "genre": "Survival Horror, Simulator",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recI1UvyoVFXYrYX6",
+      "id": "8771cc425f00",
       "name": "Soulmask",
       "genre": "Survival, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recgI6K6jttt2U721",
+      "id": "d220ef9277fd",
       "name": "SpaceBourne 2",
       "genre": "Shooter, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recy9GTnzynuFA1uM",
+      "id": "dc6fd47eb01e",
       "name": "Spiral Knights",
       "genre": "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure, Indie",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recfav8RsAPkeMjLy",
+      "id": "72f2386a5b9d",
       "name": "SpiritVale",
       "genre": "Role-playing (RPG), Indie",
       "perspective": "Isometric",
       "mode": "Multiplayer"
     },
     {
-      "id": "rec3FQVhsiY1ptLER",
+      "id": "0da049d51751",
       "name": "Sprawl",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "receYXC7J01uROOAh",
+      "id": "1bd327956543",
       "name": "Squad",
       "genre": "Tactical Shooter, Shooter, Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rechHwPXgIwEfXxOB",
+      "id": "83488d841db5",
+      "name": "Squad Game",
+      "genre": "Simulator, Strategy, Adventure, Indie",
+      "perspective": "",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "b532780853a1",
       "name": "STALCRAFT: X",
       "genre": "",
       "perspective": "First Person",
       "mode": ""
     },
     {
-      "id": "recdbvhDZix4h8hPl",
+      "id": "3d03cd455a39",
       "name": "Stalzone",
       "genre": "Shooter, Role-playing (RPG), Adventure",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "rec6vDz1hkrvpZPVK",
+      "id": "9ac868d73a98",
       "name": "Star Citizen",
       "genre": "Exploration, Shooter, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recSwmfOI8BPz8ZZF",
+      "id": "621c17bd7386",
       "name": "Starfield",
       "genre": "Action RPG",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recLdJCMQhE4G3OJ7",
+      "id": "bc310d6888f3",
       "name": "Starship Troopers: Ultimate Bug War!",
       "genre": "Shooter, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec4MxDqpTHxzxJBm",
+      "id": "15fdd4d1e63c",
       "name": "Stellar Blade",
       "genre": "Action RPG, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rectkZuNEtHlbA7bp",
+      "id": "408f97e9b9d8",
       "name": "Still Wakes the Deep",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCu3iIr5swiJjHb",
+      "id": "9e9a821235bb",
       "name": "Stoneshard",
       "genre": "Role-playing (RPG), Strategy, Turn-based strategy (TBS), Tactical, Adventure, Indie",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "xefd6b661368b4384",
+      "id": "efd6b661368b",
       "name": "Stranded Deep",
-      "genre": "Survival",
+      "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x56bc27761036c259",
-      "name": "Strange Brigade",
-      "genre": "Shooter",
-      "perspective": "Third Person",
-      "mode": "Co-op"
-    },
-    {
-      "id": "recKBLLHuq0YakPav",
+      "id": "e224ddc6b55a",
       "name": "Stray",
       "genre": "Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recf0TmVvrQUKvcDQ",
+      "id": "0d2d91869654",
       "name": "Stray Gods: The Roleplaying Musical",
       "genre": "Narrative Adventure, Music, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rectEhE7xzPRho4PA",
+      "id": "3fa02b56ed8f",
       "name": "Strinova",
       "genre": "Hero Shooter, Shooter, Role-playing (RPG), Tactical",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "reci4Tk2P0yBS5Dyh",
+      "id": "12d9a2825071",
       "name": "Subliminal",
       "genre": "Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recN3w2N1hihFzub3",
+      "id": "6566dedb0188",
       "name": "Subnautica",
       "genre": "Survival",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recx8PkhNutcUsgUn",
+      "id": "a8d8c5dfb826",
       "name": "Subnautica 2",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recZoaeYrvn4We6nn",
+      "id": "574bc654863a",
       "name": "Subnautica: Below Zero",
       "genre": "Survival",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x2caf4ade6c75d688",
+      "id": "2caf4ade6c75",
       "name": "Subsistence",
-      "genre": "Survival",
+      "genre": "Shooter",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "recOgJvWS9IznuxQr",
+      "id": "c5f560a0bb4d",
       "name": "Suicide Squad: Kill the Justice League",
       "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "xe5b4e128edc548b0",
+      "id": "e5b4e128edc5",
       "name": "Sunkenland",
-      "genre": "Survival",
+      "genre": "Indie",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "rec9GaK04jxH8TwEu",
+      "id": "84932959be8e",
       "name": "SuperHot",
       "genre": "Shooter, Puzzle, Tactical, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCps65Rk0nc5lHR",
+      "id": "0e8e60a47978",
       "name": "SuperHot: Mind Control Delete",
       "genre": "Shooter, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8rrWIalBLw71Eg",
+      "id": "4ba7f8dde861",
       "name": "Superliminal",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reclJaujQ6PqAA7XJ",
+      "id": "5e6e5922a001",
       "name": "Supermarket Simulator",
       "genre": "Simulator, Strategy, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recuiJnPvomqznWok",
+      "id": "c47622aafccd",
       "name": "Supraland",
       "genre": "Platform, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpAuDJZOqDmpgic",
+      "id": "3a2ecf1da4de",
       "name": "Supraland: Six Inches Under",
       "genre": "Platform, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recO79S8x2v4fztx3",
+      "id": "2918029293b7",
       "name": "Supraworld",
       "genre": "Platform, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x6eb88ed77a0b47d0",
+      "id": "6eb88ed77a0b",
       "name": "SurrounDead",
-      "genre": "Survival",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recGzULvq3sO4mcsL",
+      "id": "3035f5a92500",
       "name": "Sword Art Online Re: Hollow Fragment",
       "genre": "Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recvs0a8TZPhARXd1",
+      "id": "94c5da6f9253",
       "name": "Syberia: Remastered",
       "genre": "Point-and-click",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recPFp6GpUs3zvijq",
+      "id": "0aed5ad1868a",
       "name": "Sylvio",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec0qfn904ebNeKCP",
+      "id": "140d89064362",
       "name": "System Shock",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recylB6aj1KJtBNYB",
+      "id": "3ba8ca5c2646",
       "name": "System Shock (Remake)",
       "genre": "Immersive Sim, Shooter, Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recEeNIsz2yvBRUr6",
+      "id": "94078ea59171",
       "name": "Tabletop Game Shop Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recjuNcH8LiUhF7RQ",
+      "id": "7324373e9b34",
       "name": "Tabletop Simulator",
       "genre": "Role-playing (RPG), Simulator, Strategy, Indie, Card & Board Game",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recXhJRKk8Wrd7PTy",
+      "id": "ef35ee2fbf0b",
       "name": "Tacoma",
       "genre": "Narrative Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recK2qgFpMsADiQWB",
+      "id": "f39078b20fc8",
       "name": "Tainted Grail: The Fall of Avalon",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHOPt6SxzQQoe9g",
+      "id": "1949a1bfcc1b",
       "name": "Tales of Arise",
       "genre": "JRPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHPD8iN4tlLjktX",
+      "id": "465cdb3193aa",
       "name": "Tales of Berseria",
       "genre": "JRPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recU7Spqj5UEbSz5R",
+      "id": "6440c134571d",
       "name": "Tales of Zestiria",
       "genre": "JRPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recbPF44SnZf8tbLT",
+      "id": "af26e9ed85f9",
       "name": "Tamashika",
       "genre": "Shooter, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recVI2hfvu4jwOqeT",
+      "id": "c4061e83a158",
       "name": "Tavern Manager Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHhnNWlaYfmUNQe",
+      "id": "cda604041e68",
       "name": "Taxi Life: A City Driving Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recoGFpKMAjKEanHx",
+      "id": "d0fbf6729ef3",
       "name": "TBH: Task Bar Hero",
       "genre": "Platform, Role-playing (RPG), Indie",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recfowa7wRUJLPBka",
+      "id": "e889624a5522",
       "name": "TCG Card Shop Simulator",
       "genre": "Simulator, Strategy, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recLm9awv1GgGZVab",
+      "id": "fa1236b01ff5",
       "name": "Teardown",
       "genre": "Sandbox, Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recFB1YxFHg0dZ7WN",
+      "id": "ee3bb9e17945",
       "name": "Tekken 8",
       "genre": "Fighting",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "x9c39470ad77f935e",
+      "id": "c89cfc1cc5dc",
       "name": "Terminator: Resistance",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recODvag2pPDwcNVp",
+      "id": "acf87c481658",
       "name": "Test Drive Unlimited Solar Crown",
       "genre": "Racing, Simulator",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recx1G9ZzxHI7Qvmt",
+      "id": "9fbaf4cbbfdc",
       "name": "The Adventures of Sir Kicksalot",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xa090929ee6a0f219",
+      "id": "a090929ee6a0",
       "name": "The Beast Inside",
-      "genre": "Horror",
+      "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recH6zCG1fxygEYEq",
+      "id": "649e4e9fcf83",
       "name": "The Binding of Isaac: Rebirth",
       "genre": "",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recghVEccHHl7A4A8",
+      "id": "a48678d13458",
       "name": "The Bridge Curse: Road to Salvation",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmAZeZ5sRip3MQC",
+      "id": "002ef49edb27",
       "name": "The Bug Butcher",
       "genre": "Shooter, Indie, Arcade",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "recl9R4ogP0barFkk",
+      "id": "7155485b2834",
       "name": "The Bus",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "recPYtStcquoGE6JR",
+      "id": "0f01d2334800",
       "name": "The Caribou Trail",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recMHqHmquVlsUzby",
+      "id": "5c8383d9d35c",
       "name": "The Casting of Frank Stone",
       "genre": "Narrative Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reclZwNC0TW4G5T2W",
+      "id": "7cb5c73039f0",
       "name": "The Classrooms",
       "genre": "",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recPmaUNsNydLStYp",
+      "id": "c8797d0f2347",
       "name": "The Dark Pictures Anthology: House of Ashes",
       "genre": "Narrative Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec2emEWrvNlUAUYJ",
+      "id": "37f57f09d9af",
       "name": "The Dark Pictures Anthology: Little Hope",
       "genre": "Narrative Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recvKeyVY7nhErPrz",
+      "id": "2a8d9cf70089",
       "name": "The Dark Pictures Anthology: Man of Medan",
       "genre": "Narrative Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recN87aoRibYHOeTH",
+      "id": "bcb09dee56e0",
       "name": "The Dark Pictures Anthology: The Devil in Me",
       "genre": "Narrative Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recqMi1jdSjs28uBl",
+      "id": "fb74fa827206",
       "name": "The Elder Scrolls V: Skyrim - Special Edition",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xffddb230fdbe39f2",
+      "id": "ffddb230fdbe",
       "name": "The Evil Within",
-      "genre": "Survival Horror",
+      "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x4930605885549e0a",
+      "id": "493060588554",
       "name": "The Evil Within 2",
-      "genre": "Survival Horror",
-      "perspective": "Third Person",
+      "genre": "Shooter",
+      "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec2Uep9PUNXOCpzy",
+      "id": "4b6e527ce390",
       "name": "The Exit 8",
       "genre": "Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recSu9kT5bu1qC9fM",
+      "id": "c8506e1e103a",
       "name": "The Finals",
       "genre": "FPS, Shooter",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recG9pcs1obTypYhy",
+      "id": "afa54821283c",
       "name": "The Forest",
       "genre": "Survival Horror, Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "rec4VkYstDjBqQ7mp",
+      "id": "f190ff2452f5",
       "name": "The House of the Dead 2: Remake",
       "genre": "Shooter, Arcade",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recxyNPdKtTGQbEVQ",
+      "id": "affe6fa2f04a",
       "name": "The Hunter: Call of the Wild",
       "genre": "Hunting Sim, Shooter, Simulator, Sport",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "xb6c0cf000e9378ef",
+      "id": "b6c0cf000e93",
       "name": "The Infected",
-      "genre": "Survival",
+      "genre": "Fighting",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJaRWctvsy6AvdU",
+      "id": "1763c2c2c410",
       "name": "The Isle",
       "genre": "Survival, Fighting, Role-playing (RPG), Simulator",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recdJoBMssFvTjiJ8",
+      "id": "fd6c749db1a2",
       "name": "The Land of Pain",
       "genre": "Adventure, Indie",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec55dtcbluMdlyzD",
+      "id": "ac5e63adfb37",
       "name": "The Last Caretaker",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmpuz1aW3p7jjVd",
+      "id": "5543c58dd499",
       "name": "The Last of Us Part I",
       "genre": "Action Adventure, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recdooJb8CfififZP",
+      "id": "d22eaaf3ea59",
       "name": "The Last of Us Part II",
       "genre": "Action Adventure, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recI9rCcduLnyxSKB",
+      "id": "3d276fecfcae",
       "name": "The Legend of Heroes: Trails through Daybreak",
       "genre": "JRPG, Role-playing (RPG), Turn-based strategy (TBS)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recTHFMDbe2nuS7fU",
+      "id": "2ebf405abba4",
       "name": "The Long Dark",
       "genre": "Survival, Shooter, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec153IxwdwqddUDz",
+      "id": "a01897f26ab3",
       "name": "The Lord of the Rings: Return to Moria",
       "genre": "Survival, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recJhPgBgZEXTxlAJ",
+      "id": "bc3842b6922f",
       "name": "The Misadventures of P.B. Winterbottom",
       "genre": "Platform, Puzzle, Adventure, Indie, Arcade",
       "perspective": "Side View",
       "mode": "Singleplayer"
     },
     {
-      "id": "x73ffe0306fae3e3e",
+      "id": "73ffe0306fae",
       "name": "The Mortuary Assistant",
-      "genre": "Horror",
+      "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec18LiEGfGmPDjQB",
+      "id": "4f441942108f",
       "name": "The Outer Worlds",
       "genre": "Action RPG",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec8uORlW4GQPwEKX",
+      "id": "29e08a081ed8",
       "name": "The Outlast Trials",
       "genre": "Survival Horror",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "recW4g0o2TE3jSNTc",
+      "id": "86639162ab9c",
       "name": "The Pathless",
       "genre": "Action Adventure, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmqvQNqXnzZ7iUi",
+      "id": "3bc5aa168728",
       "name": "The Plucky Squire",
       "genre": "Action Adventure, Platform, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recp2HjqGxN2O92dn",
+      "id": "a950d43d0617",
       "name": "The Stanley Parable: Ultra Deluxe",
       "genre": "Narrative Adventure, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recMqLXOYYhtB6SK6",
+      "id": "6d624228f6d0",
       "name": "The Surge 2",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec11EJSKbFmesoFO",
+      "id": "4a57e77a9189",
       "name": "The Talos Principle",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recvAq4052x8JtQzN",
+      "id": "519182a55c76",
       "name": "The Talos Principle 2",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recQqcxSG6I1i2Hb3",
+      "id": "d193e5b348ae",
       "name": "The Talos Principle: Reawakened",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCWnwYA0N7uvfoL",
+      "id": "47fb0b5653a4",
       "name": "The Three Kingdoms: Rebirth",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recmCwHsZGnd4iBor",
+      "id": "ced30ed2ce26",
       "name": "The Vanishing of Ethan Carter",
       "genre": "Narrative Adventure, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec0ss5IbwpNsXDbn",
+      "id": "9ee1c59370b0",
       "name": "The WereCleaner",
       "genre": "Strategy, Indie, Arcade",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recyTOzz7MMpASovz",
+      "id": "d3b08ad1d9a0",
       "name": "The Witcher 3: Wild Hunt",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recyTMWKhet9ujJRG",
+      "id": "312f68cd40d7",
       "name": "The Witcher 3: Wild Hunt - Complete Edition: 10th Anniversary Edition",
       "genre": "Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recA9Au3vAHcntSss",
+      "id": "27b4dd42fffe",
       "name": "The Witness",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recUKVKMevC3OYToM",
+      "id": "835a9b2f6e41",
       "name": "TheHunter Classic",
       "genre": "Shooter, Simulator, Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reccxQWc62kP9Vnfc",
+      "id": "dc58bbb43d69",
       "name": "Thick as Thieves",
       "genre": "Stealth, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reckIstBRMvNte2zm",
+      "id": "d49277820f60",
       "name": "Throne and Liberty",
       "genre": "MMORPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recRcgrVKot7rO8Ig",
+      "id": "c61a65f3a660",
       "name": "Thymesia",
       "genre": "Souls-like, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recDIuJi7amL6iqXb",
+      "id": "85ba1d26a6f2",
       "name": "Tibia",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Isometric",
       "mode": "Co-op"
     },
     {
-      "id": "recOzr96Y8eL4ovXu",
+      "id": "985b91562068",
       "name": "TimeShift",
       "genre": "Shooter, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recDBowuejP2LXTYg",
+      "id": "40e5c6d5a98d",
       "name": "Toll Booth Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recqoCZQQDsQ8KV8S",
+      "id": "864be20e85b6",
       "name": "Tormented Souls",
       "genre": "Survival Horror, Shooter, Puzzle",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recYxk5nnWUjq9SK4",
+      "id": "81a88172c8c4",
       "name": "Total Chaos",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recZQEipfLsywnjve",
+      "id": "c27bf5be419e",
       "name": "Total War: Rome Remastered",
       "genre": "Real Time Strategy (RTS), Strategy, Turn-based strategy (TBS)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec2z81OSKZ65a2KO",
+      "id": "62d32ef40e0e",
       "name": "Trading Card Shop Simulator",
       "genre": "Simulator, Strategy, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec5O86hZhIrLCwao",
+      "id": "6354fa8fd302",
       "name": "Train Sim World 5",
       "genre": "Simulation, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCRf8uvo2aTiEBa",
+      "id": "574240f8dce3",
       "name": "Trans-Siberian Railway Simulator",
       "genre": "Simulator",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "reckgojKDcfTuTiQW",
+      "id": "95101c6299c9",
       "name": "Travellers Rest",
       "genre": "Role-playing (RPG), Simulator",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recfSN0wkEC7uL2or",
+      "id": "cf5f1890974a",
       "name": "Tropico 5",
       "genre": "Role-playing (RPG), Simulator, Strategy",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recIwHSLb1R33IkxE",
+      "id": "d71f06fcc55a",
       "name": "Trove",
       "genre": "Platform, Role-playing (RPG), Hack and slash/Beat 'em up, Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recqceFViZopTF7Iq",
+      "id": "b395397b9773",
       "name": "Ultimate Theater Simulator",
       "genre": "Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec6DoWAeDoAcavyV",
+      "id": "49f9497f4e40",
       "name": "UMIGARI | ウミガリ",
       "genre": "",
       "perspective": "",
       "mode": ""
     },
     {
-      "id": "reccKbOHqMPpZtwDU",
+      "id": "e379c4216bb1",
       "name": "Uncharted 4: A Thief's End",
       "genre": "Action Adventure, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recpAv4bp1TIzaBUr",
+      "id": "38478ea7f181",
       "name": "Uncharted: The Lost Legacy",
       "genre": "Action Adventure, Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recM9s8bxYOWOFXq9",
+      "id": "21fd37f42768",
       "name": "UNCHARTED™: Legacy of Thieves Collection",
       "genre": "Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec4zuanfOM8CajOT",
+      "id": "26aa1ae36b45",
       "name": "Until Dawn",
       "genre": "Narrative Adventure",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reca2zvQx8XWwxI2P",
+      "id": "960f4abf1807",
       "name": "Unturned",
       "genre": "Shooter, Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec4JNpWobODOxMpA",
+      "id": "cd2e008efa41",
       "name": "V Rising",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "recwovxU0mRIYVz7d",
+      "id": "b0f77dbed3fa",
       "name": "Valheim",
       "genre": "Survival, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recldgCszH41GO1wt",
+      "id": "44de939ca8b6",
       "name": "Vampire Survivors",
       "genre": "Role-playing (RPG), Adventure, Indie, Arcade",
       "perspective": "Isometric",
       "mode": "Singleplayer"
     },
     {
-      "id": "x3d4552f7734e463a",
+      "id": "3d4552f7734e",
       "name": "Vanquish",
       "genre": "Shooter",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recCryfToeaHmdY3l",
+      "id": "4670cfa0342d",
       "name": "Verdun",
       "genre": "Shooter, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recJk5tFFOPLpETfJ",
+      "id": "f2154869a190",
       "name": "Verho: Curse of Faces",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reccejUiXj2aehu7g",
+      "id": "434dc3a13080",
       "name": "Vietnam War",
       "genre": "",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recatfq4vXWhjQbJR",
+      "id": "6a08a80106cd",
       "name": "Viewfinder",
       "genre": "Platform, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recz2v8UA0J5md2md",
+      "id": "c4a80267a917",
       "name": "Visage",
       "genre": "Horror, Puzzle, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "x3bbb59de632323c3",
+      "id": "3bbb59de6323",
       "name": "Voidtrain",
-      "genre": "Survival",
+      "genre": "Role-playing (RPG)",
       "perspective": "First Person",
-      "mode": "Co-op"
+      "mode": "Singleplayer"
     },
     {
-      "id": "x1ca63a897c64153a",
+      "id": "1ca63a897c64",
       "name": "Volcanoids",
-      "genre": "Survival",
-      "perspective": "Third Person",
-      "mode": "Co-op"
+      "genre": "Simulator",
+      "perspective": "First Person",
+      "mode": "Singleplayer"
     },
     {
-      "id": "recqjE2EELAMtS3BF",
+      "id": "793924f9a2f6",
       "name": "Voodoo Fishin'",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xf864c8abf5b9ff7e",
-      "name": "War Thunder",
-      "genre": "Vehicle Combat",
-      "perspective": "Third Person",
-      "mode": "Multiplayer"
-    },
-    {
-      "id": "recdmh5AaqM7y60JY",
+      "id": "ce9d8a69db25",
       "name": "Warframe",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recrSLcqYPaaXLOzG",
+      "id": "bda1a4da95de",
       "name": "Warhammer 40,000: Fire Warrior",
       "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recb8TVt2EI1FHAtv",
+      "id": "c7ec4e6fb9d3",
+      "name": "Warzone",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "3138340b8761",
       "name": "Wasteland Bites",
       "genre": "Point-and-click, Simulator",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recHXq3wJxlsaA1N2",
+      "id": "0ee04589c34e",
       "name": "Way of the Hunter",
       "genre": "Shooter, Simulator, Sport",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec4rJiiEGPUIQ9Sc",
+      "id": "f287d93b4c82",
       "name": "Wayfinder",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "reclylNZMHEbngmlS",
+      "id": "ff3d36c09c16",
       "name": "We Escaped a Twisted Game",
       "genre": "Puzzle",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recU1MaQmDxnvjiWN",
+      "id": "d40b40ae92eb",
       "name": "What Remains of Edith Finch",
       "genre": "Narrative Adventure, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rech9r8LNTdRSqlf7",
+      "id": "6964d042f7fd",
       "name": "Where Winds Meet",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recmlZVW4vCDhx3eo",
+      "id": "0df6c001d78f",
       "name": "White Knuckle",
       "genre": "Platform",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recQB5mY6HtBqPEtT",
+      "id": "b8f820fb0861",
       "name": "Who Are You!?",
       "genre": "Adventure, Indie",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reczo61eXmmjY81Xx",
+      "id": "a1fd2451edd1",
       "name": "Witchaven",
       "genre": "Shooter, Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rechptFwyAQKvyKHS",
+      "id": "9989ed4af63c",
       "name": "Witchaven II: Blood Vengeance",
       "genre": "Shooter, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xc1571a10caada2bd",
+      "id": "c1571a10caad",
       "name": "Witchfire",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec4uDeVpEEWPqmNZ",
+      "id": "99fc38fdda17",
       "name": "Wizardry: Proving Grounds of the Mad Overlord",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recWmn0b2AjsgjVHe",
+      "id": "4869d0f970f3",
       "name": "Wizordum",
       "genre": "Shooter, Puzzle",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec195rccuS2XErZ9",
+      "id": "5d83abd7acd9",
       "name": "Wo Long: Fallen Dynasty",
       "genre": "Souls-like, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Co-op"
     },
     {
-      "id": "recimVIPPeR48U0rY",
+      "id": "58ec290e62b2",
       "name": "Wolf Mate",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recqN8TvMpJFM8xvH",
+      "id": "e06decbd1fd9",
       "name": "Wolfenstein II: The New Colossus",
       "genre": "FPS",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recxWBka2q0gYBOSb",
+      "id": "a98047a67155",
       "name": "Wolfenstein: The New Order",
       "genre": "FPS",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "xadf2aa4682373724",
+      "id": "00ce7b8e30a2",
       "name": "Wolfenstein: The Old Blood",
-      "genre": "FPS",
+      "genre": "Shooter",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "reciUavBVeGv5wx8J",
+      "id": "4e15c3258305",
       "name": "Wolfenstein: Youngblood",
       "genre": "FPS",
       "perspective": "First Person",
       "mode": "Co-op"
     },
     {
-      "id": "rec4GI4WbUiaHUYP2",
+      "id": "ad5d3fe09a04",
       "name": "World of Tanks",
       "genre": "Vehicle Combat, Shooter, Simulator, Arcade",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recZZyXdI96b7pAp4",
+      "id": "969ecd52c459",
       "name": "World of Warcraft",
       "genre": "Role-playing (RPG), Adventure",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recKjpQcea1juUp9E",
+      "id": "b0910afb4258",
       "name": "World of Warships",
       "genre": "Shooter, Real Time Strategy (RTS), Simulator, Tactical",
       "perspective": "First Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recqBMDJ2D35wMu7h",
+      "id": "e0b032e4a4a4",
       "name": "World War Z",
       "genre": "Shooter",
       "perspective": "Third Person",
       "mode": ""
     },
     {
-      "id": "recfbLD5P8Jqz1CIP",
-      "name": "World War Z (WWZ)",
-      "genre": "Shooter",
-      "perspective": "Third Person",
-      "mode": "Co-op"
-    },
-    {
-      "id": "rec8Iaj7AtkdRvRhf",
+      "id": "8e80aaa22250",
       "name": "World War Z: Aftermath - Deluxe Edition",
       "genre": "Shooter, Adventure",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "rec7V96Vh3eY2WSga",
+      "id": "b5b1e501ea12",
+      "name": "World War Z (WWZ)",
+      "genre": "Shooter",
+      "perspective": "Third Person",
+      "mode": "Co-op"
+    },
+    {
+      "id": "06cc68a1e03d",
       "name": "Worm.is: The Game",
       "genre": "Casual, Free To Play",
       "perspective": "",
       "mode": "Multiplayer"
     },
     {
-      "id": "reccnH9qu3X5Kc83u",
+      "id": "020a132419f0",
       "name": "WRC Generations",
       "genre": "Racing, Simulator, Sport",
       "perspective": "",
       "mode": "Singleplayer"
     },
     {
-      "id": "recwuk1ak8ToycQW0",
+      "id": "2a1746a9122a",
       "name": "Wreckfest",
       "genre": "Racing, Sport",
       "perspective": "Third Person",
       "mode": "Multiplayer"
     },
     {
-      "id": "recLPjZSb8P7q5jq5",
+      "id": "b9cc129cc544",
       "name": "Wuchang: Fallen Feathers",
       "genre": "Souls-like, Role-playing (RPG), Hack and slash/Beat 'em up",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recXY9wpY2kLl2MbA",
+      "id": "b2e2b4b0761b",
       "name": "Yapyap",
       "genre": "Role-playing (RPG)",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recIR1WEzD2yvw0Pn",
+      "id": "22960ae60045",
+      "name": "Ylands",
+      "genre": "Simulator, Adventure",
+      "perspective": "Third Person",
+      "mode": "Singleplayer"
+    },
+    {
+      "id": "a85012dd0fe9",
       "name": "Ys X: Nordics",
       "genre": "Action RPG, Role-playing (RPG)",
       "perspective": "Third Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recAmU3rUcsnHZPbu",
+      "id": "19edc9a0ae48",
       "name": "Zompiercer",
       "genre": "Adventure",
       "perspective": "First Person",
       "mode": "Singleplayer"
     },
     {
-      "id": "recLLi1ya0qi5BltJ",
+      "id": "b5f428372bb8",
       "name": "Zort",
       "genre": "Puzzle",
       "perspective": "First Person",
@@ -5139,263 +5208,184 @@ window.CATALOG = {
   ],
   "collections": [
     {
-      "slug": "shooters-combat",
-      "title": "Shooters & Combat",
-      "blurb": "",
-      "filters": {
-        "perspective": [
-          "First Person",
-          "Third Person"
-        ],
-        "genre": [
-          "Action",
-          "Battle Royale",
-          "Extraction Shooter",
-          "FPS",
-          "Hero Shooter",
-          "Roguelike Shooter",
-          "Shooter",
-          "Tactical Shooter"
-        ],
-        "mode": [
-          "Singleplayer",
-          "Multiplayer",
-          "Co-op"
-        ]
-      },
-      "curated": false,
-      "games": [
-        "reclHs5YrtBTRcgLS",
-        "recwyIg6ph8rc2bH3",
-        "recsgTiLGdB7KCvmn",
-        "recLTvwsHDbbeq767",
-        "recG0Q80BUCjSTHwX",
-        "recS7OGiycS7ER0nw",
-        "recAa4qhLBhwBCtiS",
-        "reckRpwtBtjBlhulq",
-        "recBrCXbAtgyDKpKM",
-        "reclknZN0u0QlvgK5",
-        "recgP3HkrNlFj9ZE0",
-        "recEx6a7l3xGN5Faj",
-        "rece7NkfoVlE50fFK",
-        "rec5O10KzOsPFDNzk",
-        "recpO4XINK1sDefLE",
-        "recGrLah4JHwLe3k6",
-        "rec09l4c6qbkcX8sq",
-        "recN1OBuWsTwtSSbI",
-        "receYXC7J01uROOAh",
-        "recqMi1jdSjs28uBl",
-        "rec0rBEM6ntmhy8B0",
-        "reccX14NfbJSopd6T",
-        "recvvGdCK6lbr8Q78",
-        "recaVT2j2IRzSrJJR",
-        "recILmji0moErapZn",
-        "recbBqupdBHkhR27W",
-        "recpPRzDEkURdOj0d",
-        "reck0JuWWc3ETAMxY",
-        "recTHFMDbe2nuS7fU",
-        "recVtcm3ZwcdyBsjm",
-        "recSDc6H3QXRszpA7",
-        "recSwmfOI8BPz8ZZF",
-        "rec3J31p4bYyZUsqz",
-        "rec7EwkouOSgT7JMK",
-        "recoDnpgbbLawEHuR",
-        "recHLrrNoc3IaAYCl",
-        "recnKSQQBvfUtNZPz",
-        "recIFvdFnMMMBf8bb",
-        "reczDJWqy5w5EOIij",
-        "x2af340a66f559d5a",
-        "x31c97373f1315ba2",
-        "x9eaac733b2fddf05",
-        "recxWBka2q0gYBOSb",
-        "x00614f9fd37dd496",
-        "recqN8TvMpJFM8xvH",
-        "xefd6b661368b4384",
-        "x487db63368261915",
-        "xb221049971c7c9b5",
-        "recZoLgB5maGwqDRD",
-        "recM9s8bxYOWOFXq9",
-        "recuCb4ukyE6iTCbg",
-        "xacd136a6c909f9a5",
-        "x98c75487e8df5314",
-        "xa1f7be71a5294028",
-        "xac0ce70db4a40120",
-        "recK2qgFpMsADiQWB",
-        "recGCXv2sMKyrXwjr",
-        "x108d2578a8010998",
-        "x4930605885549e0a",
-        "xf309e7f58d88dd94",
-        "rec18LiEGfGmPDjQB",
-        "x3525307d3f5f9df4",
-        "xfaa54999605a121f",
-        "x6eb88ed77a0b47d0",
-        "xf091f0b2bcb85dd2",
-        "xffddb230fdbe39f2",
-        "x7004357832421554",
-        "recpGnQ8s5Ba4OWbU",
-        "xeb4a38c28dbb16a1",
-        "xe20a1597254ad944",
-        "recKGRz5dFkgXP6au",
-        "xadf2aa4682373724",
-        "xe59389d9c8173527",
-        "rec8CdiIljDXDFEj4",
-        "xc1571a10caada2bd",
-        "xe56b43922a4053bc",
-        "xe5b4e128edc548b0",
-        "x1e5cad9b6f39e45e",
-        "reciUavBVeGv5wx8J",
-        "x9c39470ad77f935e",
-        "x176c76cc3b70048e",
-        "xcfe37980824601a9",
-        "x313c05636df08439",
-        "x2caf4ade6c75d688",
-        "xdfa11ab702b1dd84",
-        "x812e73d562036a8d",
-        "rectkZuNEtHlbA7bp",
-        "recY6QBGkyz6W1II1",
-        "xa090929ee6a0f219",
-        "x6f189642b9c7bd42",
-        "xc2a9a0e7139cf701",
-        "x2afbb9c8eea5b0f9",
-        "x2a1f6d830f7c50f0",
-        "x56bc27761036c259",
-        "recz2v8UA0J5md2md",
-        "rec46iJjTapBpqLEh",
-        "reca9owqiv2kcsGbg",
-        "x3bbb59de632323c3",
-        "x6b65b0bc6043d716",
-        "x3fbd412cc2518448",
-        "x54e7287b2344eeb9",
-        "x1ca63a897c64153a",
-        "recbIYkUhHgKgGTj3",
-        "x8cce61314a66d85d",
-        "x73ffe0306fae3e3e",
-        "x2d3340ea11df125d",
-        "x895397d6e55b8b74",
-        "x431b1fc6684cd85a",
-        "x46b1ff4166fd98d8",
-        "xa9cdd3e2e29ec18c",
-        "x9555a7a4bfe068f3",
-        "x3d4552f7734e463a",
-        "x8077f920c6a13469",
-        "x3d86bfe9eca28452",
-        "xb6c0cf000e9378ef",
-        "x6e4c5ff62f2e6957",
-        "x61933d3774170c68",
-        "x5a1c0791975f9876",
-        "rec8IfDa12dPZ2VZ0",
-        "recXYANBx3HDU7c36",
-        "x5a15283697e5af78",
-        "x8154fe79c3667dbb"
-      ]
-    },
-    {
-      "slug": "survival-terror-co-op",
-      "title": "Survival, Terror & Co-op",
-      "blurb": "",
-      "filters": {
-        "perspective": [
-          "First Person",
-          "Third Person"
-        ],
-        "genre": [
-          "Horror",
-          "Platform",
-          "Platformer",
-          "Puzzle",
-          "Survival",
-          "Survival Action",
-          "Survival Horror"
-        ],
-        "mode": [
-          "Singleplayer",
-          "Multiplayer",
-          "Co-op"
-        ]
-      },
-      "curated": false,
-      "games": [
-        "rec0l2hCWzHglrBNB",
-        "recNy6oCvS3PkVKmd",
-        "recCTZfJtc6uybfx1",
-        "recqPKqp9xRe3nrxo",
-        "reccajq9jIXIlMunc",
-        "rec5NsDW5J4kAsedy",
-        "recJrTgHBfBiihXwv",
-        "rec75UzFvpUm7Lzpk",
-        "recfkKBTvKWHFbNfz",
-        "rech1tnAkqFNQ3wtZ",
-        "recEARkACRVrl3u1v",
-        "recNK8C0q2n1sIF0j",
-        "recG9pcs1obTypYhy",
-        "rec8uORlW4GQPwEKX",
-        "recwovxU0mRIYVz7d"
-      ]
-    },
-    {
       "slug": "open-world-rpg",
       "title": "Open World & RPG",
-      "blurb": "",
+      "blurb": "Big maps, long runs and character progression.",
       "filters": {
         "perspective": [
           "First Person",
           "Third Person"
-        ],
-        "genre": [
-          "Action Adventure",
-          "Action RPG",
-          "Adventure",
-          "Exploration",
-          "JRPG",
-          "MMORPG",
-          "Role-playing (RPG)",
-          "Souls-like"
         ],
         "mode": [
           "Singleplayer",
           "Multiplayer",
           "Co-op"
+        ],
+        "genre": [
+          "Action RPG",
+          "Role-playing (RPG)",
+          "Adventure",
+          "Action Adventure",
+          "Exploration",
+          "Souls-like"
         ]
       },
-      "curated": false,
       "games": [
-        "recTiO2qAGeAIkF9i",
-        "recRBS21aEJrR2Etu",
-        "rec0rLASkfdetDDkF",
-        "recNPAn8WYQD7Sr9u",
-        "reckSM9PGS8xLVEbl",
-        "recD81mUBLrJHXzhR",
-        "recn9PQ1JyL6lL94X",
-        "recyTOzz7MMpASovz"
+        "1816d91ee0ec",
+        "30444ad70b28",
+        "e9210d56546d",
+        "249b8551f4aa",
+        "d3b08ad1d9a0",
+        "ae1b26460582",
+        "8450e82c7da0"
       ]
     },
     {
-      "slug": "driving-vehicles",
-      "title": "Driving & Vehicles",
-      "blurb": "",
+      "slug": "shop-and-business-sims",
+      "title": "Shop & Business Sims",
+      "blurb": "Run the counter, stock the shelves, close the register.",
       "filters": {
         "perspective": [
           "First Person",
           "Third Person"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ],
+        "genre": [
+          "Simulator",
+          "Simulation"
+        ]
+      },
+      "games": [
+        "b1524ccbad1c",
+        "d0bc8123c5c0",
+        "7d33068042e3",
+        "1ac1185e29e1",
+        "b395397b9773",
+        "d99cff6fc8a2",
+        "c4061e83a158",
+        "0de60be25841",
+        "9d2430394c2f",
+        "fd329fd63875",
+        "c92156a2a906",
+        "94078ea59171",
+        "59716ec3b2ae",
+        "fa14ddf892e6",
+        "62c24f47981f",
+        "cd00ba7f7070",
+        "630d50d225bc",
+        "de964cd7a289",
+        "1faf11d081ff",
+        "fe71bacb1959",
+        "492b86438ee1",
+        "90d18e0c49c7",
+        "1e7df441e66b",
+        "ac5e63adfb37"
+      ]
+    },
+    {
+      "slug": "driving-and-vehicles",
+      "title": "Driving & Vehicles",
+      "blurb": "Off-road, racing and vehicle combat.",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
         ],
         "genre": [
           "Driving Sim",
           "Driving Survival",
           "Racing",
           "Racing Sim",
-          "Vehicle Combat"
+          "Vehicle Combat",
+          "Simulator"
+        ]
+      },
+      "games": [
+        "580c0ece9d2d",
+        "ec1de7efc158",
+        "2146092b3ffd",
+        "5c8a854546f1",
+        "97de9125052f",
+        "8ce2208db043",
+        "25c1ca96eb11",
+        "34594ec4ef2c",
+        "9fea82f3e51b",
+        "1d440e5d1ff4",
+        "f6c2dd5bb7bf",
+        "acf87c481658",
+        "ad5d3fe09a04",
+        "2a1746a9122a"
+      ]
+    },
+    {
+      "slug": "industrial-and-transport-sims",
+      "title": "Industrial & Transport Sims",
+      "blurb": "Heavy machinery, routes and plant work.",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
         ],
         "mode": [
           "Singleplayer",
           "Multiplayer",
           "Co-op"
+        ],
+        "genre": [
+          "Simulator",
+          "Simulation"
         ]
       },
-      "curated": false,
       "games": [
-        "recpPNYTN2LdrNprK",
-        "rechdibY9oWStIzDo",
-        "xf864c8abf5b9ff7e"
+        "a7e16788042b",
+        "471baecf5c71",
+        "90f23cd7d9ba",
+        "2641d73d20ec",
+        "d1ee9663bd8b",
+        "1a66c7a8f8b5",
+        "44264c0df61b",
+        "cda604041e68",
+        "40e5c6d5a98d",
+        "6354fa8fd302"
+      ]
+    },
+    {
+      "slug": "outdoors-hunting-fishing-farming",
+      "title": "Outdoors: Hunting, Fishing & Farming",
+      "blurb": "Long days in the field: tracking, waiting, working the land.",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ],
+        "genre": [
+          "Hunting Sim",
+          "Farming Sim",
+          "Simulator",
+          "Simulation"
+        ]
+      },
+      "games": [
+        "affe6fa2f04a",
+        "b61c0284dfcd",
+        "25a3736e12f6",
+        "e30f37b848a6",
+        "979d2ec8fec8",
+        "914c343224b0"
       ]
     }
   ]
