@@ -2,7 +2,7 @@
  * Contenido: el catalog.json provisto por el operador, tal cual.
  */
 window.CATALOG = {
-  "version": "2026-09-12",
+  "version": "2026-09-13b",
   "games": [
     {
       "id": "bd45c23b60ed",
@@ -5208,6 +5208,215 @@ window.CATALOG = {
   ],
   "collections": [
     {
+      "slug": "shooters-combat",
+      "title": "Shooters & Combat",
+      "blurb": "",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "genre": [
+          "Shooter",
+          "Role-playing (RPG)",
+          "Simulator",
+          "Puzzle",
+          "Adventure",
+          "FPS",
+          "Tactical",
+          "Action Adventure",
+          "Survival Horror",
+          "Action RPG",
+          "Tactical Shooter",
+          "Immersive Sim",
+          "Indie",
+          "Survival",
+          "Fighting",
+          "Hack and slash/Beat 'em up",
+          "Racing",
+          "Action",
+          "Extraction Shooter",
+          "Horror",
+          "Platform",
+          "Souls-like",
+          "Stealth",
+          "Survival Action"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ]
+      },
+      "games": [
+        "592c1ca4af80",
+        "9d02ab137846",
+        "3142c4128765",
+        "230b796e3ea6",
+        "20cfa0096b17",
+        "fbc86a20e304",
+        "260ab9c65b5c",
+        "7eea03c42ea4",
+        "6f2f1690b88a",
+        "9ab89f1e6b76",
+        "0d4d061f691a",
+        "56d25e36f9e4",
+        "5b17cb8cd732",
+        "4f6c0efa1a0f",
+        "db2a4c1dbcbf",
+        "9ed138de90c6",
+        "ba19a3d9fe72",
+        "905003df5669",
+        "1bd327956543",
+        "fb74fa827206",
+        "1cbbd6ff864a",
+        "b03df321f297",
+        "f319bd42b646",
+        "edb442f20fe1",
+        "20e513569964",
+        "58ebf6338cf8",
+        "ca7d280ef791",
+        "f1a54f792b5e",
+        "2ebf405abba4",
+        "d2d5340d02f1",
+        "1fac0b407752",
+        "621c17bd7386",
+        "9356ca72f17c",
+        "4d6452aaf808",
+        "fb9844533609",
+        "089157fddb4d",
+        "3e1570dbb504",
+        "c060d0f6e6d9",
+        "d4959ef3443f",
+        "2af340a66f55",
+        "31c97373f131",
+        "5d664057def5",
+        "a98047a67155",
+        "00614f9fd37d",
+        "e06decbd1fd9",
+        "efd6b661368b",
+        "487db6336826",
+        "d8c97a3f6fea",
+        "0fcd568a5cb9",
+        "21fd37f42768",
+        "80d078c7dc84",
+        "acd136a6c909",
+        "98c75487e8df",
+        "057365a49e58",
+        "874d780612b5",
+        "f39078b20fc8",
+        "172fd6e65bf3",
+        "7ee511f060a2",
+        "493060588554",
+        "f309e7f58d88",
+        "4f441942108f",
+        "2f042f00b90a",
+        "2ce54bbd166e",
+        "6eb88ed77a0b",
+        "a7d66b3da32b",
+        "ffddb230fdbe",
+        "700435783242",
+        "c219dbb33792",
+        "eb4a38c28dbb",
+        "4940c77cd629",
+        "af266eda67ce",
+        "00ce7b8e30a2",
+        "e59389d9c817",
+        "0dad24fa3f0b",
+        "c1571a10caad",
+        "e56b43922a40",
+        "e5b4e128edc5",
+        "1e5cad9b6f39",
+        "4e15c3258305",
+        "c89cfc1cc5dc",
+        "99db08f64ae6",
+        "cfe379808246",
+        "313c05636df0",
+        "2caf4ade6c75",
+        "9d8744c464e3",
+        "812e73d56203",
+        "408f97e9b9d8",
+        "85eba0fb874e",
+        "a090929ee6a0",
+        "ab612ca081d4",
+        "c2a9a0e7139c",
+        "13458c66931b",
+        "2a1f6d830f7c",
+        "c4a80267a917",
+        "703ca419485c",
+        "e3938ce7de8a",
+        "3bbb59de6323",
+        "6b65b0bc6043",
+        "71e5b77b2b31",
+        "471f376c282d",
+        "1ca63a897c64",
+        "d35b1d342f5e",
+        "8cce61314a66",
+        "73ffe0306fae",
+        "2d3340ea11df",
+        "68adc77a46ca",
+        "431b1fc6684c",
+        "46b1ff4166fd",
+        "a9cdd3e2e29e",
+        "c3557ecea13d",
+        "3d4552f7734e",
+        "8077f920c6a1",
+        "3d86bfe9eca2",
+        "b6c0cf000e93",
+        "6e4c5ff62f2e",
+        "61933d377417",
+        "d09f06ed87e3",
+        "022853caef9b",
+        "b4fb0dc1b6e2",
+        "71dd414ce67b",
+        "e7b7b4afc390"
+      ]
+    },
+    {
+      "slug": "survival-terror-co-op",
+      "title": "Survival, Terror & Co-op",
+      "blurb": "",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "genre": [
+          "Role-playing (RPG)",
+          "Shooter",
+          "Survival",
+          "Simulator",
+          "Survival Horror",
+          "Puzzle",
+          "Platform",
+          "Tactical",
+          "Hack and slash/Beat 'em up"
+        ],
+        "mode": [
+          "Co-op",
+          "Multiplayer",
+          "Singleplayer"
+        ]
+      },
+      "games": [
+        "4d85fc77426e",
+        "ab9a6713d321",
+        "aaa471768a90",
+        "aa6a9ba3c13f",
+        "5e0d67c4bac6",
+        "014d049b3003",
+        "652ccbed27d3",
+        "9ee9e606474e",
+        "0c3fe1e45c9e",
+        "b55aa5f537be",
+        "521fe5c9ece1",
+        "757d00f06e11",
+        "afa54821283c",
+        "29e08a081ed8",
+        "b0f77dbed3fa"
+      ]
+    },
+    {
       "slug": "open-world-rpg",
       "title": "Open World & RPG",
       "blurb": "Big maps, long runs and character progression.",
@@ -5216,18 +5425,15 @@ window.CATALOG = {
           "First Person",
           "Third Person"
         ],
+        "genre": [
+          "Role-playing (RPG)",
+          "Action RPG",
+          "Shooter",
+          "Hack and slash/Beat 'em up"
+        ],
         "mode": [
           "Singleplayer",
-          "Multiplayer",
-          "Co-op"
-        ],
-        "genre": [
-          "Action RPG",
-          "Role-playing (RPG)",
-          "Adventure",
-          "Action Adventure",
-          "Exploration",
-          "Souls-like"
+          "Multiplayer"
         ]
       },
       "games": [
@@ -5246,17 +5452,16 @@ window.CATALOG = {
       "blurb": "Run the counter, stock the shelves, close the register.",
       "filters": {
         "perspective": [
-          "First Person",
-          "Third Person"
-        ],
-        "mode": [
-          "Singleplayer",
-          "Multiplayer",
-          "Co-op"
+          "First Person"
         ],
         "genre": [
           "Simulator",
+          "Arcade",
+          "Card & Board Game",
           "Simulation"
+        ],
+        "mode": [
+          "Singleplayer"
         ]
       },
       "games": [
@@ -5295,18 +5500,22 @@ window.CATALOG = {
           "First Person",
           "Third Person"
         ],
+        "genre": [
+          "Simulator",
+          "Racing",
+          "Arcade",
+          "Driving Sim",
+          "Shooter",
+          "Driving Survival",
+          "Role-playing (RPG)",
+          "Simulation",
+          "Sport",
+          "Vehicle Combat"
+        ],
         "mode": [
           "Singleplayer",
           "Multiplayer",
           "Co-op"
-        ],
-        "genre": [
-          "Driving Sim",
-          "Driving Survival",
-          "Racing",
-          "Racing Sim",
-          "Vehicle Combat",
-          "Simulator"
         ]
       },
       "games": [
@@ -5332,17 +5541,15 @@ window.CATALOG = {
       "blurb": "Heavy machinery, routes and plant work.",
       "filters": {
         "perspective": [
-          "First Person",
-          "Third Person"
-        ],
-        "mode": [
-          "Singleplayer",
-          "Multiplayer",
-          "Co-op"
+          "First Person"
         ],
         "genre": [
           "Simulator",
-          "Simulation"
+          "Simulation",
+          "Tactical"
+        ],
+        "mode": [
+          "Singleplayer"
         ]
       },
       "games": [
@@ -5364,19 +5571,20 @@ window.CATALOG = {
       "blurb": "Long days in the field: tracking, waiting, working the land.",
       "filters": {
         "perspective": [
-          "First Person",
-          "Third Person"
-        ],
-        "mode": [
-          "Singleplayer",
-          "Multiplayer",
-          "Co-op"
+          "First Person"
         ],
         "genre": [
-          "Hunting Sim",
-          "Farming Sim",
           "Simulator",
+          "Sport",
+          "Farming Sim",
+          "Hunting Sim",
+          "Shooter",
           "Simulation"
+        ],
+        "mode": [
+          "Co-op",
+          "Singleplayer",
+          "MMO"
         ]
       },
       "games": [
