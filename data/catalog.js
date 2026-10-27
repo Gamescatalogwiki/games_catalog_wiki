@@ -2,7 +2,7 @@
  * Contenido: el catalog.json provisto por el operador, tal cual.
  */
 window.CATALOG = {
-  "version": "2026-09-13b",
+  "version": "2026-10-26",
   "games": [
     {
       "id": "bd45c23b60ed",
@@ -5207,6 +5207,86 @@ window.CATALOG = {
     }
   ],
   "collections": [
+    {
+      "slug": "souls-like-and-action-rpg",
+      "title": "Souls-like & Action RPG",
+      "blurb": "Hard-hitting third-person combat: bosses, dodges and progression.",
+      "filters": {
+        "perspective": [
+          "Third Person"
+        ],
+        "genre": [
+          "Souls-like",
+          "Role-playing (RPG)",
+          "Hack and slash/Beat 'em up",
+          "Fighting"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Co-op"
+        ]
+      },
+      "games": [
+        "1c511e312cb3",
+        "c61a65f3a660",
+        "7edd7fccb1ff",
+        "94cca2039fc4",
+        "a406812961e0",
+        "56a61339744c",
+        "262e807a409a"
+      ]
+    },
+    {
+      "slug": "third-person-action-and-shooters",
+      "title": "Third-Person Action & Shooters",
+      "blurb": "Non-stop action: co-op, hordes and constant combat.",
+      "filters": {
+        "perspective": [
+          "Third Person"
+        ],
+        "genre": [
+          "Roguelike Shooter",
+          "Shooter",
+          "Action Adventure",
+          "Racing",
+          "Action",
+          "Hack and slash/Beat 'em up"
+        ],
+        "mode": [
+          "Co-op",
+          "Singleplayer"
+        ]
+      },
+      "games": [
+        "4cababe842ad",
+        "2a86846878a7",
+        "b5b1e501ea12",
+        "6656f9259f53"
+      ]
+    },
+    {
+      "slug": "long-haul-trucks-and-buses",
+      "title": "Long-Haul Trucks & Buses",
+      "blurb": "Full routes, from pickup to delivery.",
+      "filters": {
+        "perspective": [
+          "First Person"
+        ],
+        "genre": [
+          "Driving Sim",
+          "Racing",
+          "Simulator"
+        ],
+        "mode": [
+          "Multiplayer",
+          "Singleplayer"
+        ]
+      },
+      "games": [
+        "a3dc59727b4e",
+        "a7e16788042b"
+      ]
+    },
     {
       "slug": "shooters-combat",
       "title": "Shooters & Combat",
