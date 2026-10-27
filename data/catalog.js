@@ -2,7 +2,7 @@
  * Contenido: el catalog.json provisto por el operador, tal cual.
  */
 window.CATALOG = {
-  "version": "2026-10-26",
+  "version": "2026-10-27",
   "games": [
     {
       "id": "bd45c23b60ed",
@@ -5208,21 +5208,72 @@ window.CATALOG = {
   ],
   "collections": [
     {
+      "slug": "long-haul-trucks-and-buses",
+      "title": "Long-Haul Trucks & Buses",
+      "blurb": "Full routes by truck and bus, from pickup to delivery.",
+      "filters": {
+        "perspective": [
+          "First Person",
+          "Third Person"
+        ],
+        "genre": [
+          "Driving Sim",
+          "Racing",
+          "Simulator"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ]
+      },
+      "games": [
+        "a3dc59727b4e",
+        "a7e16788042b"
+      ]
+    },
+    {
+      "slug": "third-person-action-and-shooters",
+      "title": "Third-Person Action & Shooters",
+      "blurb": "Co-op shooters, hordes and open worlds with nonstop combat.",
+      "filters": {
+        "perspective": [
+          "Third Person"
+        ],
+        "genre": [
+          "Shooter",
+          "Roguelike Shooter",
+          "Action Adventure"
+        ],
+        "mode": [
+          "Singleplayer",
+          "Multiplayer",
+          "Co-op"
+        ]
+      },
+      "games": [
+        "4cababe842ad",
+        "2a86846878a7",
+        "b5b1e501ea12",
+        "6656f9259f53"
+      ]
+    },
+    {
       "slug": "souls-like-and-action-rpg",
       "title": "Souls-like & Action RPG",
-      "blurb": "Hard-hitting third-person combat: bosses, dodges and progression.",
+      "blurb": "Demanding third-person combat: bosses, dodges and progression.",
       "filters": {
         "perspective": [
           "Third Person"
         ],
         "genre": [
           "Souls-like",
-          "Role-playing (RPG)",
-          "Hack and slash/Beat 'em up",
-          "Fighting"
+          "Action RPG",
+          "Role-playing (RPG)"
         ],
         "mode": [
           "Singleplayer",
+          "Multiplayer",
           "Co-op"
         ]
       },
@@ -5234,57 +5285,6 @@ window.CATALOG = {
         "a406812961e0",
         "56a61339744c",
         "262e807a409a"
-      ]
-    },
-    {
-      "slug": "third-person-action-and-shooters",
-      "title": "Third-Person Action & Shooters",
-      "blurb": "Non-stop action: co-op, hordes and constant combat.",
-      "filters": {
-        "perspective": [
-          "Third Person"
-        ],
-        "genre": [
-          "Roguelike Shooter",
-          "Shooter",
-          "Action Adventure",
-          "Racing",
-          "Action",
-          "Hack and slash/Beat 'em up"
-        ],
-        "mode": [
-          "Co-op",
-          "Singleplayer"
-        ]
-      },
-      "games": [
-        "4cababe842ad",
-        "2a86846878a7",
-        "b5b1e501ea12",
-        "6656f9259f53"
-      ]
-    },
-    {
-      "slug": "long-haul-trucks-and-buses",
-      "title": "Long-Haul Trucks & Buses",
-      "blurb": "Full routes, from pickup to delivery.",
-      "filters": {
-        "perspective": [
-          "First Person"
-        ],
-        "genre": [
-          "Driving Sim",
-          "Racing",
-          "Simulator"
-        ],
-        "mode": [
-          "Multiplayer",
-          "Singleplayer"
-        ]
-      },
-      "games": [
-        "a3dc59727b4e",
-        "a7e16788042b"
       ]
     },
     {
@@ -5342,14 +5342,11 @@ window.CATALOG = {
         "0d4d061f691a",
         "56d25e36f9e4",
         "5b17cb8cd732",
-        "4f6c0efa1a0f",
         "db2a4c1dbcbf",
         "9ed138de90c6",
-        "ba19a3d9fe72",
         "905003df5669",
         "1bd327956543",
         "fb74fa827206",
-        "1cbbd6ff864a",
         "b03df321f297",
         "f319bd42b646",
         "edb442f20fe1",
@@ -5449,7 +5446,11 @@ window.CATALOG = {
         "022853caef9b",
         "b4fb0dc1b6e2",
         "71dd414ce67b",
-        "e7b7b4afc390"
+        "e7b7b4afc390",
+        "8eb746adc641",
+        "5c7693ac4cd6",
+        "871badbefab7",
+        "d1cf9e978ba6"
       ]
     },
     {
@@ -5479,21 +5480,19 @@ window.CATALOG = {
         ]
       },
       "games": [
-        "4d85fc77426e",
         "ab9a6713d321",
         "aaa471768a90",
         "aa6a9ba3c13f",
         "5e0d67c4bac6",
         "014d049b3003",
-        "652ccbed27d3",
         "9ee9e606474e",
         "0c3fe1e45c9e",
         "b55aa5f537be",
         "521fe5c9ece1",
         "757d00f06e11",
-        "afa54821283c",
         "29e08a081ed8",
-        "b0f77dbed3fa"
+        "c061b4665e63",
+        "1763c2c2c410"
       ]
     },
     {
@@ -5517,13 +5516,14 @@ window.CATALOG = {
         ]
       },
       "games": [
-        "1816d91ee0ec",
-        "30444ad70b28",
-        "e9210d56546d",
         "249b8551f4aa",
-        "d3b08ad1d9a0",
         "ae1b26460582",
-        "8450e82c7da0"
+        "8450e82c7da0",
+        "1fac0b407752",
+        "fb9844533609",
+        "ca7d280ef791",
+        "2a86846878a7",
+        "bd45c23b60ed"
       ]
     },
     {
@@ -5545,7 +5545,6 @@ window.CATALOG = {
         ]
       },
       "games": [
-        "b1524ccbad1c",
         "d0bc8123c5c0",
         "7d33068042e3",
         "1ac1185e29e1",
@@ -5599,7 +5598,6 @@ window.CATALOG = {
         ]
       },
       "games": [
-        "580c0ece9d2d",
         "ec1de7efc158",
         "2146092b3ffd",
         "5c8a854546f1",
